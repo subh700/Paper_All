@@ -1,0 +1,28 @@
+\addvspace {10\p@ }
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Architecture of Machine Learning\relax }}{7}{figure.caption.25}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Simple 1D CNN architecture with two convolutional layers.\relax }}{10}{figure.caption.28}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Architecture of Gated Recurrent Unit (GRU).\relax }}{11}{figure.caption.29}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Architecture of LSTM\relax }}{12}{figure.caption.30}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Process flow of developing on $PM_{2.5}$ prediction model\relax }}{15}{figure.caption.35}%
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces 20 Days Origanal Data Graph.\relax }}{19}{figure.caption.50}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces 20 Days Seasonal Graph.\relax }}{20}{figure.caption.51}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces 20 Days Trend Graph.\relax }}{21}{figure.caption.52}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces 20 Days Residuals Graph.\relax }}{22}{figure.caption.53}%
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Barplot of fruit leaf image classification\relax }}{27}{figure.caption.72}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Boxplot of fruit leaf image classification\relax }}{28}{figure.caption.73}%
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Confusion matrix using heatmap of ML classifiers.\relax }}{31}{figure.caption.79}%

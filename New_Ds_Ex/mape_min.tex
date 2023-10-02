@@ -1,0 +1,190 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{graphicx}
+\usepackage{lscape}
+\title{Output tables for the test of Multiple comparisons.}
+\author{}
+\date{\today}
+\begin{document}
+\begin{landscape}
+\pagestyle{empty}
+\maketitle
+\thispagestyle{empty}
+\section{Average rankings of Friedman test}
+
+
+
+Average ranks obtained by applying the Friedman procedure
+
+\begin{table}[!htp]
+\centering
+\begin{tabular}{|c|c|}\hline
+Algorithm&Ranking\\\hline
+BiLSTM & 1.8235\\
+CNN & 4.5882\\
+GRU & 5.6471\\
+Seq2Seq & 3.4118\\
+V-LSTM & 1.7059\\
+S-LSTM & 7.2353\\
+CNN-BiLSTM & 7\\
+CNN-LSTM & 6.5882\\
+GRU-BiLSTM & 7\\
+\hline
+\end{tabular}
+\caption{Average Rankings of the algorithms}
+\end{table}
+
+Friedman statistic considering reduction performance (distributed according to chi-square with 8 degrees of freedom: 89.694118.
+
+P-value computed by Friedman Test: 4.942357634263317E-11.\newline
+
+
+
+\pagebreak
+
+\section{Post hoc comparisons}
+
+Results achieved on post hoc comparisons for $\alpha = 0.05$, $\alpha = 0.10$ and adjusted p-values.
+
+\subsection{P-values for $\alpha=0.05$}
+
+\begin{table}[!htp]
+\centering\scriptsize
+\begin{tabular}{cccc}
+$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$\\
+\hline36&V-LSTM vs. S-LSTM&5.886508&0\\
+35&BiLSTM vs. S-LSTM&5.761263&0\\
+34&V-LSTM vs. CNN-BiLSTM&5.636019&0\\
+33&V-LSTM vs. GRU-BiLSTM&5.636019&0\\
+32&BiLSTM vs. CNN-BiLSTM&5.510774&0\\
+31&BiLSTM vs. GRU-BiLSTM&5.510774&0\\
+30&V-LSTM vs. CNN-LSTM&5.197662&0\\
+29&BiLSTM vs. CNN-LSTM&5.072417&0\\
+28&GRU vs. V-LSTM&4.195703&0.000027\\
+27&BiLSTM vs. GRU&4.070458&0.000047\\
+26&Seq2Seq vs. S-LSTM&4.070458&0.000047\\
+25&Seq2Seq vs. CNN-BiLSTM&3.819968&0.000133\\
+24&Seq2Seq vs. GRU-BiLSTM&3.819968&0.000133\\
+23&Seq2Seq vs. CNN-LSTM&3.381611&0.000721\\
+22&CNN vs. V-LSTM&3.068499&0.002151\\
+21&BiLSTM vs. CNN&2.943254&0.003248\\
+20&CNN vs. S-LSTM&2.818009&0.004832\\
+19&CNN vs. CNN-BiLSTM&2.56752&0.010243\\
+18&CNN vs. GRU-BiLSTM&2.56752&0.010243\\
+17&GRU vs. Seq2Seq&2.379652&0.017329\\
+16&CNN vs. CNN-LSTM&2.129163&0.033241\\
+15&Seq2Seq vs. V-LSTM&1.81605&0.069363\\
+14&BiLSTM vs. Seq2Seq&1.690806&0.090874\\
+13&GRU vs. S-LSTM&1.690806&0.090874\\
+12&GRU vs. CNN-BiLSTM&1.440316&0.149778\\
+11&GRU vs. GRU-BiLSTM&1.440316&0.149778\\
+10&CNN vs. Seq2Seq&1.252449&0.210406\\
+9&CNN vs. GRU&1.127204&0.259656\\
+8&GRU vs. CNN-LSTM&1.001959&0.316363\\
+7&S-LSTM vs. CNN-LSTM&0.688847&0.49092\\
+6&CNN-BiLSTM vs. CNN-LSTM&0.438357&0.661128\\
+5&CNN-LSTM vs. GRU-BiLSTM&0.438357&0.661128\\
+4&S-LSTM vs. CNN-BiLSTM&0.25049&0.802209\\
+3&S-LSTM vs. GRU-BiLSTM&0.25049&0.802209\\
+2&BiLSTM vs. V-LSTM&0.125245&0.90033\\
+1&CNN-BiLSTM vs. GRU-BiLSTM&0&1\\
+\hline
+\end{tabular}
+\caption{P-values Table for $\alpha=0.05$}
+\end{table}\pagebreak
+
+\subsection{P-values for $\alpha=0.10$}
+
+\begin{table}[!htp]
+\centering\scriptsize
+\begin{tabular}{cccc}
+$i$&algorithms&$z=(R_0 - R_i)/SE$&$p$\\
+\hline36&V-LSTM vs. S-LSTM&5.886508&0\\
+35&BiLSTM vs. S-LSTM&5.761263&0\\
+34&V-LSTM vs. CNN-BiLSTM&5.636019&0\\
+33&V-LSTM vs. GRU-BiLSTM&5.636019&0\\
+32&BiLSTM vs. CNN-BiLSTM&5.510774&0\\
+31&BiLSTM vs. GRU-BiLSTM&5.510774&0\\
+30&V-LSTM vs. CNN-LSTM&5.197662&0\\
+29&BiLSTM vs. CNN-LSTM&5.072417&0\\
+28&GRU vs. V-LSTM&4.195703&0.000027\\
+27&BiLSTM vs. GRU&4.070458&0.000047\\
+26&Seq2Seq vs. S-LSTM&4.070458&0.000047\\
+25&Seq2Seq vs. CNN-BiLSTM&3.819968&0.000133\\
+24&Seq2Seq vs. GRU-BiLSTM&3.819968&0.000133\\
+23&Seq2Seq vs. CNN-LSTM&3.381611&0.000721\\
+22&CNN vs. V-LSTM&3.068499&0.002151\\
+21&BiLSTM vs. CNN&2.943254&0.003248\\
+20&CNN vs. S-LSTM&2.818009&0.004832\\
+19&CNN vs. CNN-BiLSTM&2.56752&0.010243\\
+18&CNN vs. GRU-BiLSTM&2.56752&0.010243\\
+17&GRU vs. Seq2Seq&2.379652&0.017329\\
+16&CNN vs. CNN-LSTM&2.129163&0.033241\\
+15&Seq2Seq vs. V-LSTM&1.81605&0.069363\\
+14&BiLSTM vs. Seq2Seq&1.690806&0.090874\\
+13&GRU vs. S-LSTM&1.690806&0.090874\\
+12&GRU vs. CNN-BiLSTM&1.440316&0.149778\\
+11&GRU vs. GRU-BiLSTM&1.440316&0.149778\\
+10&CNN vs. Seq2Seq&1.252449&0.210406\\
+9&CNN vs. GRU&1.127204&0.259656\\
+8&GRU vs. CNN-LSTM&1.001959&0.316363\\
+7&S-LSTM vs. CNN-LSTM&0.688847&0.49092\\
+6&CNN-BiLSTM vs. CNN-LSTM&0.438357&0.661128\\
+5&CNN-LSTM vs. GRU-BiLSTM&0.438357&0.661128\\
+4&S-LSTM vs. CNN-BiLSTM&0.25049&0.802209\\
+3&S-LSTM vs. GRU-BiLSTM&0.25049&0.802209\\
+2&BiLSTM vs. V-LSTM&0.125245&0.90033\\
+1&CNN-BiLSTM vs. GRU-BiLSTM&0&1\\
+\hline
+\end{tabular}
+\caption{P-values Table for $\alpha=0.10$}
+\end{table}\pagebreak
+
+\subsection{Adjusted p-values}
+
+\begin{table}[!htp]
+\centering\scriptsize
+\begin{tabular}{ccc}
+i&hypothesis&unadjusted $p$\\
+\hline1&V-LSTM vs .S-LSTM&0\\
+2&BiLSTM vs .S-LSTM&0\\
+3&V-LSTM vs .CNN-BiLSTM&0\\
+4&V-LSTM vs .GRU-BiLSTM&0\\
+5&BiLSTM vs .CNN-BiLSTM&0\\
+6&BiLSTM vs .GRU-BiLSTM&0\\
+7&V-LSTM vs .CNN-LSTM&0\\
+8&BiLSTM vs .CNN-LSTM&0\\
+9&GRU vs .V-LSTM&0.000027\\
+10&BiLSTM vs .GRU&0.000047\\
+11&Seq2Seq vs .S-LSTM&0.000047\\
+12&Seq2Seq vs .CNN-BiLSTM&0.000133\\
+13&Seq2Seq vs .GRU-BiLSTM&0.000133\\
+14&Seq2Seq vs .CNN-LSTM&0.000721\\
+15&CNN vs .V-LSTM&0.002151\\
+16&BiLSTM vs .CNN&0.003248\\
+17&CNN vs .S-LSTM&0.004832\\
+18&CNN vs .CNN-BiLSTM&0.010243\\
+19&CNN vs .GRU-BiLSTM&0.010243\\
+20&GRU vs .Seq2Seq&0.017329\\
+21&CNN vs .CNN-LSTM&0.033241\\
+22&Seq2Seq vs .V-LSTM&0.069363\\
+23&BiLSTM vs .Seq2Seq&0.090874\\
+24&GRU vs .S-LSTM&0.090874\\
+25&GRU vs .CNN-BiLSTM&0.149778\\
+26&GRU vs .GRU-BiLSTM&0.149778\\
+27&CNN vs .Seq2Seq&0.210406\\
+28&CNN vs .GRU&0.259656\\
+29&GRU vs .CNN-LSTM&0.316363\\
+30&S-LSTM vs .CNN-LSTM&0.49092\\
+31&CNN-BiLSTM vs .CNN-LSTM&0.661128\\
+32&CNN-LSTM vs .GRU-BiLSTM&0.661128\\
+33&S-LSTM vs .CNN-BiLSTM&0.802209\\
+34&S-LSTM vs .GRU-BiLSTM&0.802209\\
+35&BiLSTM vs .V-LSTM&0.90033\\
+36&CNN-BiLSTM vs .GRU-BiLSTM&1\\
+\hline
+\end{tabular}
+\caption{Adjusted $p$-values}
+\end{table}
+
+\end{landscape}
+\end{document}

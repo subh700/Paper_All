@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Amod latex file.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+The style file: cas-model2-names.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Database file #1: ref.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty pages in sun2016depth
+You've used 41 entries,
+            2990 wiz_defined-function locations,
+            978 strings with 14601 characters,
+and the built_in function-call counts, 29642 in all, are:
+= -- 2274
+> -- 1210
+< -- 23
++ -- 476
+- -- 423
+* -- 3286
+:= -- 4241
+add.period$ -- 113
+call.type$ -- 41
+change.case$ -- 346
+chr.to.int$ -- 41
+cite$ -- 42
+duplicate$ -- 2203
+empty$ -- 2136
+format.name$ -- 568
+if$ -- 5567
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 423
+newline$ -- 210
+num.names$ -- 164
+pop$ -- 791
+preamble$ -- 1
+purify$ -- 305
+quote$ -- 0
+skip$ -- 661
+stack$ -- 0
+substring$ -- 1303
+swap$ -- 1635
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 369
+warning$ -- 1
+while$ -- 195
+width$ -- 0
+write$ -- 582
+(There was 1 warning)

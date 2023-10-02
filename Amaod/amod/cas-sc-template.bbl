@@ -1,0 +1,238 @@
+\begin{thebibliography}{26}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Abdel-Nasser et~al.(2020)Abdel-Nasser, Mahmoud and
+  Lehtonen}]{abdel2020reliable}
+\bibinfo{author}{Abdel-Nasser, M.}, \bibinfo{author}{Mahmoud, K.},
+  \bibinfo{author}{Lehtonen, M.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Reliable solar irradiance forecasting approach based
+  on choquet integral and deep lstms}.
+\newblock \bibinfo{journal}{IEEE Transactions on Industrial Informatics}
+  \bibinfo{volume}{17}, \bibinfo{pages}{1873--1881}.
+%Type = Article
+\bibitem[{Abedinia et~al.(2018)Abedinia, Amjady and
+  Ghadimi}]{abedinia2018solar}
+\bibinfo{author}{Abedinia, O.}, \bibinfo{author}{Amjady, N.},
+  \bibinfo{author}{Ghadimi, N.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Solar energy forecasting based on hybrid neural
+  network and improved metaheuristic algorithm}.
+\newblock \bibinfo{journal}{Computational Intelligence} \bibinfo{volume}{34},
+  \bibinfo{pages}{241--260}.
+%Type = Inproceedings
+\bibitem[{Abuella and Chowdhury(2015)}]{abuella2015solar}
+\bibinfo{author}{Abuella, M.}, \bibinfo{author}{Chowdhury, B.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Solar power forecasting using artificial neural
+  networks}, in: \bibinfo{booktitle}{2015 North American Power Symposium
+  (NAPS)}, \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{1--5}.
+%Type = Article
+\bibitem[{Belmahdi et~al.(2020)Belmahdi, Louzazni and
+  El~Bouardi}]{belmahdi2020one}
+\bibinfo{author}{Belmahdi, B.}, \bibinfo{author}{Louzazni, M.},
+  \bibinfo{author}{El~Bouardi, A.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{One month-ahead forecasting of mean daily global
+  solar radiation using time series models}.
+\newblock \bibinfo{journal}{Optik} \bibinfo{volume}{219},
+  \bibinfo{pages}{165207}.
+%Type = Article
+\bibitem[{Brahma and Wadhvani(2020)}]{brahma2020solar}
+\bibinfo{author}{Brahma, B.}, \bibinfo{author}{Wadhvani, R.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Solar irradiance forecasting based on deep learning
+  methodologies and multi-site data}.
+\newblock \bibinfo{journal}{Symmetry} \bibinfo{volume}{12},
+  \bibinfo{pages}{1830}.
+%Type = Article
+\bibitem[{Cao and Cao(2005)}]{cao2005forecast}
+\bibinfo{author}{Cao, S.}, \bibinfo{author}{Cao, J.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Forecast of solar irradiance using recurrent neural
+  networks combined with wavelet analysis}.
+\newblock \bibinfo{journal}{Applied Thermal Engineering} \bibinfo{volume}{25},
+  \bibinfo{pages}{161--172}.
+%Type = Article
+\bibitem[{Dhingra et~al.(2023)Dhingra, Tyagi, Verma, Tomar and
+  Rani}]{dhingra2023pseudo}
+\bibinfo{author}{Dhingra, B.}, \bibinfo{author}{Tyagi, S.},
+  \bibinfo{author}{Verma, A.}, \bibinfo{author}{Tomar, A.},
+  \bibinfo{author}{Rani, P.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{A pseudo-labelled ensemble inference for fast and
+  efficient real field photovoltaic system’s power prediction}.
+\newblock \bibinfo{journal}{Optik} , \bibinfo{pages}{171095}.
+%Type = Article
+\bibitem[{Gupta et~al.(2023)Gupta, Yadav, Jha and Pathak}]{gupta2023long}
+\bibinfo{author}{Gupta, R.}, \bibinfo{author}{Yadav, A.K.},
+  \bibinfo{author}{Jha, S.}, \bibinfo{author}{Pathak, P.K.},
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Long term estimation of global horizontal irradiance
+  using machine learning algorithms}.
+\newblock \bibinfo{journal}{Optik} \bibinfo{volume}{283},
+  \bibinfo{pages}{170873}.
+%Type = Article
+\bibitem[{He et~al.(2019)He, Yan and Xu}]{he2019wind}
+\bibinfo{author}{He, Y.}, \bibinfo{author}{Yan, Y.}, \bibinfo{author}{Xu, Q.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Wind and solar power probability density prediction
+  via fuzzy information granulation and support vector quantile regression}.
+\newblock \bibinfo{journal}{International Journal of Electrical Power \& Energy
+  Systems} \bibinfo{volume}{113}, \bibinfo{pages}{515--527}.
+%Type = Article
+\bibitem[{Heidari and Khovalyg(2020)}]{heidari2020short}
+\bibinfo{author}{Heidari, A.}, \bibinfo{author}{Khovalyg, D.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Short-term energy use prediction of solar-assisted
+  water heating system: Application case of combined attention-based lstm and
+  time-series decomposition}.
+\newblock \bibinfo{journal}{Solar Energy} \bibinfo{volume}{207},
+  \bibinfo{pages}{626--639}.
+%Type = Article
+\bibitem[{Hu et~al.(2021)Hu, Qu, Wang, Liang, Wang, Yu, Li and
+  Qiao}]{hu2021short}
+\bibinfo{author}{Hu, Y.}, \bibinfo{author}{Qu, B.}, \bibinfo{author}{Wang, J.},
+  \bibinfo{author}{Liang, J.}, \bibinfo{author}{Wang, Y.}, \bibinfo{author}{Yu,
+  K.}, \bibinfo{author}{Li, Y.}, \bibinfo{author}{Qiao, K.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Short-term load forecasting using multimodal
+  evolutionary algorithm and random vector functional link network based
+  ensemble learning}.
+\newblock \bibinfo{journal}{Applied Energy} \bibinfo{volume}{285},
+  \bibinfo{pages}{116415}.
+%Type = Article
+\bibitem[{Husein and Chung(2019)}]{husein2019day}
+\bibinfo{author}{Husein, M.}, \bibinfo{author}{Chung, I.Y.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Day-ahead solar irradiance forecasting for microgrids
+  using a long short-term memory recurrent neural network: A deep learning
+  approach}.
+\newblock \bibinfo{journal}{Energies} \bibinfo{volume}{12},
+  \bibinfo{pages}{1856}.
+%Type = Inproceedings
+\bibitem[{de~Jes{\'u}s et~al.(2019)de~Jes{\'u}s, Mandal, Chakraborty and
+  Senjyu}]{de2019solar}
+\bibinfo{author}{de~Jes{\'u}s, D.A.R.}, \bibinfo{author}{Mandal, P.},
+  \bibinfo{author}{Chakraborty, S.}, \bibinfo{author}{Senjyu, T.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Solar pv power prediction using a new approach based
+  on hybrid deep neural network}, in: \bibinfo{booktitle}{2019 IEEE Power \&
+  Energy Society General Meeting (PESGM)}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{1--5}.
+%Type = Article
+\bibitem[{Kumari and Toshniwal(2021)}]{kumari2021deep}
+\bibinfo{author}{Kumari, P.}, \bibinfo{author}{Toshniwal, D.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Deep learning models for solar irradiance
+  forecasting: A comprehensive review}.
+\newblock \bibinfo{journal}{Journal of Cleaner Production}
+  \bibinfo{volume}{318}, \bibinfo{pages}{128566}.
+%Type = Article
+\bibitem[{Lee and Kim(2019)}]{lee2019deep}
+\bibinfo{author}{Lee, D.}, \bibinfo{author}{Kim, K.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Deep learning based prediction method of long-term
+  photovoltaic power generation using meteorological and seasonal information}.
+\newblock \bibinfo{journal}{Journal of Society for e-Business Studies}
+  \bibinfo{volume}{24}.
+%Type = Article
+\bibitem[{Lee et~al.(2018)Lee, Kim, Park, Kim and Kim}]{lee2018forecasting}
+\bibinfo{author}{Lee, W.}, \bibinfo{author}{Kim, K.}, \bibinfo{author}{Park,
+  J.}, \bibinfo{author}{Kim, J.}, \bibinfo{author}{Kim, Y.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Forecasting solar power using long-short term memory
+  and convolutional neural networks}.
+\newblock \bibinfo{journal}{IEEE access} \bibinfo{volume}{6},
+  \bibinfo{pages}{73068--73080}.
+%Type = Article
+\bibitem[{Li et~al.(2020)Li, Zhou, Lu and Yang}]{li2020hybrid}
+\bibinfo{author}{Li, P.}, \bibinfo{author}{Zhou, K.}, \bibinfo{author}{Lu, X.},
+  \bibinfo{author}{Yang, S.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{A hybrid deep learning model for short-term pv power
+  forecasting}.
+\newblock \bibinfo{journal}{Applied Energy} \bibinfo{volume}{259},
+  \bibinfo{pages}{114216}.
+%Type = Inproceedings
+\bibitem[{Niu and O’Neill(2017)}]{niu2017recurrent}
+\bibinfo{author}{Niu, F.}, \bibinfo{author}{O’Neill, Z.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Recurrent neural network based deep learning for
+  solar radiation prediction}, in: \bibinfo{booktitle}{Proceedings of the 15th
+  IBPSA Conference, San Francisco, CA, USA}, pp. \bibinfo{pages}{7--9}.
+%Type = Article
+\bibitem[{Qing and Niu(2018)}]{qing2018hourly}
+\bibinfo{author}{Qing, X.}, \bibinfo{author}{Niu, Y.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Hourly day-ahead solar irradiance prediction using
+  weather forecasts by lstm}.
+\newblock \bibinfo{journal}{Energy} \bibinfo{volume}{148},
+  \bibinfo{pages}{461--468}.
+%Type = Article
+\bibitem[{Rai et~al.(2022)Rai, Shrivastava and Jana}]{rai2022robust}
+\bibinfo{author}{Rai, A.}, \bibinfo{author}{Shrivastava, A.},
+  \bibinfo{author}{Jana, K.C.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{A robust auto encoder-gated recurrent unit (ae-gru)
+  based deep learning approach for short term solar power forecasting}.
+\newblock \bibinfo{journal}{Optik} \bibinfo{volume}{252},
+  \bibinfo{pages}{168515}.
+%Type = Article
+\bibitem[{Shireen et~al.(2018)Shireen, Shao, Wang, Li, Zhang and
+  Li}]{shireen2018iterative}
+\bibinfo{author}{Shireen, T.}, \bibinfo{author}{Shao, C.},
+  \bibinfo{author}{Wang, H.}, \bibinfo{author}{Li, J.}, \bibinfo{author}{Zhang,
+  X.}, \bibinfo{author}{Li, M.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Iterative multi-task learning for time-series
+  modeling of solar panel pv outputs}.
+\newblock \bibinfo{journal}{Applied energy} \bibinfo{volume}{212},
+  \bibinfo{pages}{654--662}.
+%Type = Article
+\bibitem[{Torres et~al.(2019)Torres, Troncoso, Koprinska, Wang and
+  Mart{\'\i}nez-{\'A}lvarez}]{torres2019big}
+\bibinfo{author}{Torres, J.F.}, \bibinfo{author}{Troncoso, A.},
+  \bibinfo{author}{Koprinska, I.}, \bibinfo{author}{Wang, Z.},
+  \bibinfo{author}{Mart{\'\i}nez-{\'A}lvarez, F.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Big data solar power forecasting based on deep
+  learning and multiple data sources}.
+\newblock \bibinfo{journal}{Expert Systems} \bibinfo{volume}{36},
+  \bibinfo{pages}{e12394}.
+%Type = Article
+\bibitem[{Wang et~al.(2018)Wang, Yu, Zhang, Li, Zhen and Li}]{wang2018wavelet}
+\bibinfo{author}{Wang, F.}, \bibinfo{author}{Yu, Y.}, \bibinfo{author}{Zhang,
+  Z.}, \bibinfo{author}{Li, J.}, \bibinfo{author}{Zhen, Z.},
+  \bibinfo{author}{Li, K.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Wavelet decomposition and convolutional lstm networks
+  based improved deep learning model for solar irradiance forecasting}.
+\newblock \bibinfo{journal}{applied sciences} \bibinfo{volume}{8},
+  \bibinfo{pages}{1286}.
+%Type = Article
+\bibitem[{Wang et~al.(2019)Wang, Qi and Liu}]{wang2019comparison}
+\bibinfo{author}{Wang, K.}, \bibinfo{author}{Qi, X.}, \bibinfo{author}{Liu,
+  H.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{A comparison of day-ahead photovoltaic power
+  forecasting models based on deep learning neural network}.
+\newblock \bibinfo{journal}{Applied Energy} \bibinfo{volume}{251},
+  \bibinfo{pages}{113315}.
+%Type = Article
+\bibitem[{Wang et~al.(2011)Wang, Wang and Su}]{wang2011solar}
+\bibinfo{author}{Wang, Z.}, \bibinfo{author}{Wang, F.}, \bibinfo{author}{Su,
+  S.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Solar irradiance short-term prediction model based on
+  bp neural network}.
+\newblock \bibinfo{journal}{Energy Procedia} \bibinfo{volume}{12},
+  \bibinfo{pages}{488--494}.
+%Type = Article
+\bibitem[{Zhang et~al.(2018)Zhang, Verschae, Nobuhara and
+  Lalonde}]{zhang2018deep}
+\bibinfo{author}{Zhang, J.}, \bibinfo{author}{Verschae, R.},
+  \bibinfo{author}{Nobuhara, S.}, \bibinfo{author}{Lalonde, J.F.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Deep photovoltaic nowcasting}.
+\newblock \bibinfo{journal}{Solar Energy} \bibinfo{volume}{176},
+  \bibinfo{pages}{267--276}.
+
+\end{thebibliography}

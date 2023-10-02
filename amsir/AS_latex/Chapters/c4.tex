@@ -1,0 +1,135 @@
+% Chapter Template
+
+\chapter{Methodology} % Main chapter title
+
+\label{c4} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+
+ \section{Methodology}
+ 
+ \subsection{Proposed Multi-view XGBoost regression (Mv-XGBr) method}
+The proposed method is designed by using multiple views of dataset and the views in the form of subset of original dataset. And it is forwarded for implementation in XGBoost regressor model. For the purpose partitioning, random feature set partition method is adopted before implementation in XGBoost regressor( XGBr) model.
+
+\subsubsection{Construction of Multiple Views}
+Multi-view data are very common in real world applications. Many data are often collected from different measuring methods as particular single view data cannot comprehensively describe all information \cite{zhao2017multi}. Similarly, features set of data can be used to get a more reliable and effective results with the use of multi-view concept. View in a dataset refers to the part or whole of the dataset respect to the features associated with the data. Generating different views corresponds to feature set partitioning, which generalizes the task of feature selection. Instead of providing a single representative set of features, feature set partitioning decomposes the original set of features into multiple disjoint subsets to construct each view. A simple way to convert from single view to multiple views, is to split the original features set into different views randomly \cite{xu2013survey}. Multi-view data are very common in real world applications. Many data are often collected from different measuring methods as particular single view data cannot comprehensively describe all information \cite{zhao2017multi}. Similarly, features set of data can be used to get a more reliable and effective results with the use of multi-view concept. To obtain feature subsets(called Views), random feature set partitioning method of multiview learning is utilized frequently in the literature. It partitioned the feature set X  in k-number of subset of feature(views) may denoted as $X_{sub, i} \in X$  in both cases, where i = ${1, 2, 3,....k}$. Then condition of partitioning can be written for X feature set as:
+\begin{equation}
+\label{Eq.6}
+    X = \bigcup_{i=1}^{k} X_{sub, i} 
+\end{equation}
+where, $X_{sub, i}$  is called the $i-th$ view of the dataset, which may be denoted as,  $X_{sub, i}$ = $\{X_{sub, i, 1}, X_{sub, i, 2}, X_{sub, i, 3}, X_{sub, i, 4}........X_{sub, i, p}\}$,  $\left | X_{sub, i} \right |= p\leq n , k\leq n$.
+
+
+ Once, we have the views of time series for k-number of partitioning, then a learning model of machine learning, i.e.,  XGBoost Regressor(XGBr) may be deployed at each view of time series, which can be denoted for the prediction $\hat{y}_{i, t}$ as:
+
+%$y_{i, t}$
+\begin{equation}
+\label{Eq.8}
+    \hat{y}_{i, t} = XGBr(X_{sub, i})
+\end{equation} 
+
+Then, the ensemble of all predictions of views can be performed to obtain the final prediction of t-time stamp data point $y_{t, k}^{f}$ which can be identified by function $Mv-XGBr(.)$ as:
+
+\begin{equation}
+\label{Eq.10}
+    %\hat{y}_{t, k}^{f} = \frac{1}{k} \sum_{i=1}^{k} W_{i}*\hat{y}_{i, t}
+	\hat{y}_{t, k}^{f} = MvXGBr\left ( \frac{1}{k}\sum_{i=1}^{k}W_{i}*\hat{y_{i, t}} \right )
+\end{equation}
+where, $W_{i}$ is the performance weight of i-th induced regressor which performed over validation set of time series
+
+\subsubsection{Evaluation of Mv-XGBr method}
+In previous subsection eq.\ref{Eq.8}) denotes the prediction of sample at t-th time stamp. Lets consider that n-th data point has T time stamp and predictions have been obtained for the range of time stamp, that is, (T+h). Then, the prediction set for [T, T+h] time stamps can be written as:
+
+\begin{equation}
+\label{Eq.11}
+    \left \{ \hat{y}_{t, k}^{f} \right \}_{t=T+1}^{T+h} =    \left \{ \frac{1}{k} \sum_{i=1}^{k} W_{i}*\hat{y}_{i, t} \right \}_{t=T+1}^{T+h}   
+\end{equation}
+
+If original data points are known for the time stamp [T, T+h], then RMSE and MAPE can be obtained as eq.\ref{Eq.12} and eq.\ref{Eq.13} respectively.
+\begin{equation}
+\label{Eq.12}
+    RMSE = \frac{1}{h} \sum_{t=T+1}^{T+h}(\hat{y}_{t, k}^{f} - y_{t})
+\end{equation}
+
+\begin{equation}
+\label{Eq.13}
+     MAPE = \frac{1}{h} \sum_{t=T+1}^{T+h}  \left |\frac{{\hat{y}_{t, k}^{f} - y_{t}}{}}{y_{t}}   \right |* 100
+\end{equation}
+
+
+\subsubsection{Finding the optimal k-partition ( most suitable views )}
+From the above equations eq.\ref{Eq.12} and eq.\ref{Eq.13}, performance can be obtained for k-number of partitions, which can varies as, $k=1,2,3,....n$. So, the Mv-XGBr method may have different performance over distinct number of partitions. Therefore, having the most suitable partitions based performance measure is the important task , which is also a complex problem to find the best view in multiview learning. Now, the optimal partition ( $K_{opt}$ ) can be identified using measure eq.\ref{Eq.14} as:
+\begin{equation}
+\label{Eq.14}
+    K_{opt}\leftarrow arg min\left \{ \frac{1}{h} \sum_{t=T+1}^{T+h}(\hat{y}_{t, k}^{f} - y_{t}) \right \}_{k=2}^{|X|}
+\end{equation}
+Now, $K_{opt}$ partition will have the highest performance over the given dataset.
+
+%\titleformat{\subsection}{\normalfont\large\itshape}{\thesubsection}{1em}{}
+
+
+\begin{table*}[]
+\centering
+    \setlength{\tabcolsep}{3pt}
+ {\renewcommand{\arraystretch}{1}%
+\caption{View Results for Original Datasets X, where optimal partition (views),$K_{opt}$ is highlighted in bold}
+\label{tab:my-table}
+%\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}}
+\hline
+\textbf{View-k} & \textbf{189} & \textbf{207} & \textbf{332} & \textbf{333} & \textbf{357} & \textbf{392} & \textbf{405} & \textbf{489} & \textbf{492} & \textbf{504} \\ \hline
+k=1         & 90.91        & 86.22        & 48.58        & 71.09        & 105.89       & 103.80       & 92.39        & 115.05       & 62.44        & 116.10       \\
+k=2         & 72.51        & 82.95        & 34.81        & 51.25        & 72.32        & 85.90        & 62.60        & 73.27        & 50.57        & 84.49        \\
+k=3         & 56.64        & 78.19        & 29.70        & 45.44        & 64.19        & 81.84        & 50.75        & 80.72        & 41.38        & 68.33        \\
+k=4         & 48.40        & 75.17        & 25.45        & 40.34        & 42.01        & 81.26        & 45.00        & \textbf{53.65}        & 39.52        & 57.89        \\
+k=5         & 45.95        & 73.79        & 24.30        & 38.66        & 45.84        & 76.92        & 40.06        & 62.09        & 36.92        & \textbf{51.59}        \\
+k=6         & \textbf{42.88}        & \textbf{72.58}        & \textbf{22.85}        & \textbf{36.80}        & \textbf{41.01}        & \textbf{75.79}        & \textbf{37.11}        & 56.68        & \textbf{34.65 }       & 52.69        \\ \hline
+\end{tabular}%
+}
+\end{table*}
+\begin{table*}[]
+\centering
+\setlength{\tabcolsep}{3pt}
+ {\renewcommand{\arraystretch}{1}%
+\caption{View Results for Feature Extended Datasets, X', where optimal partition (views),$K_{opt}$ is highlighted in bold }
+\label{tab:my-tabletab:my-table}
+%\resizebox{\textwidth}{!}{%
+%\begin{tabular}{lllllll}
+\begin{tabular}
+{p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}}\hline
+ \textbf{View-k} & \textbf{189} & \textbf{207} & \textbf{332} & \textbf{333} & \textbf{357} & \textbf{392} & \textbf{405} & \textbf{489} & \textbf{492} & \textbf{504} \\ \hline
+k=1         & 154.97       & 161.70       & 72.94        & 96.34      & 120.07       & 145.51       & 110.28       & 169.82       & 92.47        & 183.34       \\
+k=2         & 119.80       & 106.98       & 52.32        & 80.41        & 94.81        & 121.94       & 77.27        & 158.10       & 66.27        & 167.50       \\
+k=3         & 107.42       & 111.79       & 46.67        & 78.27        & 73.09        & 106.30       & 72.93        & 155.78       & 56.20        & 120.01       \\
+k=4         & 100.68       & 108.36       & 43.65        & 60.91        & 65.87        & 88.12        & 69.13        & 138.36       & 57.50        & 93.78        \\
+k=5         & 86.99        & 90.29        & 41.18        & 61.32        & 68.59        & 96.47        & 49.18        & 114.90       & 50.09        & 105.93       \\
+k=6         & 78.90        & 98.99        & 36.68        & 59.44        & 59.05        & 91.38        & 46.56        & 104.08       & 48.62        & 96.06        \\
+k=7         & 72.13        & 93.27        & 36.17        & 56.87        & 52.01        & 83.01        & 51.08        & 101.43       & 44.77        & 89.04        \\
+k=8         & 67.88        & 91.70        & 31.71        & \textbf{47.39}        & 49.43        & 82.68        & 53.50        & 94.42        & 44.33        & 73.73        \\
+k=9         & 69.88        & 90.11        & 30.11        & 51.48        & 47.00        & 81.43        & 48.43        & 82.76        & 37.91        & 80.17        \\
+k=10        & 61.18        & \textbf{79.89}        & 29.39        & 47.67        & 47.25        & 79.78        & 45.03        & 80.85        & 38.00        & 69.23        \\
+k=11        & \textbf{56.05}        & 88.65        & 31.39        & 49.40        & 45.66        & 79.89        & 45.75        & 77.91        & 38.67        & 68.30        \\
+k=12        & 58.73        & 82.89        & \textbf{28.35}        & 47.68        & \textbf{42.63}        & \textbf{78.31}        & \textbf{43.05}        & \textbf{75.04}        & \textbf{37.26}        & \textbf{65.73}       \\  \hline
+\end{tabular}%
+}
+\end{table*}
+
+\begin{figure*}[!h]
+ %\begin{flushleft}
+ \centering
+ \includegraphics[scale=0.5]{viewopt2.jpg}
+ %\label{Fig2Boxplot}
+ \caption{Trend performances(RMSE) of proposed Mv-XGBr model corresponding to original features(X) views with respect to stores}
+% \end{flushleft}
+\end{figure*}
+
+\begin{figure*}[!h]
+ %\begin{flushleft}
+ \centering
+ \includegraphics[scale=0.45]{viewopt_mape_1.jpg}
+% \label{Fig2Boxplot}
+ \caption{Trend performances(MAPE) of proposed Mv-XGBr model corresponding to original features(X) views with respect to stores}
+% \end{flushleft}
+\end{figure*}
+
+
+ 

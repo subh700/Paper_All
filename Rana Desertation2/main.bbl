@@ -1,0 +1,1331 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{liu2021deep}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LX}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Xinwen},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Huan},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Zongjin},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=QL}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Lang},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LXWHLZ+1}
+    \strng{fullhash}{LXWHLZQL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{107187}
+    \field{title}{Deep learning in ECG diagnosis: A review}
+    \field{volume}{227}
+    \field{journaltitle}{Knowledge-Based Systems}
+    \field{year}{2021}
+  \endentry
+
+  \entry{dudukcu2023temporal}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DHV}{%
+         family={Dudukcu},
+         familyi={D\bibinitperiod},
+         given={Hatice\bibnamedelima Vildan},
+         giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Taskiran},
+         familyi={T\bibinitperiod},
+         given={Murat},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TZGC}{%
+         family={Taskiran},
+         familyi={T\bibinitperiod},
+         given={Zehra Gulru\bibnamedelima Cam},
+         giveni={Z\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=YT}{%
+         family={Yildirim},
+         familyi={Y\bibinitperiod},
+         given={Tulay},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{DHVTMTZGC+1}
+    \strng{fullhash}{DHVTMTZGCYT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{109945}
+    \field{title}{Temporal Convolutional Networks with RNN approach for chaotic
+  time series prediction}
+    \field{volume}{133}
+    \field{journaltitle}{Applied Soft Computing}
+    \field{year}{2023}
+  \endentry
+
+  \entry{zhang2007neural}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ZGP}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={G\bibnamedelima Peter},
+         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{ZGP1}
+    \strng{fullhash}{ZGP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{23}
+    \field{pages}{5329\bibrangedash 5346}
+    \field{title}{A neural network ensemble method with jittered training data
+  for time series forecasting}
+    \field{volume}{177}
+    \field{journaltitle}{Information Sciences}
+    \field{year}{2007}
+  \endentry
+
+  \entry{rahul2020exploratory}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RJ}{%
+         family={Rahul},
+         familyi={R\bibinitperiod},
+         given={Jagdeep},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sora},
+         familyi={S\bibinitperiod},
+         given={Marpe},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SLD}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Lakhan\bibnamedelima Dev},
+         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{RJSMSLD1}
+    \strng{fullhash}{RJSMSLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1049\bibrangedash 1067}
+    \field{title}{Exploratory data analysis based efficient QRS-complex
+  detection technique with minimal computational load}
+    \field{volume}{43}
+    \field{journaltitle}{Physical and Engineering Sciences in Medicine}
+    \field{year}{2020}
+  \endentry
+
+  \entry{bond2012effects}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BRR}{%
+         family={Bond},
+         familyi={B\bibinitperiod},
+         given={Raymond\bibnamedelima R},
+         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Finlay},
+         familyi={F\bibinitperiod},
+         given={DD},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=NC}{%
+         family={Nugent},
+         familyi={N\bibinitperiod},
+         given={CD},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Breen},
+         familyi={B\bibinitperiod},
+         given={Cathal},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Guldenring},
+         familyi={G\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+      {{hash=DM}{%
+         family={Daly},
+         familyi={D\bibinitperiod},
+         given={MJ},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{BRRFDNC+1}
+    \strng{fullhash}{BRRFDNCBCGDDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7}
+    \field{pages}{610\bibrangedash 615}
+    \field{title}{The effects of electrode misplacement on clinicians’
+  interpretation of the standard 12-lead electrocardiogram}
+    \field{volume}{23}
+    \field{journaltitle}{European journal of internal medicine}
+    \field{year}{2012}
+  \endentry
+
+  \entry{rjoob2022machine}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=RK}{%
+         family={Rjoob},
+         familyi={R\bibinitperiod},
+         given={Khaled},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bond},
+         familyi={B\bibinitperiod},
+         given={Raymond},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Finlay},
+         familyi={F\bibinitperiod},
+         given={Dewar},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MV}{%
+         family={McGilligan},
+         familyi={M\bibinitperiod},
+         given={Victoria},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=LSJ}{%
+         family={Leslie},
+         familyi={L\bibinitperiod},
+         given={Stephen\bibnamedelima J},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rababah},
+         familyi={R\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={Iftikhar},
+         familyi={I\bibinitperiod},
+         given={Aleeha},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Guldenring},
+         familyi={G\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Knoery},
+         familyi={K\bibinitperiod},
+         given={Charles},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={McShane},
+         familyi={M\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{RKBRFD+1}
+    \strng{fullhash}{RKBRFDMVLSJRAIAGDKCMA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{102381}
+    \field{title}{Machine learning and the electrocardiogram over two decades:
+  Time series and meta-analysis of the algorithms, evaluation metrics and
+  applications}
+    \field{journaltitle}{Artificial Intelligence in Medicine}
+    \field{year}{2022}
+  \endentry
+
+  \entry{purushotham2018benchmarking}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PS}{%
+         family={Purushotham},
+         familyi={P\bibinitperiod},
+         given={Sanjay},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Meng},
+         familyi={M\bibinitperiod},
+         given={Chuizheng},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Che},
+         familyi={C\bibinitperiod},
+         given={Zhengping},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{PSMCCZ+1}
+    \strng{fullhash}{PSMCCZLY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{112\bibrangedash 134}
+    \field{title}{Benchmarking deep learning models on large healthcare
+  datasets}
+    \field{volume}{83}
+    \field{journaltitle}{Journal of biomedical informatics}
+    \field{year}{2018}
+  \endentry
+
+  \entry{kumar2022deep}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KV}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Vipin},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Ahmad},
+         familyi={A\bibinitperiod},
+         given={Naushad},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KVAN1}
+    \strng{fullhash}{KVAN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Deep Learning for Air Quality Prediction after COVID-19
+  Pandemic Based on Pollutant and Meteorological Data}
+    \field{journaltitle}{Available at SSRN 4292346}
+    \field{year}{2022}
+  \endentry
+
+  \entry{naqvi2018deep}{article}{}
+    \name{author}{5}{}{%
+      {{hash=NRA}{%
+         family={Naqvi},
+         familyi={N\bibinitperiod},
+         given={Rizwan\bibnamedelima Ali},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Arsalan},
+         familyi={A\bibinitperiod},
+         given={Muhammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Batchuluun},
+         familyi={B\bibinitperiod},
+         given={Ganbayar},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=YHS}{%
+         family={Yoon},
+         familyi={Y\bibinitperiod},
+         given={Hyo\bibnamedelima Sik},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PKR}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Kang\bibnamedelima Ryoung},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{NRAAMBG+1}
+    \strng{fullhash}{NRAAMBGYHSPKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{456}
+    \field{title}{Deep learning-based gaze detection system for automobile
+  drivers using a NIR camera sensor}
+    \field{volume}{18}
+    \field{journaltitle}{Sensors}
+    \field{year}{2018}
+  \endentry
+
+  \entry{kaneko2016deep}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KY}{%
+         family={Kaneko},
+         familyi={K\bibinitperiod},
+         given={Yuta},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YK}{%
+         family={Yada},
+         familyi={Y\bibinitperiod},
+         given={Katsutoshi},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{KYYK1}
+    \strng{fullhash}{KYYK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2016 IEEE 16th International conference on data mining
+  workshops (ICDMW)}
+    \field{pages}{531\bibrangedash 537}
+    \field{title}{A deep learning approach for the prediction of retail store
+  sales}
+    \field{year}{2016}
+  \endentry
+
+  \entry{midani2023deeparr}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MW}{%
+         family={Midani},
+         familyi={M\bibinitperiod},
+         given={Wissal},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=OW}{%
+         family={Ouarda},
+         familyi={O\bibinitperiod},
+         given={Wael},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=AMB}{%
+         family={Ayed},
+         familyi={A\bibinitperiod},
+         given={Mounir\bibnamedelima Ben},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{MWOWAMB1}
+    \strng{fullhash}{MWOWAMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{104954}
+    \field{title}{DeepArr: An investigative tool for arrhythmia detection using
+  a contextual deep neural network from electrocardiograms (ECG) signals}
+    \field{volume}{85}
+    \field{journaltitle}{Biomedical Signal Processing and Control}
+    \field{year}{2023}
+  \endentry
+
+  \entry{li2022hybrid}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LMW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Ming-Wei},
+         giveni={M\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=XDY}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Dong-Yang},
+         giveni={D\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Geng},
+         familyi={G\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HWC}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={Wei-Chiang},
+         giveni={W\bibinithyphendelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LMWXDYGJ+1}
+    \strng{fullhash}{LMWXDYGJHWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{108084}
+    \field{title}{A hybrid approach for forecasting ship motion using
+  CNN--GRU--AM and GCWOA}
+    \field{volume}{114}
+    \field{journaltitle}{Applied Soft Computing}
+    \field{year}{2022}
+  \endentry
+
+  \entry{prakarsha2022time}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PKR}{%
+         family={Prakarsha},
+         familyi={P\bibinitperiod},
+         given={Kandukuri\bibnamedelima Ratna},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Gaurav},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{PKRSG1}
+    \strng{fullhash}{PKRSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{103705}
+    \field{title}{Time series signal forecasting using artificial neural
+  networks: An application on ECG signal}
+    \field{volume}{76}
+    \field{journaltitle}{Biomedical Signal Processing and Control}
+    \field{year}{2022}
+  \endentry
+
+  \entry{maharaj2007discrimination}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MEA}{%
+         family={Maharaj},
+         familyi={M\bibinitperiod},
+         given={Elizabeth\bibnamedelima A},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AAM}{%
+         family={Alonso},
+         familyi={A\bibinitperiod},
+         given={Andr{\'e}s\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{MEAAAM1}
+    \strng{fullhash}{MEAAAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{879\bibrangedash 895}
+    \field{title}{Discrimination of locally stationary time series using
+  wavelets}
+    \field{volume}{52}
+    \field{journaltitle}{Computational Statistics \& Data Analysis}
+    \field{year}{2007}
+  \endentry
+
+  \entry{hammad2021automated}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=HM}{%
+         family={Hammad},
+         familyi={H\bibinitperiod},
+         given={Mohamed},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KRN}{%
+         family={Kandala},
+         familyi={K\bibinitperiod},
+         given={Rajesh\bibnamedelima NVPS},
+         giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Abdelatey},
+         familyi={A\bibinitperiod},
+         given={Amira},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Abdar},
+         familyi={A\bibinitperiod},
+         given={Moloud},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZMM}{%
+         family={Zomorodi-Moghadam},
+         familyi={Z\bibinithyphendelim M\bibinitperiod},
+         given={Mariam},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=STR}{%
+         family={San\bibnamedelima Tan},
+         familyi={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+         given={Ru},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AUR}{%
+         family={Acharya},
+         familyi={A\bibinitperiod},
+         given={U\bibnamedelima Rajendra},
+         giveni={U\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={P{\l}awiak},
+         familyi={P\bibinitperiod},
+         given={Joanna},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Tadeusiewicz},
+         familyi={T\bibinitperiod},
+         given={Ryszard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MV}{%
+         family={Makarenkov},
+         familyi={M\bibinitperiod},
+         given={Vladimir},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{HMKRNAA+1}
+    \strng{fullhash}{HMKRNAAAMZMMSTRAURPJTRMV+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{580\bibrangedash 604}
+    \field{title}{Automated detection of shockable ECG signals: A review}
+    \field{volume}{571}
+    \field{journaltitle}{Information Sciences}
+    \field{year}{2021}
+  \endentry
+
+  \entry{sajjad2020novel}{article}{}
+    \name{author}{7}{}{%
+      {{hash=SM}{%
+         family={Sajjad},
+         familyi={S\bibinitperiod},
+         given={Muhammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KZA}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={Zulfiqar\bibnamedelima Ahmad},
+         giveni={Z\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=UA}{%
+         family={Ullah},
+         familyi={U\bibinitperiod},
+         given={Amin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hussain},
+         familyi={H\bibinitperiod},
+         given={Tanveer},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=UW}{%
+         family={Ullah},
+         familyi={U\bibinitperiod},
+         given={Waseem},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LMY}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Mi\bibnamedelima Young},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BSW}{%
+         family={Baik},
+         familyi={B\bibinitperiod},
+         given={Sung\bibnamedelima Wook},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SMKZAUA+1}
+    \strng{fullhash}{SMKZAUAHTUWLMYBSW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{143759\bibrangedash 143768}
+    \field{title}{A novel CNN-GRU-based hybrid approach for short-term
+  residential load forecasting}
+    \field{volume}{8}
+    \field{journaltitle}{Ieee Access}
+    \field{year}{2020}
+  \endentry
+
+  \entry{chua1998cnn}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CLO}{%
+         family={Chua},
+         familyi={C\bibinitperiod},
+         given={Leon\bibnamedelima O},
+         giveni={L\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {World Scientific}%
+    }
+    \strng{namehash}{CLO1}
+    \strng{fullhash}{CLO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{CNN: A paradigm for complexity}
+    \field{volume}{31}
+    \field{year}{1998}
+  \endentry
+
+  \entry{qiu2018variety}{article}{}
+    \name{author}{6}{}{%
+      {{hash=QZ}{%
+         family={Qiu},
+         familyi={Q\bibinitperiod},
+         given={Zhengjun},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Yiying},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Susu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZC}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Chu},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{QZCJZY+1}
+    \strng{fullhash}{QZCJZYZSHYZC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{212}
+    \field{title}{Variety identification of single rice seed using
+  hyperspectral imaging combined with convolutional neural network}
+    \field{volume}{8}
+    \field{journaltitle}{Applied Sciences}
+    \field{year}{2018}
+  \endentry
+
+  \entry{wang2023inter}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{6}{}{%
+      {{hash=WD}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Duoduo},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=QL}{%
+         family={Qiu},
+         familyi={Q\bibinitperiod},
+         given={Lishen},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZW}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Wenliang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=DY}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Yanfang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Huimin},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yuhang},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{WDQLZW+1}
+    \strng{fullhash}{WDQLZWDYZHCY+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{104436}
+    \field{title}{Inter-patient ECG characteristic wave detection based on
+  convolutional neural network combined with transformer}
+    \field{volume}{81}
+    \field{journaltitle}{Biomedical Signal Processing and Control}
+    \field{year}{2023}
+  \endentry
+
+  \entry{dey2017gate}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=DR}{%
+         family={Dey},
+         familyi={D\bibinitperiod},
+         given={Rahul},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SFM}{%
+         family={Salem},
+         familyi={S\bibinitperiod},
+         given={Fathi\bibnamedelima M},
+         giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{DRSFM1}
+    \strng{fullhash}{DRSFM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2017 IEEE 60th international midwest symposium on
+  circuits and systems (MWSCAS)}
+    \field{pages}{1597\bibrangedash 1600}
+    \field{title}{Gate-variants of gated recurrent unit (GRU) neural networks}
+    \field{year}{2017}
+  \endentry
+
+  \entry{yao2021interpretation}{article}{}
+    \name{author}{7}{}{%
+      {{hash=YG}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Guoliang},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MX}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Xiaobo},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Nan},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=XH}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Huaxing},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=XX}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Xiangyang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=JY}{%
+         family={Jiao},
+         familyi={J\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Ni},
+         familyi={N\bibinitperiod},
+         given={Jinhong},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Hindawi}%
+    }
+    \strng{namehash}{YGMXLN+1}
+    \strng{fullhash}{YGMXLNXHXXJYNJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Interpretation of electrocardiogram heartbeat by CNN and GRU}
+    \field{volume}{2021}
+    \field{journaltitle}{Computational and Mathematical Methods in Medicine}
+    \field{year}{2021}
+  \endentry
+
+  \entry{pollard2000acute}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PTJ}{%
+         family={Pollard},
+         familyi={P\bibinitperiod},
+         given={Timothy\bibnamedelima J},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{PTJ1}
+    \strng{fullhash}{PTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{631\bibrangedash 649}
+    \field{title}{The acute myocardial infarction}
+    \field{volume}{27}
+    \field{journaltitle}{Primary Care: Clinics in Office Practice}
+    \field{year}{2000}
+  \endentry
+
+  \entry{de2011weighted}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DLG}{%
+         family={De\bibnamedelima Lannoy},
+         familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Ga{\"e}l},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Fran{\c{c}}ois},
+         familyi={F\bibinitperiod},
+         given={Damien},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Delbeke},
+         familyi={D\bibinitperiod},
+         given={Jean},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Verleysen},
+         familyi={V\bibinitperiod},
+         given={Michel},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{DLGFDDJ+1}
+    \strng{fullhash}{DLGFDDJVM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{241\bibrangedash 247}
+    \field{title}{Weighted conditional random fields for supervised
+  interpatient heartbeat classification}
+    \field{volume}{59}
+    \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
+    \field{year}{2011}
+  \endentry
+
+  \entry{xu2018raim}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=XY}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Yanbo},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Biswal},
+         familyi={B\bibinitperiod},
+         given={Siddharth},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DSR}{%
+         family={Deshpande},
+         familyi={D\bibinitperiod},
+         given={Shriprasad\bibnamedelima R},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MKO}{%
+         family={Maher},
+         familyi={M\bibinitperiod},
+         given={Kevin\bibnamedelima O},
+         giveni={K\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Jimeng},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{XYBSDSR+1}
+    \strng{fullhash}{XYBSDSRMKOSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 24th ACM SIGKDD international
+  conference on Knowledge Discovery \& Data Mining}
+    \field{pages}{2565\bibrangedash 2573}
+    \field{title}{Raim: Recurrent attentive and intensive model of multimodal
+  patient monitoring data}
+    \field{year}{2018}
+  \endentry
+
+  \entry{bahrami2022deep}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BM}{%
+         family={Bahrami},
+         familyi={B\bibinitperiod},
+         given={Mahsa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Forouzanfar},
+         familyi={F\bibinitperiod},
+         given={Mohamad},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{BMFM1}
+    \strng{fullhash}{BMFM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{809\bibrangedash 815}
+    \field{title}{Deep learning forecasts the occurrence of sleep apnea from
+  single-lead ECG}
+    \field{volume}{13}
+    \field{journaltitle}{Cardiovascular Engineering and Technology}
+    \field{year}{2022}
+  \endentry
+
+  \entry{strodthoff2020deep}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SN}{%
+         family={Strodthoff},
+         familyi={S\bibinitperiod},
+         given={Nils},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Wagner},
+         familyi={W\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Schaeffter},
+         familyi={S\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SW}{%
+         family={Samek},
+         familyi={S\bibinitperiod},
+         given={Wojciech},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SNWPST+1}
+    \strng{fullhash}{SNWPSTSW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{5}
+    \field{pages}{1519\bibrangedash 1528}
+    \field{title}{Deep learning for ECG analysis: Benchmarks and insights from
+  PTB-XL}
+    \field{volume}{25}
+    \field{journaltitle}{IEEE Journal of Biomedical and Health Informatics}
+    \field{year}{2020}
+  \endentry
+
+  \entry{mewada20232d}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MH}{%
+         family={Mewada},
+         familyi={M\bibinitperiod},
+         given={Hiren},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MH1}
+    \strng{fullhash}{MH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1\bibrangedash 17}
+    \field{title}{2D-wavelet encoded deep CNN for image-based ECG
+  classification}
+    \field{journaltitle}{Multimedia Tools and Applications}
+    \field{year}{2023}
+  \endentry
+
+  \entry{aldughayfiq2023deep}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AB}{%
+         family={Aldughayfiq},
+         familyi={A\bibinitperiod},
+         given={Bader},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AF}{%
+         family={Ashfaq},
+         familyi={A\bibinitperiod},
+         given={Farzeen},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=JN}{%
+         family={Jhanjhi},
+         familyi={J\bibinitperiod},
+         given={NZ},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Humayun},
+         familyi={H\bibinitperiod},
+         given={Mamoona},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{ABAFJN+1}
+    \strng{fullhash}{ABAFJNHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{14}
+    \field{pages}{2442}
+    \field{title}{A Deep Learning Approach for Atrial Fibrillation
+  Classification Using Multi-Feature Time Series Data from ECG and PPG}
+    \field{volume}{13}
+    \field{journaltitle}{Diagnostics}
+    \field{year}{2023}
+  \endentry
+
+  \entry{yoo2023restoration}{article}{}
+    \name{author}{6}{}{%
+      {{hash=YH}{%
+         family={Yoo},
+         familyi={Y\bibinitperiod},
+         given={Hakje},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yum},
+         familyi={Y\bibinitperiod},
+         given={Yunjin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Yoojoong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KJH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Jong-Ho},
+         giveni={J\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=PHJ}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Hyun-Joon},
+         giveni={H\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=JHJ}{%
+         family={Joo},
+         familyi={J\bibinitperiod},
+         given={Hyung\bibnamedelima Joon},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{YHYYKY+1}
+    \strng{fullhash}{YHYYKYKJHPHJJHJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{104690}
+    \field{title}{Restoration of missing or low-quality 12-lead ECG signals
+  using ensemble deep-learning model with optimal combination}
+    \field{volume}{83}
+    \field{journaltitle}{Biomedical Signal Processing and Control}
+    \field{year}{2023}
+  \endentry
+
+  \entry{musa2023systematic}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=MN}{%
+         family={Musa},
+         familyi={M\bibinitperiod},
+         given={Nehemiah},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=GAY}{%
+         family={Gital},
+         familyi={G\bibinitperiod},
+         given={Abdulsalam\bibnamedelima Ya’u},
+         giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Aljojo},
+         familyi={A\bibinitperiod},
+         given={Nahla},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Chiroma},
+         familyi={C\bibinitperiod},
+         given={Haruna},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=AKS}{%
+         family={Adewole},
+         familyi={A\bibinitperiod},
+         given={Kayode\bibnamedelima S},
+         giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MHA}{%
+         family={Mojeed},
+         familyi={M\bibinitperiod},
+         given={Hammed\bibnamedelima A},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FN}{%
+         family={Faruk},
+         familyi={F\bibinitperiod},
+         given={Nasir},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Abdulkarim},
+         familyi={A\bibinitperiod},
+         given={Abubakar},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EI}{%
+         family={Emmanuel},
+         familyi={E\bibinitperiod},
+         given={Ifada},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=FYY}{%
+         family={Folawiyo},
+         familyi={F\bibinitperiod},
+         given={Yusuf\bibnamedelima Y},
+         giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MNGAYAN+1}
+    \strng{fullhash}{MNGAYANCHAKSMHAFNAAEIFYY+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7}
+    \field{pages}{9677\bibrangedash 9750}
+    \field{title}{A systematic review and Meta-data analysis on the
+  applications of Deep Learning in Electrocardiogram}
+    \field{volume}{14}
+    \field{journaltitle}{Journal of ambient intelligence and humanized
+  computing}
+    \field{year}{2023}
+  \endentry
+\enddatalist
+\endinput

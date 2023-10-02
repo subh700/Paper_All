@@ -1,0 +1,45 @@
+% Chapter Template
+
+\chapter{Literature Review} % Main chapter title
+
+\label{c2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Literature Review}
+
+Forecasting solar power production is critical for understanding solar panels' short and long-term performance. Historical radiation data must be imported from sources such as PV-GIS, an abbreviation for Photovoltaic Geographical Information System, National Aeronautics and Space Administration (NASA) to evaluate the performance of a newly constructed solar plant. By measuring energy production viability over time, this calibration assists investors in determining the feasibility of Solar Power Plants (SPPs). Effectively forecasting solar electricity generation is a vital stage in SPP operations. Solar radiation, primarily a challenge of time series prediction, may be dealt with using Data-driven DL methods or regression. Early strategies employed linear regression on prior samples to estimate future values, such as the models such as autoregressive moving average (ARMA) and autoregressive integrated moving average (ARIMA). Although ARMA and ARIMA are useful for short-term forecasting, their use is limited since they rely on linear regression DL technologies, such as ANNs, created to overcome this non-linearity.\\
+Cloud cover and bright, partly cloudy, or gloomy weather conditions impede solar generation forecasts. Multi-layer perceptron (MLP) models used in supervised learning meet this need. However, the performance of the MLP model may need to catch up to expectations. Cloud cover and bright, partly cloudy, or gloomy weather conditions impede solar generation forecasts. MLP models used in supervised learning meet this need. However, the performance of the MLP model may need to catch up to expectations. DL models, including RNNs, CNNs, LSTM, and GRUs, have emerged to solve this. These models have been demonstrated to be effective in a wide range of time-series forecasting applications.\\
+A range of research methodologies are used in the research literature. The scientific literature may find numerous articles that anticipate sun irradiation using various methods. For instance, several research studies have used DL models, depending on historical solar irradiance data from various locations in India, such as Pokharan, Udaipur, Ajmer, Jodhpur, Bhuj, New Delhi, South Delhi, Ahmedabad, Hyderabad, and Bengaluru. These districts collect the data in CSV file\cite{kumari2021deep}. These tests have examined the performance of RNN, LSTM, GRU, CNN, and BiLSTM for day-ahead spatiotemporal forecasting of solar irradiation at various locations. Additionally, recommended methods for anticipating and optimising solar cell models based on various input variables include ANN and Fuzzy Logic (FL) approaches. Researchers have also examined ground imaging systems and nano waveguide theories to estimate solar radiation\cite{kumari2021deep}. The table below offers an overview of current DL models for predicting solar output. The table delves into the subject thoroughly, focusing on various computing approaches, error metrics, prediction horizons, and the authors behind these models. Each table row includes the proposed method, error metrics assessed, the prediction horizon considered, and a brief description of the model's approach. The picture demonstrates the multidisciplinary nature of solar power projections by combining ML approaches with meteorological data. It is a priceless resource for academics, practitioners, and hobbyists interested in the expanding breadth of applications in solar energy forecasting.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}[c]{|p{0.15\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.5\textwidth}|}
+\caption{Solar Power Prediction}
+\label{tab:my-table}\\
+\hline
+\textbf{Proposed Plan} & \textbf{Criteria} & \textbf{Forecast Range} & \textbf{Explanation} \\
+\hline
+\endhead
+Shark Shell + NN\cite{lee2018forecasting} & MAPE, RMSE, MAE & 12 h & This article employs Simulated Annealing and NN to develop a hybrid model for 12-hour solar power estimation. The proposed technique employs both optimisation and ML methodologies to improve the accuracy of solar power projections. \\ \hline
+LSTM\cite{abedinia2018solar} & RMSE & 24 h & This research develops an LSTM-based DL model for forecasting solar power. The suggested model is compared to linear regression, bagged regression trees, and NN. \\ \hline
+LSTM\cite{abedinia2018solar}& RMSE & 1 min &This study provides an LSTM-based DL model for forecasting solar power. The model is compared to MLP and CNN-based models using past solar radiation and sky photos as input vectors. \\ \hline
+CNN+LSTM\cite{lee2018forecasting} & RMSE, MAE, MAPE & 200 days &This work provides a CNN-LSTM hybrid DL model for a 200-day solar power forecast, and the suggested model is compared against conventional, LSTM, and additional LSTM variants. \\
+CNN\cite{zhang2018deep} & RMSE & 5 min & The authors propose a CNN-based approach for predicting solar power. The cloud images are sent into the proposed CNN model as an input feature vector to train it. \\ \hline
+CNN, LSTM\cite{wang2019comparison} & MAPE, RMSE, MAE & 24 h & The authors presented and evaluated three DL prediction models with varying training data. According to the study, the hybrid model outperforms other models in prediction. \\ \hline
+LSTM\cite{lee2019deep} & RMSE & 19 h & This study provides a Solar DL model based on LSTM for solar power forecasting. The model is evaluated in comparison to ARIMA and NN-based models. \\
+Feed Forward NN\cite{torres2019big} & RMSE, MAE & 24 h & The solar power forecast approach employs massive H2O and Apache Spark data time series analysis package. The proposed model was trained using two years of Australian solar data. \\ \hline
+RNN+LSTM\cite{hu2021short} & RMSE, MAE & 24 h &Based on RNN+ LSTM, this study presents a DL model for anticipating short-term solar power. Data from the solar power plant is used as the input vector. The proposed model is compared against deep learning models based on RNN, LSTM, and DNN. \\\hline
+LSTM\cite{husein2019day} & RMSE, MAE, Forecast skill & 24 h &The author developed and compared an LSTM-based DL model for forecasting short-term solar irradiance to feed-forward NN (FFNN). The United States, Germany, Switzerland, and South Korea offer input data. By a factor of two, the suggested model outperforms FFNN. \\ \hline
+CNN+LSTM\cite{de2019solar} &RMSE, MAE, MAPE & 1,3 days & A CNN-LSTM hybrid DL model is presented in this study. The suggested model is compared to LSTM, RNN, which is CNN, and GRU-based DL methods one and three days ahead of the renewable energy forecast. \\ \hline
+Wavelet Decomposition (WPD) +LSTM\cite{li2020hybrid} &MAPE, RMSE, MAE & 300 mins &This paper provides a WPD+ LSTM-based predictions of short-term solar power using the DL model. DL models based on LSTM, GRU, BILSTM, CNN, and RNN outperform the suggested hybrid model. \\ \hline
+RNN\cite{cao2005forecast} &RMSE & 1 Day (hourly) & solar irradiance 1990-2022( 12107 days) \\ \hline
+RNN\cite{niu2017recurrent} & RMSE & 10 minutes, 30 minutes, 1 hour & solar radiation temperature of the dry bulb and relative humidity The degree of humidity from May 22 to May 29, 2016 (7 days). \\ \hline
+LSTM\cite{qing2018hourly} & RMSE & 1 Day ahead &temperature, relative humidity, visibility, and wind speed (March-August 2012, January-December 2013). \\ \hline
+CNN-LSTM, LSTM\cite{wang2018wavelet} & RMSE & Every 15 Min & solar irradiance from 2008 to 2011, and again from 2014 to 2017 (3013 days) \\
+\hline
+\end{longtable}
+

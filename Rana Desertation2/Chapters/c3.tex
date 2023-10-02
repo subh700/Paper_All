@@ -1,0 +1,145 @@
+% Chapter Template
+
+\chapter{Deep Learning Models} % Main chapter title
+
+\label{c3} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+% \section{Deep Learning Models}
+
+\section {Recurrent Neural Networks (RNN):}
+Recurrent neural networks (RNNs) are ANNs in which the outputs of past steps are fed as inputs to the current phase. The unique feature of RNN is the feedback connection that transfers information about the previous step input, which is adapted by the succeeding input. The RNN also have a memory or hidden state vector that retrieves some sequential data and computes new states by applying recursively its activation functions to previous states and new inputs. In this way, the RNN can process information sequentially and represent its temporal behaviour for time series, preserving information from previous data \cite{thi2020deep}.
+The equation for a simple Recurrent Neural Network (RNN) is as follows:
+\begin{equation}
+h_t=\sigma(W_{hh} \cdot h_{t-1} + W_{hx} \cdot x_t + b_h)
+\end{equation}
+
+where \(x_t\) represents the input at time step \(t\). The
+\(W_{hh}\) and \(W_{hx}\) is the weight matrix for the recurrent and input connection, respectively. The
+\(h_t\) is the hidden state at time step \(t\). The
+\(b_h\) is the bias vector. The
+\(\sigma\) is the activation function, commonly the sigmoid function.
+
+\section{Gated Recurrent Unit (GRU):}
+
+The Gated Recurrent Unit (GRU) is a neural network design addressing vanishing gradient challenges in sequence data modelling. It employs update and reset gates to control information flow within the network. The update gate balances new input against the previous state, while the reset gate decides what past information to ignore. The model's computations involve gate calculations, generating a candidate hidden state and merging it with the previous state using the update gate. This architecture efficiently captures temporal patterns and long-range dependencies, making it popular for tasks involving sequential data like natural language processing and time series analysis. Its simplified structure and effectiveness offer an alternative to more complex architectures like LSTM. Equations of GRU are as follows:
+\begin{equation}
+z_t = \sigma(W_z \cdot [h_{t-1}, x_t] + b_z)
+\end{equation}
+\begin{equation}
+r_t = \sigma(W_r \cdot [h_{t-1}, x_t] + b_r)
+\end{equation}
+\begin{equation}
+\tilde{h}_t = \tanh(W_h \cdot [r_t \odot h_{t-1}, x_t] + b_h) \\
+\end{equation}
+\begin{equation}
+h_t = (1 - z_t) \odot h_{t-1} + z_t \odot \tilde{h}_t
+\end{equation}
+
+
+
+where, \(x_t\) represents the input at time step \(t\). The
+\(z_t\) is the update gate's output at time step \(t\). The
+\(h_t\) is the hidden state at time step \(t\). The
+\(\tilde{h}_t\) is the candidate hidden state at time step \(t\). The
+\(r_t\) is the reset gate's output at time step \(t\). The
+\(W_z\), \(W_r\), and \(W_h\) are weight matrices for the update gate, reset gate, and candidate hidden state calculations, respectively. The
+\(b_z\), \(b_r\), and \(b_h\) are bias vectors for the corresponding gates and candidate hidden state. The
+\(\sigma\) is the activation function(sigmoid). The
+\(\odot\) represents multiplication element-wise .
+
+
+\section{Long Short Term Memory (LSTM):}
+Long Short-Term Memory (LSTM) is a specialized recurrent neural network architecture addressing vanishing gradient problems. It introduces memory cells and three gates: input, output, and forget. The input gate regulates new information intake, the output gate controls the information output, and the forget gate manages the memory's relevance. The cell state maintains long-term dependencies, enhancing the model's ability to capture sequences \cite{guillen2020deep}. LSTMs address traditional RNNs' challenges by allowing selective information updates through gates and consistent gradient flow. This architecture is widely used for sequential data tasks, like language translation and speech recognition, due to its capacity for modelling context and handling extended sequences effectively \cite{qiu2021river}. The equations of LSTM are as follows:
+\begin{equation}
+f_t = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f)
+\end{equation}
+\begin{equation}
+i_t = \sigma(W_i \cdot [h_{t-1}, x_t] + b_i)
+\end{equation}
+\begin{equation}
+\tilde{C}_t = \tanh(W_C \cdot [h_{t-1}, x_t] + b_C)
+\end{equation}
+\begin{equation}
+C_t = f_t \odot C_{t-1} + i_t \odot \tilde{C}_t
+\end{equation}
+\begin{equation}
+o_t = \sigma(W_o \cdot [h_{t-1}, x_t] + b_o)
+\end{equation}
+\begin{equation}
+h_t = o_t \odot \tanh(C_t)
+\end{equation}
+
+
+where, \(x_t\) represents the input at time step \(t\). The
+\(i_t\) and \(f_t\) are the input gate's and forget gate's output at time step \(t\) respectively. The
+\(h_t\) and \(C_t\) is the hidden and cell state at time step \(t\) respectively. The
+\(C_t\) is the cell state at time step \(t\). The
+\(\tilde{C}_t\) is the candidate cell state at time step \(t\). The
+\(o_t\) is the output gate's output at time step \(t\). The
+\(W_f\), \(W_i\), \(W_C\), and \(W_o\) are weight matrices for the gates and candidate cell state calculations. The
+\(b_f\), \(b_i\), \(b_C\), and \(b_o\) are bias vectors for the corresponding gates and candidate cell state. The
+\(\sigma\) is the sigmoid activation function. The
+\(\odot\) represents element-wise multiplication. The
+
+
+\section{Bidirectional Long Short-Term Memory (BiLSTM):}
+Bidirectional Long Short-Term Memory (BiLSTM) is an advanced neural network structure that overcomes vanishing gradient issues by processing data in both forward and backward directions. It consists of two LSTMs: one captures past information, and the other captures future context. Input sequences are processed in parallel, enabling the model to capture comprehensive temporal patterns. BiLSTMs are powerful for tasks demanding context understanding, like named entity recognition and sentiment analysis. They provide a holistic view of input data, enhancing the network's ability to capture dependencies and improving performance in various sequence-related tasks.
+The equations for the Bidirectional Long Short-Term Memory (BiLSTM) network are as follows:
+
+\textbf{Forward LSTM:}
+\begin{equation}
+f_t^{(\text{Fw})} = \sigma(W_{f}^{(\text{Fw})} \cdot [h_{t-1}^{(\text{Fw})}, x_t] + b_{f}^{(\text{Fw})})
+\end{equation}
+\begin{equation}
+i_t^{(\text{Fw})} = \sigma(W_{i}^{(\text{Fw})} \cdot [h_{t-1}^{(\text{Fw})}, x_t] + b_{i}^{(\text{Fw})})
+\end{equation}
+\begin{equation}
+\tilde{C}_t^{(\text{Fw})} = \tanh(W_{C}^{(\text{Fw})} \cdot [h_{t-1}^{(\text{Fw})}, x_t] + b_{C}^{(\text{Fw})})
+\end{equation}
+\begin{equation}
+C_t^{(\text{Fw})} = f_t^{(\text{Fw})} \odot C_{t-1}^{(\text{Fw})} + i_t^{(\text{Fw})} \odot \tilde{C}_t^{(\text{Fw})}
+\end{equation}
+\begin{equation}
+o_t^{(\text{Fw})} = \sigma(W_{o}^{(\text{Fw})} \cdot [h_{t-1}^{(\text{Fw})}, x_t] + b_{o}^{(\text{Fw})})
+\end{equation}
+\begin{equation}
+h_t^{(\text{Fw})} = o_t^{(\text{Fw})} \odot \tanh(C_t^{(\text{Fw})})
+\end{equation}
+
+\textbf{Backward LSTM:}
+\begin{equation}
+f_t^{(\text{Bw})} = \sigma(W_{f}^{(\text{Bw})} \cdot [h_{t+1}^{(\text{Bw})}, x_t] + b_{f}^{(\text{Bw})})
+\end{equation}
+\begin{equation}
+i_t^{(\text{Bw})} = \sigma(W_{i}^{(\text{Bw})} \cdot [h_{t+1}^{(\text{Bw})}, x_t] + b_{i}^{(\text{Bw})})
+\end{equation}
+\begin{equation}
+\tilde{C}_t^{(\text{Bw})} = \tanh(W_{C}^{(\text{Bw})} \cdot [h_{t+1}^{(\text{Bw})}, x_t] + b_{C}^{(\text{Bw})})
+\end{equation}
+\begin{equation}
+C_t^{(\text{Bw})} = f_t^{(\text{Bw})} \odot C_{t+1}^{(\text{Bw})} + i_t^{(\text{Bw})} \odot \tilde{C}_t^{(\text{Bw})}
+\end{equation}
+\begin{equation}
+o_t^{(\text{Bw})} = \sigma(W_{o}^{(\text{Bw})} \cdot [h_{t+1}^{(\text{Bw})}, x_t] + b_{o}^{(\text{Bw})})
+\end{equation}
+\begin{equation}
+h_t^{(\text{Bw})} = o_t^{(\text{Bw})} \odot \tanh(C_t^{(\text{Bw})})
+\end{equation}
+
+where \(x_t\) represents the input at time step \(t\). The
+\(h_t^{(\text{Fw})}\) and \(h_t^{(\text{Bw})}\) are the hidden states of the backward and forward LSTMs at time step \(t\), respectively. The
+\(C_t^{(\text{Fw})}\) and \(C_t^{(\text{Bw})}\) are the cell states of the backward and forward LSTMs at time step \(t\), respectively. The
+\(f_t^{(\text{Fw})}\) and \(f_t^{(\text{Bw})}\) are the forget gate's outputs of the backward and forward LSTMs at time step \(t\), respectively. The
+\(i_t^{(\text{Fw})}\) and \(i_t^{(\text{Bw})}\) are the input gate's outputs of the backward and forward LSTMs at time step \(t\), respectively. The
+\(\tilde{C}_t^{(\text{Fw})}\) and \(\tilde{C}_t^{(\text{Bw})}\) are the candidate cell states of the backward and forward LSTMs at time step \(t\), respectively. The
+\(o_t^{(\text{Fw})}\) and \(o_t^{(\text{Bw})}\) are the output gate's outputs of the forward and backward LSTMs at time step \(t\), respectively. The
+\(W_{f}^{(\text{Fw})}\), \(W_{i}^{(\text{Fw})}\), \(W_{C}^{(\text{Fw})}\), and \(W_{o}^{(\text{Fw})}\) are weight matrices for the gates and candidate cell state calculations of the forward LSTM. The
+\(W_{f}^{(\text{Bw})}\), \(W_{i}^{(\text{Bw})}\), \(W_{C}^{(\text{Bw})}\), and \(W_{o}^{(\text{Bw})}\) are weight matrices for the gates and candidate cell state calculations of the backward LSTM. The
+\(b_{f}^{(\text{Fw})}\), \(b_{i}^{(\text{Fw})}\), \(b_{C}^{(\text{Fw})}\), and \(b_{o}^{(\text{Fw})}\) are bias vectors for the corresponding gates and candidate cell state of the forward LSTM. The
+\(b_{f}^{(\text{Bw})}\), \(b_{i}^{(\text{Bw})}\), \(b_{C}^{(\text{Bw})}\), and \(b_{o}^{(\text{Bw})}\) are bias vectors for the corresponding gates and candidate cell state of the backward LSTM. The
+\(\sigma\) is sigmoid activation function. The
+\(\odot\) represents multiplication element-wise.
+

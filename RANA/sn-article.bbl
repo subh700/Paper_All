@@ -1,0 +1,264 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{13}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Xu et~al.}{2019}]{xu2019improving}
+\begin{barticle}
+\bauthor{\bsnm{Xu}, \binits{C.}},
+\bauthor{\bsnm{Chen}, \binits{H.}},
+\bauthor{\bsnm{Wang}, \binits{J.}},
+\bauthor{\bsnm{Guo}, \binits{Y.}},
+\bauthor{\bsnm{Yuan}, \binits{Y.}}:
+\batitle{Improving prediction performance for indoor temperature in public
+  buildings based on a novel deep learning method}.
+\bjtitle{Building and Environment}
+\bvolume{148},
+\bfpage{128}--\blpage{135}
+(\byear{2019})
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Tabrizi et~al.}{2021}]{tabrizi2021hourly}
+\begin{barticle}
+\bauthor{\bsnm{Tabrizi}, \binits{S.E.}},
+\bauthor{\bsnm{Xiao}, \binits{K.}},
+\bauthor{\bsnm{Th{\'e}}, \binits{J.V.G.}},
+\bauthor{\bsnm{Saad}, \binits{M.}},
+\bauthor{\bsnm{Farghaly}, \binits{H.}},
+\bauthor{\bsnm{Yang}, \binits{S.X.}},
+\bauthor{\bsnm{Gharabaghi}, \binits{B.}}:
+\batitle{Hourly road pavement surface temperature forecasting using deep
+  learning models}.
+\bjtitle{Journal of Hydrology}
+\bvolume{603},
+\bfpage{126877}
+(\byear{2021})
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Cifuentes et~al.}{2020}]{cifuentes2020air}
+\begin{barticle}
+\bauthor{\bsnm{Cifuentes}, \binits{J.}},
+\bauthor{\bsnm{Marulanda}, \binits{G.}},
+\bauthor{\bsnm{Bello}, \binits{A.}},
+\bauthor{\bsnm{Reneses}, \binits{J.}}:
+\batitle{Air temperature forecasting using machine learning techniques: a
+  review}.
+\bjtitle{Energies}
+\bvolume{13}(\bissue{16}),
+\bfpage{4215}
+(\byear{2020})
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Abdel-Aal}{2004}]{abdel2004hourly}
+\begin{barticle}
+\bauthor{\bsnm{Abdel-Aal}, \binits{R.E.}}:
+\batitle{Hourly temperature forecasting using abductive networks}.
+\bjtitle{Engineering Applications of Artificial Intelligence}
+\bvolume{17}(\bissue{5}),
+\bfpage{543}--\blpage{556}
+(\byear{2004})
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{{Prabhat} et~al.}{2019}]{2019AGUFMGC33A..05P}
+\begin{bchapter}
+\bauthor{\bsnm{{Prabhat}}, \binits{M.}},
+\bauthor{\bsnm{{Kashinath}}, \binits{K.}},
+\bauthor{\bsnm{{Wehner}}, \binits{M.F.}},
+\bauthor{\bsnm{{Collins}}, \binits{W.D.}}:
+\bctitle{{Deep Learning for Extreme Weather Detection}}.
+In: \bbtitle{AGU Fall Meeting Abstracts},
+vol. \bseriesno{2019},
+pp. \bfpage{33}--\blpage{05}
+(\byear{2019})
+\end{bchapter}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Salinas et~al.}{2020}]{salinas2020deepar}
+\begin{barticle}
+\bauthor{\bsnm{Salinas}, \binits{D.}},
+\bauthor{\bsnm{Flunkert}, \binits{V.}},
+\bauthor{\bsnm{Gasthaus}, \binits{J.}},
+\bauthor{\bsnm{Januschowski}, \binits{T.}}:
+\batitle{Deepar: Probabilistic forecasting with autoregressive recurrent
+  networks}.
+\bjtitle{International Journal of Forecasting}
+\bvolume{36}(\bissue{3}),
+\bfpage{1181}--\blpage{1191}
+(\byear{2020})
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Singh et~al.}{2011}]{singh2011time}
+\begin{barticle}
+\bauthor{\bsnm{Singh}, \binits{S.}},
+\bauthor{\bsnm{Bhambri}, \binits{P.}},
+\bauthor{\bsnm{Gill}, \binits{J.}}:
+\batitle{Time series based temperature prediction using back propagation with
+  genetic algorithm technique}.
+\bjtitle{International Journal of Computer Science Issues (IJCSI)}
+\bvolume{8}(\bissue{5}),
+\bfpage{28}
+(\byear{2011})
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Xiao et~al.}{2019}]{XIAO2019111358}
+\begin{barticle}
+\bauthor{\bsnm{Xiao}, \binits{C.}},
+\bauthor{\bsnm{Chen}, \binits{N.}},
+\bauthor{\bsnm{Hu}, \binits{C.}},
+\bauthor{\bsnm{Wang}, \binits{K.}},
+\bauthor{\bsnm{Gong}, \binits{J.}},
+\bauthor{\bsnm{Chen}, \binits{Z.}}:
+\batitle{Short and mid-term sea surface temperature prediction using
+  time-series satellite data and lstm-adaboost combination approach}.
+\bjtitle{Remote Sensing of Environment}
+\bvolume{233},
+\bfpage{111358}
+(\byear{2019})
+\doiurl{10.1016/j.rse.2019.111358}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Li et~al.}{2019}]{li2019deep}
+\begin{bchapter}
+\bauthor{\bsnm{Li}, \binits{C.}},
+\bauthor{\bsnm{Zhang}, \binits{Y.}},
+\bauthor{\bsnm{Zhao}, \binits{G.}}:
+\bctitle{Deep learning with long short-term memory networks for air temperature
+  predictions}.
+In: \bbtitle{2019 International Conference on Artificial Intelligence and
+  Advanced Manufacturing (AIAM)},
+pp. \bfpage{243}--\blpage{249}
+(\byear{2019}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Xiao et~al.}{2019}]{xiao2019spatiotemporal}
+\begin{barticle}
+\bauthor{\bsnm{Xiao}, \binits{C.}},
+\bauthor{\bsnm{Chen}, \binits{N.}},
+\bauthor{\bsnm{Hu}, \binits{C.}},
+\bauthor{\bsnm{Wang}, \binits{K.}},
+\bauthor{\bsnm{Xu}, \binits{Z.}},
+\bauthor{\bsnm{Cai}, \binits{Y.}},
+\bauthor{\bsnm{Xu}, \binits{L.}},
+\bauthor{\bsnm{Chen}, \binits{Z.}},
+\bauthor{\bsnm{Gong}, \binits{J.}}:
+\batitle{A spatiotemporal deep learning model for sea surface temperature field
+  prediction using time-series satellite data}.
+\bjtitle{Environmental Modelling \& Software}
+\bvolume{120},
+\bfpage{104502}
+(\byear{2019})
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Thi Kieu~Tran et~al.}{2020}]{thi2020deep}
+\begin{barticle}
+\bauthor{\bsnm{Thi Kieu~Tran}, \binits{T.}},
+\bauthor{\bsnm{Lee}, \binits{T.}},
+\bauthor{\bsnm{Shin}, \binits{J.-Y.}},
+\bauthor{\bsnm{Kim}, \binits{J.-S.}},
+\bauthor{\bsnm{Kamruzzaman}, \binits{M.}}:
+\batitle{Deep learning-based maximum temperature forecasting assisted with
+  meta-learning for hyperparameter optimization}.
+\bjtitle{Atmosphere}
+\bvolume{11}(\bissue{5}),
+\bfpage{487}
+(\byear{2020})
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Guill{\'e}n-Navarro
+  et~al.}{2020}]{guillen2020deep}
+\begin{barticle}
+\bauthor{\bsnm{Guill{\'e}n-Navarro}, \binits{M.A.}},
+\bauthor{\bsnm{Mart{\'\i}nez-Espa{\~n}a}, \binits{R.}},
+\bauthor{\bsnm{Llanes}, \binits{A.}},
+\bauthor{\bsnm{Bueno-Crespo}, \binits{A.}},
+\bauthor{\bsnm{Cecilia}, \binits{J.M.}}:
+\batitle{A deep learning model to predict lower temperatures in agriculture}.
+\bjtitle{Journal of Ambient Intelligence and Smart Environments}
+\bvolume{12}(\bissue{1}),
+\bfpage{21}--\blpage{34}
+(\byear{2020})
+\end{barticle}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Qiu et~al.}{2021}]{qiu2021river}
+\begin{barticle}
+\bauthor{\bsnm{Qiu}, \binits{R.}},
+\bauthor{\bsnm{Wang}, \binits{Y.}},
+\bauthor{\bsnm{Rhoads}, \binits{B.}},
+\bauthor{\bsnm{Wang}, \binits{D.}},
+\bauthor{\bsnm{Qiu}, \binits{W.}},
+\bauthor{\bsnm{Tao}, \binits{Y.}},
+\bauthor{\bsnm{Wu}, \binits{J.}}:
+\batitle{River water temperature forecasting using a deep learning method}.
+\bjtitle{Journal of Hydrology}
+\bvolume{595},
+\bfpage{126016}
+(\byear{2021})
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}

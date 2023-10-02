@@ -1,0 +1,86 @@
+\documentclass[a4paper,fleqn]{cas-sc}
+\usepackage{caption}
+\usepackage[authoryear,longnamesfirst]{natbib}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage{lscape}
+\usepackage{longtable}
+\usepackage{booktabs,tabularx}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{geometry} % Adjust page margins
+\usepackage{pdflscape} % For landscape orientation
+\usepackage{tabularx} % For better column width management
+\usepackage{makecell} % For better cell content formatting
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{chemfig}
+\usepackage[version=3]{mhchem}
+\usepackage{lineno}
+\usepackage{times}
+\usepackage{cleveref}
+\usepackage{comment}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage{lipsum}
+\usepackage{mathtools}
+\usepackage{cuted}
+\usepackage{ microtype}
+\usepackage{xcolor}
+\usepackage{supertabular,booktabs}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage[normalem]{ulem}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{rotating}
+\usepackage{afterpage}
+\floatstyle{plaintop}
+\restylefloat{table}
+\useunder{\uline}{\ul}{}
+\usepackage{caption}
+
+%%%Author macros
+\def\tsc#1{\csdef{#1}{\textsc{\lowercase{#1}}\xspace}}
+\tsc{WGM}
+\tsc{QE}
+%%%
+\newcommand\mycommfont[1]{\footnotesize\ttfamily\textcolor{blue}{#1}}
+\SetCommentSty{mycommfont}
+
+\SetKwInput{KwInput}{Input}                % Set the Input
+\SetKwInput{KwOutput}{Output}              % set the Output
+
+
+\begin{document}
+\begin{table}[hbt!]
+\footnotesize 
+\centering
+\caption{List of comparisons of the accuracy of a single view (SV), previously proposed multi-view feature-set partitioning methods, and proposed TB-MvL method, respectively for all fifteen datasets}
+\label{tab:ACC1}
+\begin{tabular}{|l|p{0.06\textwidth}|llllll|}
+\hline
+\textbf{Datasets}                                                            & \textbf{AdaBoost SV Accuracy} & \multicolumn{6}{c|}{\textbf{Multi-View   AdaBoost Accuracy(in \%)}}                                                                                                                                                                                                                                                                                                                                                                                                                   \\ \hline
+                                                                            &                                 & \multicolumn{1}{l|}{\textbf{RFP-AdaBoost}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Proposed RFP-\\ Transfer Boosting\end{tabular}}} & \multicolumn{1}{l|}{\textbf{AB- AdaBoost}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Proposed AB-\\ Transfer   Boosting\end{tabular}}} & \multicolumn{1}{l|}{\textbf{BT- AdaBoost}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Proposed BT-\\ Transfer   Boosting\end{tabular}}} \\ \hline
+\textbf{Arcen}                                                              & 65.00\%                          & \multicolumn{1}{l|}{67.83\%}           & \multicolumn{1}{l|}{\textbf{72.50\%}}                                                                              & \multicolumn{1}{l|}{85.00\%}                  & \multicolumn{1}{l|}{\textbf{88.67\%}}                                                                & \multicolumn{1}{l|}{71.71\%}            & \textbf{73.21\%}                                                                                     \\ \hline
+\textbf{ColonCancer}                                                        & 53.85\%                          & \multicolumn{1}{l|}{69.49\%}           & \multicolumn{1}{l|}{\textbf{73.33\%}}                                                                 & \multicolumn{1}{l|}{85.64\%}           & \multicolumn{1}{l|}{\textbf{89.49\%}}                                                                & \multicolumn{1}{l|}{62.78\%}            & \textbf{65.38\%}                                                                                      \\ \hline
+\textbf{DLBCL\_NIH}                                                         & 68.75\%                          & \multicolumn{1}{l|}{55.00\%}                  & \multicolumn{1}{l|}{67.60\%}                                                                        & \multicolumn{1}{l|}{52.78\%}           & \multicolumn{1}{l|}{\textbf{70.42\%}}                                                                & \multicolumn{1}{l|}{55.37\%}            & \textbf{78.12\%}                                                                                         \\ \hline
+\textbf{Luekemia}                                                           & 86.67\%                          & \multicolumn{1}{l|}{88.44\%}           & \multicolumn{1}{l|}{\textbf{100.00\%}}                                                                         & \multicolumn{1}{l|}{80.00\%}                   & \multicolumn{1}{l|}{\textbf{89.11\%}}                                                                & \multicolumn{1}{l|}{72.49\%}            & \textbf{93.56\%}                                                                                      \\ \hline
+\textbf{Madelon}                                                            & 54.00\%                          & \multicolumn{1}{l|}{51.87\%}           & \multicolumn{1}{l|}{53.97\%}                                                                        & \multicolumn{1}{l|}{55.47\%}           & \multicolumn{1}{l|}{\textbf{61.37\%}}                                                                & \multicolumn{1}{l|}{51.77\%}            & \textbf{54.23\%}                                                                                     \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}ProstateTumor\\ VSNormal\end{tabular}}   & 80.00\%                          & \multicolumn{1}{l|}{83.58\%}           & \multicolumn{1}{l|}{\textbf{83.75\%}}                                                                    & \multicolumn{1}{l|}{84.83\%}           & \multicolumn{1}{l|}{\textbf{86.56\%}}                                                                & \multicolumn{1}{l|}{70.00\%}                    & \textbf{85.50\%}                                                                                           \\ \hline
+\textbf{SECOM}                                                              & 80.00\%                          & \multicolumn{1}{l|}{87.08\%}           & \multicolumn{1}{l|}{\textbf{88.50\%}}                                                                     & \multicolumn{1}{l|}{84.50\%}                 & \multicolumn{1}{l|}{\textbf{86.67\%}}                                                                & \multicolumn{1}{l|}{72.00\%}                   & \textbf{95.00\%}                                                                                            \\ \hline
+\textbf{Gisette}                                                            & 92.00\%                          & \multicolumn{1}{l|}{91.40\%}                 & \multicolumn{1}{l|}{\textbf{93.10\%}}                                                                     & \multicolumn{1}{l|}{84.23\%}           & \multicolumn{1}{l|}{90.17\%}                                                                         & \multicolumn{1}{l|}{71.55\%}            & 74.45\%                                                                                              \\ \hline
+\textbf{wpbc}                                                               & 60.00\%                          & \multicolumn{1}{l|}{80.00\%}                   & \multicolumn{1}{l|}{\textbf{80.58\%}}                                                               & \multicolumn{1}{l|}{70.00\%}                   & \multicolumn{1}{l|}{\textbf{80.00\%}}                                                                        & \multicolumn{1}{l|}{69.29\%}            & \textbf{75.71\%}                                                                                     \\ \hline
+\textbf{Breast Cancer}                                                      & 96.49\%                          & \multicolumn{1}{l|}{96.35\%}           & \multicolumn{1}{l|}{\textbf{97.59\%}}                                                               & \multicolumn{1}{l|}{94.59\%}           & \multicolumn{1}{l|}{95.49\%}                                                                          & \multicolumn{1}{l|}{90.48\%}            & 96.62\%                                                                                              \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Breast Cancer   \\ Coimbra\end{tabular}} & 54.00\%                          & \multicolumn{1}{l|}{61.67\%}           & \multicolumn{1}{l|}{\textbf{72.78\%}}                                                               & \multicolumn{1}{l|}{59.58\%}           & \multicolumn{1}{l|}{\textbf{69.86\%}}                                                                & \multicolumn{1}{l|}{65.28\%}            & \textbf{73.61\%}                                                                                     \\ \hline
+\textbf{isolet5}                                                            & 69.23\%                          & \multicolumn{1}{l|}{74.81\%}           & \multicolumn{1}{l|}{\textbf{77.16\%}}                                                               & \multicolumn{1}{l|}{\textbf{78.45\%}}  & \multicolumn{1}{l|}{76.20\%}                                                                         & \multicolumn{1}{l|}{64.60\%}            & 65.05\%                                                                                              \\ \hline
+\textbf{isolet}                                                             & 71.56\%                          & \multicolumn{1}{l|}{\textbf{76.97\%}}  & \multicolumn{1}{l|}{75.69\%}                                                                        & \multicolumn{1}{l|}{74.04\%}           & \multicolumn{1}{l|}{\textbf{77.51\%}}                                                                & \multicolumn{1}{l|}{64.52\%}                & 65.48\%                                                                                              \\ \hline
+\end{tabular}
+\end{table}
+
+\end{document}

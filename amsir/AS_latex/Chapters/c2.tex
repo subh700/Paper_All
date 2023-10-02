@@ -1,0 +1,55 @@
+% Chapter Template
+
+\chapter{Literature Review} % Main chapter title
+
+\label{c2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Literature Review}
+In recent years, different ML methods have been proposed for the enhancement of sales data prediction as well as forecasting. The basic models are already working very well to some kinds of data. Traditional models like Autoregressive(AR), Vector Autoregressive(VAR), Autoregressive Integrated Moving Average(ARIMA)\cite{schaidnagel2013sales} and Seasonal Autoregressive Integrated Moving Average(SARIMA) are already a conventional models mainly used for sales data prediction but, some kinds of data with more irregular plotting might not works well. Moreover, some condition of stationarity is already associated with these models. Further, In the segment of DL, Recurrent Neural Network (RNN) suffers from the problem of vanishing gradient \cite{janiesch2021machine} and of its modified models known as Long Short Term Memory (LSTM), cannot able to predict much effectively to some kinds of data patterns and if the data samples are not much larger. \cite{purushotham2018benchmarking} Several models are already in practice from the very beginning like AR, VAR, ARIMA. The models mentioned above are the primarily usable models for timeseries data. A timeseries is a temporal sequence of data values with respect to the given time period, where the behaviour of data pattern can be infered based on historical data. \cite{cerqueira2020evaluating} The characteristics of time series data can be analysed based on the decomposition of data. We can get the general trend, seasonality and cyclicity, if any in the data in graphical form by using particular module in Python language. Time series data itself has some critical insights that can help in learning the model and based on learning capability, model predicts and forecasts the data. It may be in the form of univariate \cite{petropoulos2021wisdom} or multivariate but the changes in the values remains according to date and time in the dataset. In \cite{fu2011review}, it has been described about the approaches and significance of pattern discovery in the time series data, along with recent research directions in the area. Time series data can be within any range of time segment, that is it may range from yearly in the upper bound to milliseconds in the lower bound, depending upon the data kind and source. Taking an example of our dataset, it is distributed as daily data for three years.
+
+The research work under boosting algorithms, it is considered as one of the valuable tree based model  used for data prediction \cite{mayr2014evolution}. Some of the models like AdaBoost Regressor, CatBoost Regressor, Extra Tree are the next tree based models. Adaptive Boosting Regressor is an ensemble of many decision trees, each of which is a weak learner and is slightly better than random guessing. Ensemble approach of values usually results in outcome, in terms of model operations. AdaBoost, CatBoost, Bagging Regression Tree \cite{xu2021influential} are some of the models based on ensemble approach. However, AdaBoost being adaptive carries the gradient of previous trees to next trees in order to improve the error of previous tree. Thus, subsequent learning of trees at each steps build strong learner \cite{patil2018life}. CatBoost is the next one which is capable of handling categorical features as well in the data. The extraction of features for identification of patterns and relationships is the important step that can be employed for model building \cite{janiesch2021machine}. Apart from basic ML model implementation, other approaches can even be effective in predicting the time series data. Multi-view is one of that kind that provides the concept of learning through multiple views of the dataset.  Since, every feature combination may not give an optimized results so, there is a need to check the different combinations of feature. Each feature set works as a subset of original dataset, The dataset also goes into some feature engineering \cite{long2019deep} as well, by creating some additional features. Multiple ways to create features from existing features belonging to original dataset can be understand easily and its significance can be analysed.
+
+For the purpose of feature partitioning, the concept of Stirling Number \cite{kereskenyi2014stirling} of the second type has been adopted to generate the features set in random manner. The traditional way to combine the multiple views is to concatenate all multiple views into a single view to adapt to single view learning settings. However, this concatenation causes overfitting on a small training sample and is not physically meaningful because each view has a specific statistical property \cite{xu2013survey}. Hence, we have gone through a different approach of views aggregation. The main advantage of multi-view approach is that, it even suitable for small and medium level of available data samples. Multi-view learning is specifically used for dataset having large features, but it is not mandatory that it will work in this case only. Different survey has been published over the types, contribution and evaluation of multi-view learning. The approach of multi-view in feature partition of dataset can even be considered as feature selection methodology \cite{cherrington2019feature}. Different feature set partitioning methods are available to capture most effective view combinations. Recent development in multi-view learning gives that, it is significant to make good use of the information from selected views. A well-designed multi-view learning strategy may bring good level of performance improvements \cite{zhao2017multi}. 
+
+
+%\begin{comment}
+
+%\begin{landscape}
+
+
+\begin{table}[hbt!]
+\begin{sidewaystable}
+%\centering
+\caption{Selected models from literature}
+\setlength{\tabcolsep}{2pt}
+ {\renewcommand{\arraystretch}{1}%
+\label{tab:my-table}
+%\resizebox{\columnwidth}{!}{%
+\begin{tabular}[c]{p{0.2\textwidth}p{0.2\textwidth}p{0.2\textwidth}p{0.2\textwidth}p{0.2\textwidth}p{0.2\textwidth}}
+\hline
+\textbf{Year} & \textbf{Model Used }                                                                & \textbf{Data Source}                                                                              & \textbf{Result}                                                             & \textbf{Research Gap}  & \textbf{Reference}\\ \hline
+2019 & Extra Tree,   Neural Network, Random Forest, ARIMA, Lasso                  & Rossmann   store data taken from Kaggle.                                                 & Validation   error percent of Lasso is comparably minimum.          & Lack of sufficient data and outliers presence is a challenge for capturing seasonality and ultimately in prediction  &\cite{pavlyshenko2019machine}  \\ \hline
+2018 & Extra Tree,   Gradient Boosting, Lasso, ARIMA, Stacking                    & Groupo Bimbo   Inventory Demand from Kaggle competition                                  & The paper explores the ensemble approach for logistic regression model.                                                                    & \centering         & \cite{pavlyshenko2018using} \\ \hline
+2023 & XGBoost,   CatBoost, Random Forest, SVR                                    & Fakoor Sanat Iron Ore Plant, Kerman,   Iran                                              & Catboost is   relatively effective in terms of RMSE.                & Its applicability to other industries or processes, its scalability to larger datasets, and its generalizability to different configuration is not described effectively.  &\cite{chelgani2023modeling}   \\ \hline
+
+2021 & Lasso, Ridge   regression, Multi-layer perceptron, Bagging Tree Regression & Data has been   taken from multiple sources of Chinese Airlines.                         & Lasso has   minimum RMSE value among all.                           & This paper does not address the limitations of the LASSO estimation method itself, such as its assumptions and potential biases  &\cite{xu2021influential}  \\ \hline
+
+2021 & XGBoost,   LightGBM, MDT                                                   & Open access   auction database. Apart from this, data from BEA , Department of Commerce. & LightGBM   performs well at 10-fold validation, followed by XGBoost & The study of this paper doesn’t gives challenges to implement proposed model in real world constraint. Moreover, there isn’t any comparision of proposed models with other models.  & \cite{shehadeh2021machine}  \\ \hline
+
+2015 & Linear   Regression, SVR, Gradient Boosting                                & Rossmann   store sale data, from Germany                                                 & Gradient   Boosting  is relatively effective with   tuning          & In this paper, there is not any comprehensive study associated with it.  & \cite{sazontyevrossmann}  \\ \hline
+
+2013 & Parameterized proposed model, ARIMA  & The data source is from Data Mining Cup 2012, which consists of 570 products. & The performance of the proposed method is measured against ARIMA, and it shows an improvement in the overall forecast by 26.7 & The design of multivariate data is complicated due to lack of repeatative history in the sample. The proposed solution provides only for univariate time series  data.  & \cite{schaidnagel2013sales}  \\ \hline
+
+2020 & Decision tree, Clustering, Linear regression, Random forest   & \centering    & The paper mentions that the random forest classifier achieved the highest accuracy of 83.86\%, followed by linear regression with 82.01\% and decision tree classifier with 81.21 \%.  & The paper does not mention the size or diversity of the dataset used for sales prediction.  & \cite{panjwani2020sales} \\ \hline
+
+\end{tabular}%
+}
+\end{table}
+\end{sidewaystable}
+\pagebreak
+
+%\titleformat{\subsection}{\normalfont\large\itshape}{\thesubsection}{}{}

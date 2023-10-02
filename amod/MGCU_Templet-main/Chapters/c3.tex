@@ -1,0 +1,240 @@
+% Chapter Template
+
+\chapter{Basics Related Roncepts} % Main chapter title
+
+\label{c3} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+\section{Deep learning models}
+The DL models are composed of several neural networks tuned for specific tasks. CNNs are particularly adept in image processing and feature extraction. LSTM networks manage long-range relationships within sequences, whereas RNNs specialise in sequential data processing. GRUs are a more straightforward alternative to LSTMs. Unsupervised feature learning is performed using Deep Belief Networks (DBNs). Data is compressed into a lower-dimensional space via autoencoders. GANs (Generative Adversarial Networks) produce realistic data samples. Transformers with self-attention mechanisms are transforming natural language processing. Each model is essential in various applications, boosting computer vision, language understanding, and natural language processing.
+
+\subsection{CNN:} The language you supplied describes the convolutional layer, a fundamental component of a CNN. The following section briefly discusses the sentence's subjects. CNN is a deep neural network architecture that recognises images\cite{hao2018optimized,chauhan2018convolutional} and videos\cite{fan2016video,he2021automatic,qi2018cnn}. Its popularity has soared thanks to its ability to learn and extract critical information from photographs automatically. The three basic types of layers are convolutional, pooling, and fully connected, which form the typical CNN architecture. Stacking these levels on top of one another allows for extracting characteristics from a hierarchy \cite{torres2021deep}.
+
+1. Convolutional Layer:
+\begin{equation}
+\mathbf{Z} = \mathbf{D} * \mathbf{X} + \mathbf{b}
+\end{equation}
+
+2. Activation Function:
+\begin{equation}
+\mathbf{A} = \sigma(\mathbf{Z})
+\end{equation}
+
+3. Layer of Collection:
+\begin{equation}
+\mathbf{P} = \text{Collection}(\mathbf{A})
+\end{equation}
+
+4. Fully Connected Layer:
+\begin{equation}
+\mathbf{O} = \mathbf{D}_\text{fc} \cdot \mathbf{P} + \mathbf{b}_\text{fc}
+\end{equation}
+
+Here, $\mathbf{D}$ represents the convolutional filter weights, $\mathbf{X}$ is the input data, $\mathbf{b}$ is the bias term, $\sigma$ is the activation function (e.g., ReLU), $\mathbf{A}$ is the activation map, $\text{pool}$ denotes pooling operation (e.g., max pooling), $\mathbf{P}$ is the pooled output, $\mathbf{D}_\text{fc}$ is the weight matrix for the fully connected layer, $\mathbf{b}_\text{fc}$ is the bias term for the fully connected layer, and $\mathbf{O}$ is the final output.
+
+
+\subsection{RNN}
+GRU was proposed as an RNN. It was designed to be a less formal and complex alternative to more sophisticated. While still processing sequential data such as text, audio, and time series data, LSTM networks are used. GRU works by introducing gating mechanisms that allow for specific modifications to the network. At each time step, a concealed state is revealed. These gating techniques are crucial for regulating data flow across the network. Unlike traditional RNNs, GRU has two fundamental gating mechanisms: reset gate and update gate\cite{sun2016depth}. A neural network's reset gate determines how much of the prior hidden state should be forgotten or reset for the current calculation, allowing the model to manage the preservation or omission of information from earlier time steps or layers. This gate enables the model to retain essential previous data while eliminating less critical data. The update gate, on the other hand, specifies how much the incoming input should contribute to updating the concealed state. GRU can identify the significance of incoming input in the context of the present state by managing the updating process\cite{torres2021deep}.
+
+
+
+1. Hidden State Update:
+\begin{equation}
+h_c = \tanh(D_{hh} \cdot h_{c-1} + D_{xh} \cdot x_c)
+\end{equation}
+
+2. Output Calculation:
+\begin{equation}
+y_c = D_{hy} \cdot h_c
+\end{equation}
+The hyperbolic tangent activation function is represented by the symbol $tanh$, In an RNN or similar architectures, $D_{hh}$ is a weight matrix used to change the previous hidden state ($h_{c-1}$),$D_{xh}$ is a weight matrix that is applied to the input at time step $c$ ($x_c$) before it is used to calculate the new hidden state ($h_c$),$D_{hy}$ is a weight matrix that is used to turn the hidden state ($h_c$) into the output ($y_c$) at a specific time step, The concealed state from the previous time step is denoted by $h_{c-1}$.
+
+
+
+
+% Reset Gate (r):
+% \begin{equation}
+% 𝑟𝑡 = 𝑠𝑖𝑔𝑚𝑜𝑖𝑑(𝑊𝑟 * [ℎ(𝑡 − 1), 𝑥(𝑡)] + 𝑏𝑟)
+% \end{equation}
+
+% Update Gate (z):
+% \begin{equation}
+% 𝑧(𝑡) = \𝑠𝑖𝑔𝑚𝑜𝑖𝑑(𝑊𝑧 ∗ [ℎ(𝑡 − 1), 𝑥(𝑡)] + 𝑏𝑧)
+% \end{equation}
+
+% Candidate Hidden State ( h):
+% \begin{equation}
+% ℎ(𝑡) = 𝑡𝑎𝑛ℎ(𝑊ℎ ∗ [𝑟(𝑡) ℎ(𝑡 − 1), 𝑥(𝑡)] + 𝑏ℎ)
+% \end{equation}
+
+% Updated Hidden State (h):
+% \begin{equation}
+% ℎ(𝑡) = (1 − 𝑧(𝑡)) ℎ(𝑡 − 1) + 𝑧(𝑡)ℎ(𝑡)
+% \end{equation}
+
+
+
+\subsection{GRU}
+The GRU represents a significant step forward in the study of recurrent neural networks, having evolved in 2014 as a consequence of the joint efforts of the GRU, which was developed as a less sophisticated alternative to the more complex Networks with LSTM, excels in understanding data in consecutive order such as text, audio, and time series. GRU is cleverly designed around gating mechanisms, which are utilised to fine-tune the network's hidden state evolution throughout each progressive time step. These gating devices, which serve as alarm sentinels, monitor data flow in and out effectively\cite{he2019wind}. The two most critical gating components in the GRU, the reset gate and the update gate, are components of architecture\cite{wu2016investigating,khadka2017evolving}. GRU has been carefully designed around gating mechanisms, which are utilised to perfectly fine-tune the network's hidden state growth as each progressive time step advances. These gating devices, which serve as alarm sentinels, effectively monitor data flow in and out. The two most critical gating components in the GRU's architecture are the reset gate and the update gate\cite{badescu2008modeling}. GRU's operation is mathematically characterised as follows:
+
+
+1. Update Gate ($z_c$):
+\begin{equation}
+p_c = \sigma(D_z \cdot [h_{c-1}, x_c])
+\end{equation}
+
+2. Reset Gate ($r_c$):
+\begin{equation}
+r_c = \sigma(D_r \cdot [h_{c-1}, x_c])
+\end{equation}
+
+3. Candidate Memory ($\tilde{h}_c$):
+\begin{equation}
+\tilde{h}_c = \tanh(D_h \cdot [r_c \odot h_{c-1}, x_c])
+\end{equation}
+
+4. Hidden State Update ($h_c$):
+\begin{equation}
+h_c = (1 - z_c) \odot h_{c-1} + z_c \odot \tilde{h}_c
+\end{equation}
+
+Here, $\sigma$ represents the sigmoid activation function, $\odot$ denotes element-wise multiplication, and $D_z$, $D_r$, and $D_h$ are weight matrices learned during training. $x_c$is the time step input $c$, $h_{c-1}$is the previous concealed state, and $h_c$ is the new hidden state.
+
+
+
+
+
+\subsection{LSTM}
+LSTM network is a significant improvement in RNNs, mainly created to overcome problems faced by prior RNNs. Traditional RNNs need to improve in maintaining information over lengthy periods. These networks fail to maintain a memory trail through significant temporal gaps, making them unfit for complex tasks requiring the capture of "long-term dependencies." Such dependencies necessitate the long-term retention of contextual information, which regular RNNs are incapable of. In contrast, LSTM networks have much promise for reducing these gaps. Memory cells capable of storing information for extended periods are at the heart of their distinct design\cite{abdel2020reliable}. This deliberate inclusion allows LSTMs to carefully preserve and remember essential information from the distant past, allowing precise prediction of current occurrences. LSTMs distinguish themselves by providing unrivalled control over how much prior knowledge is retained and how much specific context components are considered redundant. Because memory preservation and pruning are entirely synced, LSTMs may be able to fine-tune the relevance of previous data, enhancing their ability to discover crucial patterns and correlations that lead to correct predictions\cite{shireen2018iterative}.
+
+
+
+1. Forget about Gate:
+\begin{equation}
+f_c = \sigma(D_f \cdot [h_{c-1}, x_c] + b_f)
+\end{equation}
+
+2. Input Gate:
+\begin{equation}
+i_c = \sigma(D_i \cdot [h_{c-1}, x_c] + b_i)
+\end{equation}
+
+3. Candidate Memory:
+\begin{equation}
+\tilde{C}_c = \tanh(D_C \cdot [h_{c-1}, x_c] + b_C)
+\end{equation}
+
+4. Update Memory:
+\begin{equation}
+C_c = f_c \odot C_{c-1} + i_c \odot \tilde{C}_c
+\end{equation}
+
+5. Gate of Output:
+\begin{equation}
+o_c = \sigma(D_o \cdot [h_{c-1}, x_c] + b_o)
+\end{equation}
+
+6. Hidden State:
+\begin{equation}
+h_c = o_c \odot \tanh(C_c)
+\end{equation}
+
+The sigmoid activation function is represented by $sigma$, the hyperbolic tangent activation function is represented by $tanh$, and the weight matrices are represented by $D_f$, $D_i$, $D_C$, and $D_o$. Bias words include $b_f$, $b_i$, $b_C$, and $b_o$. $x_c$ represents the input at time step $c$, $h_{c-1}$ represents the previous hidden state, and $f_c$, $i_c$, $tilde{C}_c$, $C_c$, $o_c$, and $h_c$ represent the forget gate, input gate, candidate memory, updated memory, output gate, and hidden state.
+
+
+
+
+
+
+
+\subsection{BiLSTM}
+BiLSTM is a critical technique in this field. BiLSTMs are a kind of LSTM that have been demonstrated to increase model performance in sequence classification tasks. BiLSTMs make use of the bidirectional information flow of a sequence. In contrast to typical LSTMs, which analyse data sequentially in one direction, BiLSTMs employ two parallel LSTM layers. The first LSTM processes the whole input sequence, while the second LSTM reverses it. Due to its one-of-a-kind architecture, the model can collect Contextual information from the past and future for each item in the sequence. As a result, it gives a more comprehensive understanding of the sequence, leading to improved performance in tasks like emotion classification\cite{heidari2020short,rajabi2020multi,joshi2022deep}. One of the most essential characteristics of BiLSTMs is their ability to capture sequence dependencies in both directions. Contextual signals can appear before and after a particular word or phrase, which is valuable for occupations requiring text data. By considering these bidirectional connections, BiLSTMs increase the model's ability to identify complex patterns and nuances in text, resulting in more accurate emotion predictions. Bidirectional processing also increases the model's efficiency. The model may give more context without significantly increasing processing time by evaluating the inverted sequence alongside the original sequence. This dual-processing strategy both accelerates training and assists the model in making more accurate predictions\cite{wang2011solar}.
+
+
+
+1. Forward LSTM Equations:
+(Forget Gate)
+\begin{equation}
+f_c^{\text{F}} = \sigma(D_f^{\text{F}} \cdot [h_{c-1}^{\text{F}}, x_c] + b_f^{\text{F}})
+\end{equation}
+
+Input Gate:
+\begin{equation}
+i_c^{\text{F}} = \sigma(D_i^{\text{F}} \cdot [h_{c-1}^{\text{F}}, x_c] + b_i^{\text{F}})
+\end{equation}
+
+Candidate Memory:
+\begin{equation}
+\tilde{C}_c^{\text{F}} = \tanh(D_C^{\text{F}} \cdot [h_{c-1}^{\text{F}}, x_c] + b_C^{\text{F}})
+\end{equation}
+
+Update Memory:
+\begin{equation}
+C_c^{\text{F}} = f_c^{\text{F}} \odot C_{c-1}^{\text{F}} + i_c^{\text{F}} \odot \tilde{C}_c^{\text{F}}
+\end{equation}
+
+Output Gate:
+\begin{equation}
+o_c^{\text{F}} = \sigma(D_o^{\text{F}} \cdot [h_{c-1}^{\text{F}}, x_c] + b_o^{\text{F}})
+\end{equation}
+
+Hidden State:
+\begin{equation}
+h_c^{\text{F}} = o_c^{\text{F}} \odot \tanh(C_c^{\text{F}})
+\end{equation}
+
+2. Backward LSTM Equations:
+(Similar to forwarding LSTM Equations, but using separate weights and biases)
+
+3. BiLSTM Output:
+\begin{equation}
+h_c^{\text{B}} = [h_c^{\text{F}}, h_c^{\text{B}}]
+\end{equation}
+
+Here, $\sigma$ represents the sigmoid activation function, $\tanh$ is the hyperbolic tangent activation function, $D$ and $b$ are weight matrices and bias terms respectively, $x_c$ is the input at time step $c$, $h_{c-1}$ is the previous hidden state, $f_c$, $i_c$, $\tilde{C}_c$, $C_c$, $o_c$, and $h_c$are the forget gate, the input gate, the candidate memory, the updated memory, the output gate, and the hidden state, in that order. The superscripts "F" and "B" designate the orientations of the Forward and BiLSTM, respectively, and $h_c\text{ B}$ is the Bidirectional LSTM's final output.
+
+
+\section{Performance Measures}
+\subsection{Mean Absolute Error(MAE)}
+It is calculated by averaging the absolute difference between actual and forecast solar irradiance levels throughout the whole array and dividing the result by the total number of observations in the array to obtain the mean absolute error (MAE)\cite{kumari2021deep}.
+
+\begin{equation}
+MAE = \frac{\sum_{n}^{i=1}|y_i-x_i|}{n}
+\end{equation}
+
+\subsection{Mean Square Error(MSE)}
+A common statistic for assessing the effectiveness of an estimator or predictor is the MSE or MSD. Calculated is the average squared difference between actual (natural) and expected (or forecast) values. The MSE, which shows the projected risk function, is the value of the squared error loss\cite{kumari2021deep}.
+Mathematically, the MSE is calculated as follows:
+
+\begin{equation}
+MSE = \frac{1}{n}\sum_{n}^{i=1}(Y_i-\hat{Y_i})^{2}
+\end{equation}\cite{8558187}
+
+MSE considers the estimator's bias (how distant the projected values are, on average, from the fundamental values) and its variance (how much the projected values change from sample to sample). By considering bias and variation, the MSE thoroughly assesses the estimator's performance. The Mean Squared Error is a valuable statistic for evaluating the precision and effectiveness of estimators or predictors in conclusion.\cite{gupta2023long}
+
+
+\subsection{Mean Absolute Percentage Error(MAPE)}
+It is a statistic used to assess a forecasting or prediction model's level of accuracy. The MAPE formula estimates the difference between each actual and expected observation as a percentage of the actual observed value, much like the MAE computation. Given that it is a percentage of the accurate figure, it meets the criteria for a relative error measure\cite{dhingra2023pseudo}. The correct MAPE formula is as follows:
+
+\begin{equation}
+MAPE = \frac{1}{n}\sum_{n}^{t=1}|\frac{A_t-F_t}{A_t}|
+\end{equation}
+n = how many times the summation iteration happened
+${A_t}$ = true worth
+${F_t }$ = estimated cost
+
+
+
+\subsection{Root Mean Square Error (RMSE)}
+To be more precise, you need to comprehend RMSE. The squared difference between the actual and expected numbers does not represent the RMSE. The sum of the squared discrepancies between predicted and actual values is used instead. The RMSE calculates the average size of variations between actual and anticipated data \cite{mellit201024}. It is widely used as a performance indicator in various fields, including machine learning, statistics, and forecasting. The RMSE effectively detects and eliminates outliers since it gives more weight to significant errors due to squaring the differences. Because of its sensitivity to significant fluctuations, it can spot areas where the model's predictions and actual values diverge far faster. Finally, the RMSE is a reliable and widely used performance evaluation metric that compares the average difference between actual and predicted values. It is an excellent tool for checking the accuracy of data because of its ability to identify patterns. The precise RMSE formula may be found here\cite{abuella2015solar}.
+
+\begin{equation}
+RMSE = \sqrt{\frac{\sum_{N}^{I=1}(X_i-\hat{x})^{2}}{N}}
+\end{equation}
+RMSE = square root
+i = i variable
+N =amount of data points that are not missing
+${x_i}$ =temporal sequence of genuine observations
+${x_i}$ =time series estimation

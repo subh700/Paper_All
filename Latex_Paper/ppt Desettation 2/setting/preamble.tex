@@ -1,0 +1,132 @@
+%-------------------------------- preamble.tex ------------------------------------------
+\graphicspath{{gfx/}{setting/}}
+
+%=================================== Packages ==============================================
+\usepackage{ragged2e}\justifying
+\usepackage{txfonts}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage[numbers]{natbib}
+\usepackage{bibentry}
+\usepackage{appendixnumberbeamer}
+\usepackage{pifont}
+\usepackage{fontawesome}
+\usepackage{textpos}
+\usepackage{tabularray}
+\usepackage{longtable}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{calc} % used in third example
+\usepackage{booktabs}
+\usepackage{comment}
+\usepackage{hyperref}
+\UseTblrLibrary{booktabs}
+\def\enroll{MGCUB}
+%=================================== Themes ==============================================
+%\usetheme{EastLansing}
+\usetheme[secheader]{Madrid}
+
+\useinnertheme{rectangles} 
+%\useoutertheme{sidebar}
+%\usecolortheme{wolverine}
+
+\definecolor{myblue}{RGB}{51 51 178}
+\definecolor{Gold}{rgb}{255 215 0}
+%\usecolortheme[named=burgundy]{structure}
+
+\usefonttheme{serif}
+ 
+%========================= Beamer color/font/template ==================================== 
+\setbeamersize{text margin left=7mm, text margin right=7mm} 
+\setbeamertemplate{frametitle}[default][left, leftskip=2mm]
+\setbeamertemplate{frametitle continuation}{\frametitle{References}}
+\setbeamertemplate{bibliography item}[text] 
+%\setbeamertemplate{page number in head/foot}[appendixframenumber]
+
+\setbeamerfont{frametitle}{size=\large}
+\setbeamerfont{title}{series=\bfseries, size=\Large}
+\setbeamerfont{author}{series=\bfseries}
+\setbeamerfont{institute}{series=\bfseries, size=\small}
+\setbeamerfont{date}{series=\bfseries}
+\setbeamerfont{frametitle}{series=\bfseries}
+\setbeamerfont{itemize/enumerate body}{size=\footnotesize}
+\setbeamerfont{itemize/enumerate subbody}{size=\scriptsize}
+\setbeamerfont{itemize/enumerate subsubbody}{size=\scriptsize}
+
+
+\setbeamercolor{link}{fg=black}
+\setbeamercolor{frametitle}{bg=white, fg=black}
+\setbeamercolor{title}{bg=white, fg=black}
+\setbeamercolor{title}{bg=white, fg=black}
+\setbeamercolor{author}{fg=white!5!black}
+\setbeamercolor{institute}{fg=black}
+\setbeamercolor{author in head/foot}{bg=gray!20!white, fg=black}
+\setbeamercolor{title in head/foot}{bg=blue!30!white, fg=black}
+\setbeamercolor{date in head/foot}{bg=white ,fg=black}
+\setbeamercolor{page number in head/foot}{bg=blue!15!white, fg=black}
+\setbeamercolor{section in head/foot}{bg=Gold!80!black ,fg=white }
+%\setbeamercolor{palette quaternary}{bg=blue!10}
+
+\setbeamertemplate{footline}{
+\leavevmode\bfseries 	
+\begin{beamercolorbox}[wd=0.20\paperwidth, ht=7pt, dp=2.5pt, center]{author in head/foot}
+%\insertshortauthor~(\insertshortinstitute) %-----for and university--------(subham kumar (mgcub))
+\Enroll %------enrollment number----------------------
+\end{beamercolorbox}%
+\begin{beamercolorbox}[wd=0.62\paperwidth, ht=7pt, dp=2.5pt, center]{title in head/foot}
+\insertshorttitle
+\end{beamercolorbox}%
+\begin{beamercolorbox}[wd=0.12\paperwidth, ht=7pt, dp=2.5pt, center]{date in head/foot}
+\insertshortdate
+\end{beamercolorbox}%
+\begin{beamercolorbox}[wd=0.06\paperwidth, ht=7pt, dp=2.5pt, center]{page number in head/foot}
+\insertframenumber/\inserttotalframenumber
+\end{beamercolorbox}%
+}
+
+\setbeamertemplate{headline}{
+	\leavevmode\bfseries 	
+	\begin{beamercolorbox}[wd=0.2\paperwidth, ht=7pt, dp=2.5pt, center]{section in head/foot}
+	\insertsectionhead 
+	\end{beamercolorbox}%
+	\begin{beamercolorbox}[wd=0.8\paperwidth, ht=7pt, dp=2.5pt, center]{palette quaternary}
+	\insertsectionnavigationhorizontal{0.8\paperwidth}{\hfill}{\hfill}
+	\end{beamercolorbox}%
+}
+
+
+\setbeamertemplate{frametitle}{	
+	\nointerlineskip		
+	\begin{beamercolorbox}[wd=\paperwidth]{frametitle}
+		\vskip-5pt \hskip3mm 
+	\strut	\insertframetitle
+		 \vskip5pt
+	\end{beamercolorbox}%   
+}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{enumerate item}{\bfseries(\arabic{enumi})}
+\setbeamertemplate{enumerate subitem}{\bfseries(\alph{enumii})}
+
+%\setbeamertemplate{itemize item}{$\boldsymbol{\checkmark}$}
+\setbeamertemplate{itemize item}{\bfseries\ding{113}}
+
+\addtobeamertemplate{frametitle}{}{
+\begin{textblock*}{1mm}(0.99\linewidth, -8mm)
+\includegraphics[height=8.82mm, width=7.7mm]{setting/logo}
+	\end{textblock*}
+}
+
+\setbeamertemplate{background canvas}{
+\includegraphics[width=\paperwidth, height=\paperheight]{body_bg2}
+}
+
+%=================================== Others ==============================================
+\setlength{\parskip}{5pt}
+
+\let\oldbib\bibentry
+\renewcommand{\bibentry}[1]{{\color{myblue}\bfseries\tiny[\oldbib{#1}]}}
+
+%==========================================================================================

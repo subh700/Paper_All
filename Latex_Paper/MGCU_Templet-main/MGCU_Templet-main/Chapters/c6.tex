@@ -1,0 +1,17 @@
+% Chapter Template
+
+\chapter{Conclusion} % Main chapter title
+
+% \label{X} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\section{Conclusion}
+
+In this study, a hybrid MvS CNN-BiLSTM model has been proposed. The model utilises stacked 1D CNN \& BiLSTM as new architecture to view the univariate data $PM_{2.5}$ pollutant. Additionally, a novel multi-view approach has been proposed for univariate time series, which exploits the seasonal characteristics of the data to construct the views corresponding to the lowest lag. The seventeen datasets ($PM_{2.5}$) of highly polluted cities of India have been used to deploy the proposed MvS CNN-BiLSTM and stand-alone DL models. The evaluation of the models has been performed using RMSE and MAPE. The results have shown that the proposed model has improved the performed than corresponding stand-alone DL models over RMSE:  7.11\% (CNN), 5.08\% (RNN), 3.80\% (GRU), 5.57\% (LSTM) and 4.05\% (BiLSTM) and MAPE: 27.16\% (CNN), 28.52\% (RNN), 26.22\% (GRU), 27.22\% (LSTM), 23.11\% (BiLSTM). Moreover, the enhanced performance of the proposed model has also been validated using non-parametric statistical methods, i.e., Friedman ranking and Holm's procedure. The statistical analysis of results concludes that the proposed model performance is better and distinct from stand-alone DL models.
+
+Future research: The proposed model has utilised two-stacked CNN-BiLSTM for this research, where multiple combinations of stand-alone DL models may be investigated along with the stacking of the hybrid for better performance. In a multi-view approach, apart from seasonal characteristics, trends and the remainder may be utilised to generate the views of the dataset, yielding enhanced performance. Moreover feature set partitioning method of multi-view learning may be utilised for multivariate time series data (single source or multi-source data).  
+
+\subsection*{Data availability}
+Data will be available on \href{https: //app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing}{CPCB (India)} Webportel.The \href{https: //www.cpcb.nic.in/}{Central Pollution Control Board (CPCB) } in India maintains a web portal that offers access to various environmental datasets,  including air and water quality,  emission inventories,  and pollution monitoring data,  aimed at promoting environmental awareness and research in the country.
+
+\subsection*{Acknowledgments}
+We extend our heartfelt appreciation to the Central Pollution Control Board (CPCB),  India,  for generously providing invaluable environmental data,  which significantly enhanced our research and played a pivotal role in completing this study.

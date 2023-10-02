@@ -1,0 +1,23 @@
+\contentsline {chapter}{Certificate of the supervisor}{iii}{chapter*.1}%
+\contentsline {chapter}{Candidate's Declaration}{v}{chapter*.2}%
+\contentsline {chapter}{Acknowledgement}{ix}{chapter*.6}%
+\contentsline {chapter}{Abstract}{xi}{chapter*.8}%
+\contentsline {chapter}{List of Figures}{xv}{chapter*.10}%
+\contentsline {chapter}{List of Tables}{xvii}{chapter*.11}%
+\contentsline {chapter}{\nonumberline List of Symbols}{xix}{chapter*.12}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Equation}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Overview of Area}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Literature Survey Review}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Motivation}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Problem Formulation}{9}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Objectives of the Thesis}{11}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Methodology}{13}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Organization of the Thesis}{15}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Development of Main Work}{17}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Result and Discussions}{19}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Conclusion and scope for future work}{21}{chapter.11}%
+\contentsline {chapter}{References}{23}{chapter*.13}%
+\contentsline {chapter}{Appendices}{25}{section*.14}%
+\contentsline {chapter}{\numberline {A}Supporting Information}{27}{appendix.1.A}%
+\contentsline {chapter}{List of Publications}{29}{appendix*.15}%

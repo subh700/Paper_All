@@ -1,0 +1,31 @@
+\xpginauxfiletrue 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\addvspace {10\p@ }
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\addvspace {10\p@ }
+\setforeignlanguage {english}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Performances of traditional DL models and both proposed models(i.e, GRU-CNN(proposed-1)) and RB-GRU-CNN(proposed-2)) based on RMSE, MSE, MAE and MAPE measures over PTB diagnostic ECG datasets.\relax }}{21}{table.caption.75}%
+\setforeignlanguage {english}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Percentage improvement over traditional models based on proposed-1 GRU-CNN model for RMSE, MSE, MAE and MAPE measures.\relax }}{22}{table.caption.76}%
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Non-parametric statistical analysis via Friedman ranking, p-value \& Holm's procedure over various performance measure as RMSE, MSE, MAE and MAPE.\relax }}{27}{table.caption.110}%
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\addvspace {10\p@ }

@@ -1,0 +1,35 @@
+% Chapter Template
+
+\chapter{Introduction} % Main chapter title
+
+\label{c1} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+The analysis of sales becomes an important part of industry because sale directly depends upon demand and hence, industrial manufacturing units and production enhances. The management of different stores depends on sales of different products available in the store. Sales even can decide to focus on the specific products that can generate optimum revenue. Sales data is very much effective in deciding influencing factors of sales in case of multivariate data. Apart from this, it can also be helpful in gaining insights about customer behaviour towards products and its quality. Over recent past decades, several industries have adopted technologies based on data driven application to strengthen their retail industries. It also enables to improve sales controllability \cite{wang2023forecasting} and enterprise planning for different associated activities\cite{panjwani2020sales}. Industries are already doing very well in current circumstances because, sales data is critical for getting online reviews and with these reviews, it is possible to estimate and forecast revenue, which can be very beneficial. The application of ML and intelligent system development in sales is very much a boon after the advent of industry 4.0 and hence many techniques used in this field \cite{syam2018waiting}. Sales data is basically a time series data because it varies relatively with time and based on time the expected inference can be made about the sales, but our approach is to analyse and predict sales data with efficiency and hence a robust ML model is required. 
+
+
+ The core of time series analysis is to explore insights from data and predict the future values based on historical values which can further provide a basis for decision making, and the study of time series data prediction mainly applied in all various fields like, Agriculture, Finance, Meteorology, Military and so on \cite{ensafi2022time}. Data also plays an important role the efficiency of model, its characteristics and components are studied in section 3, under Exploratory Data Analysis (EDA). In our case, there are multiple datasets belonging to different store outlets that even can defines the behaviour of customers and demography as well. 
+Generally, small and medium sized store units often don’t take care much of sales prediction and forecasting but they should know the importance in the operations like allotment of workforce, enhancement of revenue and so on. There could be different outcomes based on the nature of dataset like seasonality, general trend, and irregular trend. The primary objective is to explore the sales data with irregular trends, analyse them on different parameters and develop a model, either base or hybrid model capable of predicting as well as forecasting sales data so that suitable business decisions and product development can be made. One of the remarkable assumptions can be made that, similar newly launched products can have similar sales pattern \cite{pavlyshenko2019machine}. Analysis of sales is also an important part of economy characteristics and indicators because it can be further directly or indirectly responsible for the enhancement of products and services generation and hence very important from both industrial and national interest point of view. 
+
+In order to achieve effective analysis and prediction of sales data, it is very important to have a good ML models that can enhances prediction on test samples. 
+Several ML models are already in queue that predicts the time series data in the most suitable and simple ways, but in certain case, some models could not able to predict well on multivariate data. Although, better prediction depends on nature of data observation and number of samples. In our case, data have been gathered for different store ID.  In order to move on, a simple multi-view approach have been introduced based on XGBoost Regressor model. In this study the author have proposed a new methodology in which the construction of multi-view is performed through partitioning of multivariate dataset into different views. Partitioning of data can be achieved by different method like Clustering Method, Random Partitioning, Graph partitioning and so on. In this paper, we have processed the original data with random partitioning method in order to create different views. The random approach simply fetches random features based on selected window size, every time we initiate it. Several others partitioning methods whether sequential or non-sequential, can be seen in different papers related to multi-view learning and its advantage over base model. The strength of multi-view learning approach lies in the concept of feature relevance. It is known that, in a given multivariate dataset, every feature is not so much effective in getting insight about whole dataset. There is certain suitable combination of features that may bring more accurate results than the original dataset. This work is all about the significance of different views in the dataset and the role in making effective prediction and analysis. 
+
+The main contributions of proposed framework are as follows:
+
+\begin{enumerate}
+\item \textit{Ten unique dataset has been indentified out of 1115 stores data based on uncorrelation among the dataset and exploratory analysis of subset of dataset.}
+
+\item \textit{A novel multi-view learning based XGBoost regressor algorithm have been proposed called Mv-XGBr which exploted the most suitable views through multivariate data by leveraging the boosting technique.}
+
+\item \textit{A wide range of analysis of results has been done based on RMSE and MAPE performance measures where stand alone boosting models and proposed Mv-XGBr has been compared.}
+
+\item \textit{A non-parametric  statistical test( called Friedman and Holm's ) performed over the RMSE and MAPE that proves the effectiveness of models as statistical perspective. }
+
+\end{enumerate}
+
+
+The remainder of this paper is organized as follows. In Section 2, we have reviewed relevant literature on time series models with short description along with extent of relevant works in the same field. Section 3, describes the brief concepts boosting algorithms followed by architecture and methods used for data in the research work and their general formulation. The next part that is, section 4 describes the methodology and its related concept of views result and its analysis empirically as well as visually. The result part, gives a data description about the significance of proposed framework over different used datasets. In Section 5 and 6 describes validation methods and overall conclusion of the research work, model optimization and future scope is described. 

@@ -1,0 +1,46 @@
+\xpginauxfiletrue 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Patient's(P1, P2, P3, P4 and P5) ECG Plot\relax }}{7}{figure.caption.35}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Dataset distribution using violin plot\relax }}{7}{figure.caption.36}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Dataset's correlation matrix\relax }}{8}{figure.caption.37}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Patient's dataset distribution pair-plot\relax }}{9}{figure.caption.38}%
+\addvspace {10\p@ }
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Proposed hybrid GRU-CNN model framework\relax }}{11}{figure.caption.42}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Flowchart of proposed2 (RB-GRU-CNN) model, where GRU-CNN proposed model may utilize at model learning ($M_i$)\relax }}{16}{figure.caption.61}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Training losses of BiLSTM, LSTM, RNN, CNN, GRU \& Proposed GRU-CNN models corresponding to the epochs\relax }}{18}{figure.caption.67}%
+\addvspace {10\p@ }
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Scatter plots of proposed GRU-CNN(pro-1) with stand alone DL models along with proposed-2 RB-GRU-CNN(pro-2), where x-axis \& y-axis represent the predictions of models and original test data D1.\relax }}{24}{figure.caption.77}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Scatter plots of proposed GRU-CNN(pro-1) with stand alone DL models along with proposed-2 RB-GRU-CNN(pro-2), where x-axis \& y-axis represent the predictions of models and original test data D2.\relax }}{25}{figure.caption.78}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Scatter plots of proposed GRU-CNN(pro-1) with stand alone DL models along with proposed-2 RB-GRU-CNN(pro-2), where x-axis \& y-axis represent the predictions of models and original test data D3.\relax }}{26}{figure.caption.79}%
+\setforeignlanguage {english}
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Scatter plots of proposed GRU-CNN(pro-1) with stand alone DL models along with proposed-2 RB-GRU-CNN(pro-2), where x-axis \& y-axis represent the predictions of models and original test data D4.\relax }}{28}{figure.caption.80}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Scatter plots of proposed GRU-CNN(pro-1) with stand alone DL models along with proposed-2 RB-GRU-CNN(pro-2), where x-axis \& y-axis represent the predictions of models and original test data D5.\relax }}{28}{figure.caption.81}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Aggregate measures comparison of traditional models and proposed (pro-1 \& pro-2) models.\relax }}{29}{figure.caption.82}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces RMSE (performance box-plots) of basic DL models with proposed hybrid models (pro-1 \& pro-2).\relax }}{30}{figure.caption.84}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces MSE (performance box-plots) of basic DL models with proposed hybrid models (pro-1 \& pro-2).\relax }}{31}{figure.caption.90}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces MAE (performance box-plots) of basic DL models with proposed hybrid models (pro-1 \& pro-2).\relax }}{32}{figure.caption.96}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces MAPE (performance box-plots) of basic DL models with proposed hybrid models (pro-1 \& pro-2).\relax }}{33}{figure.caption.102}%
+\setforeignlanguage {english}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Overall ranking of Traditional models \& Proposed models corresponding to all performance measures.\relax }}{34}{figure.caption.109}%
+\addvspace {10\p@ }

@@ -1,0 +1,1282 @@
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=luahblatex 2023.8.4)  27 AUG 2023 12:47
+ restricted system commands enabled.
+**"C:/Users/vp123/Videos/Latex_Paper/Desertation 2/MGCU_Templet-main/main.tex"
+("C:/Users/vp123/Videos/Latex_Paper/Desertation 2/MGCU_Templet-main/main.tex"
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-30>
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/vp123/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
+olved path "C:/Program Files/MiKTeX/tex/luatex/luaotfload/fontloader-2022-10-03.
+lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/vp123/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
+("C:/Users/vp123/Videos/Latex_Paper/Desertation 2/MGCU_Templet-main/MastersDoct
+oralThesis.cls"
+Document Class: MastersDoctoralThesis 2017/08/27 v1.6 LaTeXTemplates.com
+("C:/Program Files/MiKTeX/tex/latex/etoolbox/etoolbox.sty"
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count183
+)
+("C:/Program Files/MiKTeX/tex/latex/l3packages/xparse/xparse.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3kernel/expl3.sty"
+Package: expl3 2023-06-30 L3 programming layer (loader) 
+
+("C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-luatex.def"
+File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count184
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box51
+))
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+("C:/Program Files/MiKTeX/tex/latex/base/book.cls"
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+("C:/Program Files/MiKTeX/tex/latex/base/bk12.clo"
+File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/vp123/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
+)
+("C:/Program Files/MiKTeX/tex/generic/babel/babel.sty"
+Package: babel 2023/07/15 v3.92 The Babel package
+
+("C:/Program Files/MiKTeX/tex/generic/babel/luababel.def"
+\bbl@readstream=\read2
+\l@afrikaans=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@ancientgreek=\language3
+\l@armenian=\language4
+\l@assamese=\language5
+\l@basque=\language6
+\l@belarusian=\language7
+\l@bengali=\language8
+\l@bokmal=\language9
+\l@bulgarian=\language10
+\l@catalan=\language11
+\l@churchslavonic=\language12
+\l@classiclatin=\language13
+\l@coptic=\language14
+\l@croatian=\language15
+\l@czech=\language16
+\l@danish=\language17
+\l@dutch=\language18
+\l@esperanto=\language19
+\l@estonian=\language20
+\l@ethiopic=\language21
+\l@finnish=\language22
+\l@french=\language23
+\l@friulan=\language24
+\l@galician=\language25
+\l@georgian=\language26
+\l@german=\language27
+\l@greek=\language28
+\l@gujarati=\language29
+\l@hindi=\language30
+\l@hungarian=\language31
+\l@icelandic=\language32
+\l@indonesian=\language33
+\l@interlingua=\language34
+\l@irish=\language35
+\l@italian=\language36
+\l@kannada=\language37
+\l@kurmanji=\language38
+\l@latin=\language39
+\l@latvian=\language40
+\l@lithuanian=\language41
+\l@liturgicallatin=\language42
+\l@macedonian=\language43
+\l@malayalam=\language44
+\l@marathi=\language45
+\l@mongolian=\language46
+\l@mongolianlmc=\language47
+\l@monogreek=\language48
+\l@ngerman=\language49
+\l@nynorsk=\language50
+\l@occitan=\language51
+\l@oriya=\language52
+\l@pali=\language53
+\l@panjabi=\language54
+\l@piedmontese=\language55
+\l@polish=\language56
+\l@portuguese=\language57
+\l@romanian=\language58
+\l@romansh=\language59
+\l@russian=\language60
+\l@sanskrit=\language61
+\l@serbian=\language62
+\l@serbianc=\language63
+\l@slovak=\language64
+\l@slovenian=\language65
+\l@spanish=\language66
+\l@swedish=\language67
+\l@swissgerman=\language68
+\l@tamil=\language69
+\l@telugu=\language70
+\l@thai=\language71
+\l@turkish=\language72
+\l@turkmen=\language73
+\l@ukenglish=\language74
+\l@ukrainian=\language75
+\l@uppersorbian=\language76
+\l@usenglishmax=\language77
+\l@welsh=\language78
+\babelcatcodetablenum=\catcodetable14
+\bbl@pattcodes=\catcodetable15
+)
+\babel@savecnt=\count194
+\U@D=\dimen140
+\l@unhyphenated=\language79
+
+("C:/Program Files/MiKTeX/tex/generic/babel/luababel.def"
+\bbl@attr@locale=\attribute4
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:/Program Files/MiKTeX/tex/latex/arabi/bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:/Program Files/MiKTeX/tex/latex/babel-english/english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language74). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language74). Reported on input line 108.
+))
+("C:/Program Files/MiKTeX/tex/generic/babel/locale/en/babel-english.tex"
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+("C:/Users/vp123/Videos/Latex_Paper/Desertation 2/MGCU_Templet-main/scrbase.sty
+"
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:/Users/vp123/Videos/Latex_Paper/Desertation 2/MGCU_Templet-main/scrlfile.st
+y"
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+("C:/Program Files/MiKTeX/tex/latex/graphics/keyval.sty"
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/koma-script/scrhack.sty
+
+LaTeX Warning: \KOMAScriptVersion  is `2022/10/12 v3.38 KOMA-Script',
+               but `2023/07/07 v3.41 KOMA-Script' was expected!
+               You should not use classes, packages or files from
+               different KOMA-Script versions.
+
+Package: scrhack 2023/07/07 v3.41 KOMA-Script package (hacking other packages)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/koma-script/scrkbase.sty
+
+LaTeX Warning: \KOMAScriptVersion  is `2022/10/12 v3.38 KOMA-Script',
+               but `2023/07/07 v3.41 KOMA-Script' was expected!
+               You should not use classes, packages or files from
+               different KOMA-Script versions.
+
+Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+) (C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+))
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+Package scrhack Info: loading setspace hack on input line 193.
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/koma-script/setspace.hak
+
+LaTeX Warning: \KOMAScriptVersion  is `2022/10/12 v3.38 KOMA-Script',
+               but `2023/07/07 v3.41 KOMA-Script' was expected!
+               You should not use classes, packages or files from
+               different KOMA-Script versions.
+
+File: setspace.hak 2023/07/07 v3.41 KOMA-Script scrhack part (hacking package s
+etspace)
+) ("C:/Program Files/MiKTeX/tex/latex/tools/longtable.sty"
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip50
+\LTright=\skip51
+\LTpre=\skip52
+\LTpost=\skip53
+\LTchunksize=\count195
+\LTcapwidth=\dimen141
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@gbox=\box56
+\LT@cols=\count196
+\LT@rows=\count197
+\c@LT@tables=\count198
+\c@LT@chunks=\count199
+\LT@p@ftn=\toks18
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2023-06-12 v3.2.6 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen142
+\l__siunitx_angle_marker_box=\box57
+\l__siunitx_angle_unit_box=\box58
+\l__siunitx_compound_count_int=\count266
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+("C:/Program Files/MiKTeX/tex/generic/pdftexcmds/pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:/Program Files/MiKTeX/tex/generic/iftex/iftex.sty"
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks19
+))
+\l__siunitx_number_exponent_fixed_int=\count267
+\l__siunitx_number_min_decimal_int=\count268
+\l__siunitx_number_min_integer_int=\count269
+\l__siunitx_number_round_precision_int=\count270
+\l__siunitx_number_lower_threshold_int=\count271
+\l__siunitx_number_upper_threshold_int=\count272
+\l__siunitx_number_group_first_int=\count273
+\l__siunitx_number_group_size_int=\count274
+\l__siunitx_number_group_minimum_int=\count275
+
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amstext.sty"
+Package: amstext 2021/08/26 v2.01 AMS text
+
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen143
+))
+\l__siunitx_table_tmp_box=\box59
+\l__siunitx_table_tmp_dim=\dimen144
+\l__siunitx_table_column_width_dim=\dimen145
+\l__siunitx_table_integer_box=\box60
+\l__siunitx_table_decimal_box=\box61
+\l__siunitx_table_uncert_box=\box62
+\l__siunitx_table_before_box=\box63
+\l__siunitx_table_after_box=\box64
+\l__siunitx_table_before_dim=\dimen146
+\l__siunitx_table_carry_dim=\dimen147
+\l__siunitx_unit_tmp_int=\count276
+\l__siunitx_unit_position_int=\count277
+\l__siunitx_unit_total_int=\count278
+
+("C:/Program Files/MiKTeX/tex/latex/tools/array.sty"
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen148
+\ar@mcellbox=\box65
+\extrarowheight=\dimen149
+\NC@list=\toks21
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box66
+))
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty"
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty"
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+("C:/Program Files/MiKTeX/tex/latex/graphics/trig.sty"
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+
+("C:/Program Files/MiKTeX/tex/latex/graphics-def/luatex.def"
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count279
+\@cmidlb=\count280
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count281
+\@lastruleclass=\count282
+\@thisrulewidth=\dimen164
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen165
+\captionmargin=\dimen166
+\caption@leftmargin=\dimen167
+\caption@rightmargin=\dimen168
+\caption@width=\dimen169
+\caption@indent=\dimen170
+\caption@parindent=\dimen171
+\caption@hangindent=\dimen172
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count283
+\c@continuedfloat=\count284
+Package caption Info: longtable package is loaded.
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen173
+\c@nlinenum=\count285
+\TeXr@lab=\toks22
+)
+("C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty"
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 227.
+
+("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx")
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count286
+\Gm@cntv=\count287
+\c@Gm@tempcnt=\count288
+\Gm@bindingoffset=\dimen174
+\Gm@wd@mp=\dimen175
+\Gm@odd@mp=\dimen176
+\Gm@even@mp=\dimen177
+\Gm@layoutwidth=\dimen178
+\Gm@layoutheight=\dimen179
+\Gm@layouthoffset=\dimen180
+\Gm@layoutvoffset=\dimen181
+\Gm@dimlist=\toks23
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.cfg))
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/koma-script/scrlayer-scrpage.s
+ty
+Package: scrlayer-scrpage 2023/07/07 v3.41 KOMA-Script package (end user interf
+ace for scrlayer)
+ (C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2023/07/07 v3.41 KOMA-Script package (defining layers and pag
+e styles)
+\footheight=\skip56
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 218
+3.
+)
+Package scrbase Info: Unknown processing state.
+(scrbase)             Processing option `markcase=used'
+(scrbase)             of member `.scrlayer-scrpage.sty' of family
+(scrbase)             `KOMA' doesn't set
+(scrbase)             a valid state. This will be interpreted
+(scrbase)             as \FamilyKeyStateProcessed on input line 649.
+)
+1: chapter
+1: chapter
+1: section
+) (C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2023/06/10 v1.63 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+("C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty"
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/xkeyval.tex"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/xkvutils.tex"
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count289
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.sty"
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec-luatex.sty"
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count290
+\l__fontspec_language_int=\count291
+\l__fontspec_strnum_int=\count292
+\l__fontspec_tmp_int=\count293
+\l__fontspec_tmpa_int=\count294
+\l__fontspec_tmpb_int=\count295
+\l__fontspec_tmpc_int=\count296
+\l__fontspec_em_int=\count297
+\l__fontspec_emdef_int=\count298
+\l__fontspec_strong_int=\count299
+\l__fontspec_strongdef_int=\count300
+\l__fontspec_tmpa_dim=\dimen182
+\l__fontspec_tmpb_dim=\dimen183
+\l__fontspec_tmpc_dim=\dimen184
+
+("C:/Program Files/MiKTeX/tex/latex/base/fontenc.sty"
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.cfg")))
+("C:/Program Files/MiKTeX/tex/latex/l3packages/l3keys2e/l3keys2e.sty"
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count301
+)
+\CatcodeTableOther=\catcodetable16
+\CatcodeTableExpl=\catcodetable17
+)
+Lua module: polyglossia 2013/05/11 1.3 Polyglossia (C:/Users/vp123/AppData/Roam
+ing/MiKTeX/tex/latex/polyglossia/gloss-latex.lde
+Package: gloss-latex 2023/06/10 vv1.63 polyglossia: module for default language
+
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {en-US}
+>  {latex/bcp47-language}  =>  {en}
+>  {latex/bcp47-region}  =>  {US}
+>  {latex/bcp47-script}  =>  {Latn}
+>  {latex/bcp47-variant}  =>  {}
+>  {latex/bcp47-extension-t}  =>  {}
+>  {latex/bcp47-extension-u}  =>  {}
+>  {latex/bcp47-extension-x}  =>  {}
+>  {latex/bcp47-casing}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}.
+)
+Package polyglossia Info: Default language is latex.
+Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz.
+) ("C:/Program Files/MiKTeX/tex/latex/amsmath/amsmath.sty"
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen185
+)
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsopn.sty"
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count302
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count303
+\leftroot@=\count304
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count305
+\DOTSCASE@=\count306
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box67
+\strutbox@=\box68
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen186
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count307
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count308
+\dotsspace@=\muskip16
+\c@parentequation=\count309
+\dspbrk@lvl=\count310
+\tag@help=\toks26
+\row@=\count311
+\column@=\count312
+\maxfields@=\count313
+\andhelp@=\toks27
+\eqnshift@=\dimen187
+\alignsep@=\dimen188
+\tagshift@=\dimen189
+\tagwidth@=\dimen190
+\totwidth@=\dimen191
+\lineht@=\dimen192
+\@envbody=\toks28
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+("C:/Program Files/MiKTeX/tex/latex/amsfonts/amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:/Program Files/MiKTeX/tex/latex/amsfonts/amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {en-US}
+>  {latex/bcp47-language}  =>  {en}
+>  {latex/bcp47-region}  =>  {US}
+>  {latex/bcp47-script}  =>  {Latn}
+>  {latex/bcp47-variant}  =>  {}
+>  {latex/bcp47-extension-t}  =>  {}
+>  {latex/bcp47-extension-u}  =>  {}
+>  {latex/bcp47-extension-x}  =>  {}
+>  {latex/bcp47-casing}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/bcp47-language}  =>  {en}
+>  {english/bcp47-region}  =>  {US}
+>  {english/bcp47-script}  =>  {Latn}
+>  {english/bcp47-variant}  =>  {}
+>  {english/bcp47-extension-t}  =>  {}
+>  {english/bcp47-extension-u}  =>  {}
+>  {english/bcp47-extension-x}  =>  {}
+>  {english/bcp47-casing}  =>  {}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {english}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+Package polyglossia Info: Option: English, variant=american.
+)
+Package polyglossia Info: Default language is english.
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-hindi.ldf
+File: gloss-hindi.ldf polyglossia: module for Hindi
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/polyglossia/devanagaridigits.s
+ty
+Package: devanagaridigits 2010/04/01 v0.1 Formatting of Devanagari digits
+)
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {en-US}
+>  {latex/bcp47-language}  =>  {en}
+>  {latex/bcp47-region}  =>  {US}
+>  {latex/bcp47-script}  =>  {Latn}
+>  {latex/bcp47-variant}  =>  {}
+>  {latex/bcp47-extension-t}  =>  {}
+>  {latex/bcp47-extension-u}  =>  {}
+>  {latex/bcp47-extension-x}  =>  {}
+>  {latex/bcp47-casing}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/bcp47-language}  =>  {en}
+>  {english/bcp47-region}  =>  {US}
+>  {english/bcp47-script}  =>  {Latn}
+>  {english/bcp47-variant}  =>  {}
+>  {english/bcp47-extension-t}  =>  {}
+>  {english/bcp47-extension-u}  =>  {}
+>  {english/bcp47-extension-x}  =>  {}
+>  {english/bcp47-casing}  =>  {}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
+>  {hindi/script}  =>  {Devanagari}
+>  {hindi/lcscript}  =>  {devanagari}
+>  {hindi/scripttag}  =>  {deva}
+>  {hindi/language}  =>  {Hindi}
+>  {hindi/langtag}  =>  {HIN}
+>  {hindi/bcp47}  =>  {hi}
+>  {hindi/bcp47-language}  =>  {hi}
+>  {hindi/bcp47-region}  =>  {}
+>  {hindi/bcp47-script}  =>  {Deva}
+>  {hindi/bcp47-variant}  =>  {}
+>  {hindi/bcp47-extension-t}  =>  {}
+>  {hindi/bcp47-extension-u}  =>  {}
+>  {hindi/bcp47-extension-x}  =>  {}
+>  {hindi/bcp47-casing}  =>  {}
+>  {hindi/hyphennames}  =>  {}
+>  {hindi/direction}  =>  {LR}
+>  {hindi/hyphenmins}  =>  {2,3}
+>  {hindi/frenchspacing}  =>  {false}
+>  {hindi/indentfirst}  =>  {false}
+>  {hindi/fontsetup}  =>  {true}
+>  {hindi/envname}  =>  {hindi}
+>  {hindi/babelname}  =>  {hindi}
+>  {hindi/localnumeral}  =>  {hindinumerals}
+>  {hindi/Localnumeral}  =>  {hindinumerals}
+>  {hindi/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+)
+luaotfload | cache : Lookup cache loaded from C:/Users/vp123/AppData/Local/MiKTe
+X/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: Could not resolve font "NotoSerifDevanagari/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "NotoSerifDevanagari/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "NotoSerifDevanagari/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Font family 'NotoSerifDevanagari(0)' created for font
+(fontspec)             'Noto Serif Devanagari' with options
+(fontspec)             [Renderer=Harfbuzz,Script=Devanagari].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"NotoSerifDevanagari:mode=harf;script=dev2;language=d
+flt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+ ("C:/Program Files/MiKTeX/tex/latex/base/inputenc.sty"
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks30
+\inpenc@posthook=\toks31
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) ("C:/Program Files/MiKTeX/tex/latex/base/fontenc.sty"
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+("C:/Program Files/MiKTeX/tex/latex/lm/t1lmr.fd"
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup6
+)
+("C:/Program Files/MiKTeX/tex/latex/biblatex/biblatex.sty"
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count314
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:/Program Files/MiKTeX/tex/latex/base/ifthen.sty"
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+("C:/Program Files/MiKTeX/tex/latex/url/url.sty"
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count315
+\c@listtotal=\count316
+\c@listcount=\count317
+\c@liststart=\count318
+\c@liststop=\count319
+\c@citecount=\count320
+\c@citetotal=\count321
+\c@multicitecount=\count322
+\c@multicitetotal=\count323
+\c@instcount=\count324
+\c@maxnames=\count325
+\c@minnames=\count326
+\c@maxitems=\count327
+\c@minitems=\count328
+\c@citecounter=\count329
+\c@maxcitecounter=\count330
+\c@savedcitecounter=\count331
+\c@uniquelist=\count332
+\c@uniquename=\count333
+\c@refsection=\count334
+\c@refsegment=\count335
+\c@maxextratitle=\count336
+\c@maxextratitleyear=\count337
+\c@maxextraname=\count338
+\c@maxextradate=\count339
+\c@maxextraalpha=\count340
+\c@abbrvpenalty=\count341
+\c@highnamepenalty=\count342
+\c@lownamepenalty=\count343
+\c@maxparens=\count344
+\c@parenlevel=\count345
+\blx@tempcnta=\count346
+\blx@tempcntb=\count347
+\blx@tempcntc=\count348
+\c@blx@maxsection=\count349
+\blx@maxsegment@0=\count350
+\blx@notetype=\count351
+\blx@parenlevel@text=\count352
+\blx@parenlevel@foot=\count353
+\blx@sectionciteorder@0=\count354
+\blx@sectionciteorderinternal@0=\count355
+\blx@entrysetcounter=\count356
+\blx@biblioinstance=\count357
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language80
+\c@mincomprange=\count358
+\c@maxcomprange=\count359
+\c@mincompwidth=\count360
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:/Program Files/MiKTeX/tex/latex/biblatex/blx-dm.def"
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count361
+\c@savedafterword=\count362
+\c@annotator=\count363
+\c@savedannotator=\count364
+\c@author=\count365
+\c@savedauthor=\count366
+\c@bookauthor=\count367
+\c@savedbookauthor=\count368
+\c@commentator=\count369
+\c@savedcommentator=\count370
+\c@editor=\count371
+\c@savededitor=\count372
+\c@editora=\count373
+\c@savededitora=\count374
+\c@editorb=\count375
+\c@savededitorb=\count376
+\c@editorc=\count377
+\c@savededitorc=\count378
+\c@foreword=\count379
+\c@savedforeword=\count380
+\c@holder=\count381
+\c@savedholder=\count382
+\c@introduction=\count383
+\c@savedintroduction=\count384
+\c@namea=\count385
+\c@savednamea=\count386
+\c@nameb=\count387
+\c@savednameb=\count388
+\c@namec=\count389
+\c@savednamec=\count390
+\c@translator=\count391
+\c@savedtranslator=\count392
+\c@shortauthor=\count393
+\c@savedshortauthor=\count394
+\c@shorteditor=\count395
+\c@savedshorteditor=\count396
+\c@labelname=\count397
+\c@savedlabelname=\count398
+\c@institution=\count399
+\c@savedinstitution=\count400
+\c@lista=\count401
+\c@savedlista=\count402
+\c@listb=\count403
+\c@savedlistb=\count404
+\c@listc=\count405
+\c@savedlistc=\count406
+\c@listd=\count407
+\c@savedlistd=\count408
+\c@liste=\count409
+\c@savedliste=\count410
+\c@listf=\count411
+\c@savedlistf=\count412
+\c@location=\count413
+\c@savedlocation=\count414
+\c@organization=\count415
+\c@savedorganization=\count416
+\c@origlocation=\count417
+\c@savedoriglocation=\count418
+\c@origpublisher=\count419
+\c@savedorigpublisher=\count420
+\c@publisher=\count421
+\c@savedpublisher=\count422
+\c@language=\count423
+\c@savedlanguage=\count424
+\c@origlanguage=\count425
+\c@savedoriglanguage=\count426
+\c@pageref=\count427
+\c@savedpageref=\count428
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+("C:/Program Files/MiKTeX/tex/latex/biblatex/blx-unicode.def")
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:/Program Files/MiKTeX/tex/latex/biblatex/blx-compat.def"
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+("C:/Program Files/MiKTeX/tex/latex/biblatex/blx-bibtex.def"
+File: blx-bibtex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back bibtex backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ ("C:/Program Files/MiKTeX/tex/latex/biblatex/biblatex.def"
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count429
+\c@textcitetotal=\count430
+\c@textcitemaxnames=\count431
+\c@biburlbigbreakpenalty=\count432
+\c@biburlbreakpenalty=\count433
+\c@biburlnumpenalty=\count434
+\c@biburlucpenalty=\count435
+\c@biburllcpenalty=\count436
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count437
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+("C:/Program Files/MiKTeX/tex/latex/biblatex/blx-natbib.def"
+File: blx-natbib.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+("C:/Program Files/MiKTeX/tex/latex/biblatex/bbx/numeric-comp.bbx"
+File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:/Program Files/MiKTeX/tex/latex/biblatex/bbx/numeric.bbx"
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:/Program Files/MiKTeX/tex/latex/biblatex/bbx/standard.bbx"
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count438
+\c@bbx:relatedtotal=\count439
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+("C:/Program Files/MiKTeX/tex/latex/biblatex/cbx/numeric-comp.cbx"
+File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count440
+\c@cbx@tempcntb=\count441
+\c@cbx@tempcntc=\count442
+\c@cbx@tempcntd=\count443
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:/Program Files/MiKTeX/tex/latex/biblatex/biblatex.cfg"
+File: biblatex.cfg 
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2023-06-30 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+("C:/Program Files/MiKTeX/tex/latex/biblatex/blx-case-expl3.sty"
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count444
+\csq@gtype=\count445
+\csq@glevel=\count446
+\csq@qlevel=\count447
+\csq@maxlvl=\count448
+\csq@tshold=\count449
+\csq@ltx@everypar=\toks32
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip82
+\multirow@cntb=\count450
+\multirow@dima=\skip83
+\bigstrutjot=\dimen193
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/ulem/ulem.sty
+\UL@box=\box69
+\UL@hyphenbox=\box70
+\UL@skip=\skip84
+\UL@hook=\toks33
+\UL@height=\dimen194
+\UL@pe=\count451
+\UL@pixel=\dimen195
+\ULC@box=\box71
+Package: ulem 2019/11/18
+\ULdepth=\dimen196
+)
+("C:/Program Files/MiKTeX/tex/latex/graphics/lscape.sty"
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package scrhack Info: loading lscape hack on input line 67.
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/koma-script/lscape.hak
+
+LaTeX Warning: \KOMAScriptVersion  is `2022/10/12 v3.38 KOMA-Script',
+               but `2023/07/07 v3.41 KOMA-Script' was expected!
+               You should not use classes, packages or files from
+               different KOMA-Script versions.
+
+File: lscape.hak 2023/07/07 v3.41 KOMA-Script scrhack part (hacking package lsc
+ape)
+Package scrhack Info: \landscape patched to make \textheight change optional on
+ input line 90.
+\scrh@LT@textheight=\skip85
+) (C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/jknappen/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup7
+)
+("C:/Program Files/MiKTeX/tex/latex/tools/tabularx.sty"
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen197
+\TX@old@table=\dimen198
+\TX@old@col=\dimen199
+\TX@target=\dimen256
+\TX@delta=\dimen257
+\TX@cols=\count452
+\TX@ftn=\toks34
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count453
+\float@exts=\toks35
+\float@box=\box72
+\@float@everytoks=\toks36
+\@floatcapt=\box73
+)
+Package scrhack Info: loading float hack on input line 71.
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/koma-script/float.hak
+
+LaTeX Warning: \KOMAScriptVersion  is `2022/10/12 v3.38 KOMA-Script',
+               but `2023/07/07 v3.41 KOMA-Script' was expected!
+               You should not use classes, packages or files from
+               different KOMA-Script versions.
+
+File: float.hak 2023/07/07 v3.41 KOMA-Script scrhack part (hacking package floa
+t)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip86
+\scr@dte@tocline@numbox=\box74
+)
+Package scrhack Info: redefining \newfloat on input line 163.
+Package scrhack Info: redefining \listof on input line 163.
+Package scrhack Info: undefining \float@addtolists on input line 163.
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip87
+\subfigcapskip=\skip88
+\subfigcaptopadj=\dimen258
+\subfigbottomskip=\skip89
+\subfigcapmargin=\dimen259
+\subfiglabelskip=\skip90
+\c@subfigure=\count454
+\c@lofdepth=\count455
+\c@subtable=\count456
+\c@lotdepth=\count457
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip91
+\subfig@bottom=\skip92
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip93
+\thm@postskip=\skip94
+\thm@headsep=\skip95
+\dth@everypar=\toks42
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip96
+\enit@outerparindent=\dimen260
+\enit@toks=\toks43
+\enit@inbox=\box75
+\enit@count@id=\count458
+\enitdp@description=\count459
+)
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count460
+\l__lipsum_a_int=\count461
+\l__lipsum_b_int=\count462
+
+(C:/Users/vp123/AppData/Roaming/MiKTeX/tex/latex/lipsum/lipsum.ltd.tex))
+
+! LaTeX Error: File `tikzpicture.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+   
+l.80 
+    
+End of file on the terminal!
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 27206 strings out of 477545
+ 125061,1977958 words of node,token memory allocated 521 words of node memory still in use:
+   3 hlist, 1 rule, 1 dir, 3 kern, 1 glyph, 5 attribute, 73 glue_spec, 5 attribu
+te_list, 1 write, 1 pdf_colorstack nodes
+   avail lists: 1:2,2:24,3:4,4:2,5:5,7:3,9:4
+ 47738 multiletter control sequences out of 65536+600000
+ 22 fonts using 2076519 bytes
+ 96i,0n,89p,1917b,219s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

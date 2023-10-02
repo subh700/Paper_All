@@ -1,0 +1,11 @@
+Kuo-Ping Lin, Ping-Feng Pai, Shun-Ling Yang,
+Forecasting concentrations of air pollutants by logarithm support vector regression with immune algorithms,
+Applied Mathematics and Computation,
+Volume 217, Issue 12,
+2011,
+Pages 5318-5327,
+ISSN 0096-3003,
+https://doi.org/10.1016/j.amc.2010.11.055.
+(https://www.sciencedirect.com/science/article/pii/S0096300310011859)
+Abstract: The need to minimize the potential impact of air pollutants on humans has made the accurate prediction of concentrations of air pollutants a crucial subject in environmental research. Support vector regression (SVR) models have been successfully employed to solve time series problems in many fields. The use of SVR models for forecasting concentrations of air pollutants has not been widely investigated. Data preprocessing procedures and the parameter selection of SVR models can radically influence forecasting performance. This study proposes a support vector regression with logarithm preprocessing procedure and immune algorithms (SVRLIA) model which takes advantage of the structural risk minimization of SVR models, the data smoothing of preprocessing procedures, and the optimization of immune algorithms, in order to more accurately forecast concentrations of air pollutants. Three pollutants, namely particulate matter (PM10), nitrogen oxide, (NOx), and nitrogen dioxide (NO2), are collected and examined to determine the feasibility of the developed SVRLIA model. Experimental results reveal that the SVRLIA model can accurately forecast concentrations of air pollutants.
+Keywords: Concentrations of air pollutants; Support vector regression; Data preprocessing; Parameter selection; Immune algorithms

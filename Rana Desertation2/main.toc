@@ -1,0 +1,44 @@
+\selectlanguage *{english}
+\xpginauxfiletrue 
+\selectlanguage *{english}
+\selectlanguage *{hindi}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *{english}
+\selectlanguage *{hindi}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *{english}
+\contentsline {chapter}{DECLARATION}{i}{table.caption.2}%
+\selectlanguage *{hindi}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *{english}
+\selectlanguage *{hindi}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *{english}
+\contentsline {chapter}{CERTIFICATE}{ii}{table.caption.5}%
+\contentsline {chapter}{Abstract}{iii}{section*.7}%
+\contentsline {chapter}{Acknowledgements}{iv}{section*.8}%
+\contentsline {chapter}{List of Publications}{vi}{chapter*.10}%
+\contentsline {chapter}{List of Figures}{x}{chapter*.12}%
+\contentsline {chapter}{List of Tables}{xi}{chapter*.13}%
+\contentsline {chapter}{List of Abbreviations}{xii}{table.15}%
+\contentsline {chapter}{List of Symbols}{xiii}{table.17}%
+\contentsline {chapter}{CERTIFICATE}{xv}{section*.18}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.29}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.30}%
+\contentsline {chapter}{\numberline {2}Related work}{3}{chapter.31}%
+\contentsline {section}{\numberline {2.1}Related work}{3}{section.32}%
+\contentsline {chapter}{\numberline {3}Dataset and Exploratory Analysis}{6}{chapter.33}%
+\contentsline {section}{\numberline {3.1}Dataset and Exploratory Analysis}{6}{section.34}%
+\contentsline {chapter}{\numberline {4}Proposed Methodology}{10}{chapter.39}%
+\contentsline {section}{\numberline {4.1}Proposed Methodology}{10}{section.40}%
+\contentsline {subsection}{\numberline {4.1.1}Proposed 1: Hybrid GRU-CNN Model}{10}{subsection.41}%
+\contentsline {subsection}{\numberline {4.1.2}Proposed2: Reductive Bias(RB) with Hybrid GRU-CNN model (RB-GRU-CNN)}{13}{subsection.54}%
+\contentsline {subsection}{\numberline {4.1.3}Experiments}{15}{subsection.60}%
+\contentsline {chapter}{\numberline {5}Results and Analysis}{20}{chapter.72}%
+\contentsline {section}{\numberline {5.1}Results and Analysis}{20}{section.73}%
+\contentsline {subsection}{\numberline {5.1.1}Quantitative Analysis}{20}{subsection.74}%
+\contentsline {subsection}{\numberline {5.1.2}Graphical Analysis}{23}{subsection.83}%
+\contentsline {subsection}{\numberline {5.1.3}Statistical Analysis}{26}{subsection.108}%
+\contentsline {chapter}{\numberline {6}Conclusion}{35}{chapter.111}%
+\contentsline {section}{\numberline {6.1}Conclusion}{35}{section.112}%
+\contentsline {chapter}{References}{37}{appendix*.116}%

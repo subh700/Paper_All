@@ -1,0 +1,90 @@
+% Chapter Template
+
+\chapter{Literature Review} % Main chapter title
+
+\label{c2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Literature Review}
+
+The authors used different deep learning architectures like GNN-LSTM Fully Connected (FC) network \cite{li2023nested},  Wavelet,  ANFIS,  PSO \cite{pruthi2022low},  LSTM Deep Feedforward Neural Network \cite{menares2021forecasting},  Parallel multi-input 1DCNN-biLSTM \cite{zhu2023deep},  LGB algorithm \cite{kim2022short},  GOCI-based model,  MAIAC-based model \cite{lee2021potential},  MTCAN model \cite{samal2021multi},  RNN \cite{kurnaz2022prediction},  LSTM16 \cite{das2022prediction},  CNN-LSTM \cite{natsagdorj2023prediction},  Conv LSTM \cite{zhu2023deep},  TL-BLSTM \cite{ma2019improving},  CNN+LSTM \cite{qin2019novel},  LSTM NN extended (LSTME) \cite{li2017long}. Autoencoder-based LSTM to predict air pollutant concentrations. They analysed and compared the performance of these models concerning traditional statistical methods and evaluated the impact of exogenous variables on the model's performance. The state-of-art models are compared to their proposed model with traditional DL models.
+\par Despite the advancement,  it is lucid that additional comprehensive and varied datasets are mandatory to refine the acuteness of profound learning models. Certain studies' inability to incorporate exogenous variables limits the models' effectiveness in capturing external factors that could impact air quality. Future studies should tackle these deficiencies and investigate the potential of profound learning models for anticipating different air toxins and meteorological information in various urban improvement situations \cite{samal2021multi}.
+\par The research studies on air pollution forecasting using various deep learning models conducted by different authors have been summarised in the \Cref{t_lr}. The studies were executed in assorted regions worldwide and at different times. This investigation evaluated function measurements including Root Mean Squared Error (RMSE) \cite{das2022prediction, kurnaz2022prediction, samal2021multi, kim2022short, zhu2023investigation, menares2021forecasting, nath2021long, du2019deep, li2017long, qin2019novel, ma2019improving, natsagdorj2023prediction},  Mean Absolute Error (MAE) \cite{li2023nested, menares2021forecasting, zhu2023investigation, ma2019improving, nath2021long, du2019deep, li2017long},  Mean Absolute Percentage Error (MAPE) \cite{li2017long, ma2019improving},  and R-squared ($R^2$) values \cite{eren2023predicting, lee2021potential, kim2022short, zhu2023investigation, menares2021forecasting}. Different information sources were utilised,  such as the US EPA \cite{li2023nested},  CPCB India \cite{nath2021long, samal2021multi, pruthi2022low},  Ministry of the Environment,  Ministry of Environmental Protection,  ground-based observation stations,  and air quality monitoring stations. It can be absorbed that RMSE \& MAPE are the frequently used performance measures.
+\par The present study provides a summary (\Cref{t_lr}) of various investigations conducted on air quality based on different data sources employed for their models. These data sources are widely diverse, covering regions such as North America, Delhi (India), Santiago Chile, Shanghai China, Washington US, Sichuan Basin, Beijing (China); and others. The time intervals for data collection employed by these studies varied greatly, ranging from hourly to daily to 15-minute intervals. The data used in these investigations is predominantly collected from environmental monitoring agencies, government agencies, or ground-based observation stations. The broad range of data sources and collection intervals highlights the worldwide scope of air quality research and the plethora of techniques used to collect data.
+\par Moreover,  the analyses have additionally brought to light the potential function of metropolitan woodlands in reducing $PM_{2.5}$ \cite{kumar2022deep} concentration. It was found that AOD data could predict $PM_{2.5}$ concentration in resource-limited environments. The computation of air toxin levels affected by the Covid-19 crisis was also studied. Some research has delved into the efficacy of particular deep-learning model pairings in forecasting air pollutant concentrations \cite{du2019deep}. The investigations have identified areas for improvement in air pollution forecasting,  including enhancing data precision,  considering alternative contaminants,  and integrating dynamic parameters,  as well as addressing issues related to computational cost,  resource intensity,  spatial resolution,  and short-term prediction capability,  with emphasis on the significance of continuous data and the effectiveness of LSTM models in capturing synoptic patterns \cite{ZHANG2022134890}.
+
+\par Literature \cite{YAN2021106, KUMAR2023101959, ZHANG2019158} of multi-views capability learning in various real-life tasks like object detections, image processing, and signal processing. The effectiveness of multi-view learning has been identified by \cite{9935292} for multi-view multi-tasks with multivariate(MVMT) time series data, where the data was collected from distinct sources along with time stamps. The author has evaluated the proposed model against stand-alone DL models and showed the effectiveness of the MVMT model. Another researcher has utilised the multi-view learning method for adaptive transfer learning for time series data \cite{atl2013mts}. The generalised performance has been achieved for time series classification tasks with the help of a multi-view learning approach. In \cite{kamarthi2022camul}, the author proposed the calibrated multi-view time series forecasting model for multiple modality and structures data, which utilises the integration of the knowledge and their uncertainties in a dynamic environment. Compared with probabilistic forecasting models, it showed better performance by 25\% (accuracy).
+%.................................................
+
+
+\par The research gaps vary among the studies, reflecting areas where further investigation or improvement is needed. Some common research gaps include incorporating additional variables or pollutants into the models, exploring new data preprocessing techniques, enhancing historical data availability, improving model accuracy, and refining the selection of high-resolution variables. Other research gaps involve incorporating more comprehensive meteorological and traffic data, applying deep learning techniques, and addressing the potential for enhancing model performance by including exogenous variables. These research gaps highlight the ongoing efforts to enhance air quality forecasting models and provide valuable insights for future research directions.
+
+
+
+\begin{landscape}
+  \setlength{\tabcolsep}{3pt}
+
+  {\renewcommand{\arraystretch}{1}%
+  \begin{longtable}[h!]{ p{0.04\linewidth} p{0.33\linewidth} p{0.22\linewidth} p{0.17\linewidth} p{0.21\linewidth} }%{|l|l|l|l|l|l|}{llllllll}
+  \caption{summary of recent state-of-art based on Data,  Model proposed,  Performance measures and Research gap.}
+  \label{t_lr}\\
+  \hline
+ Ref.                 & Data                                                                                                     & Performance Measures                                                                   & Model                                                               & Research Gap                                                       \\ \hline
+  \endhead
+  %
+  \hline
+  \endfoot
+  %
+  \endlastfoot
+  %
+  \cite{li2023nested}                & North America (Jan 21 -Sep 21)   Hourly Data collected from US EPA                                       & MAE:  2.81                                                                                               & GNN-LSTM Fully Connected (FC) network                              & Adding more variables and new data preprocessing technique for enhancing model.                                    \\
+  \cite{pruthi2022low}           & Delhi  India (18 -21) Daily Data collected from   CPCB India.                                            & Correlation coefficients:  {[}0.96, 0.98{]} (1   day),  {[}0.86, 0.93{]} (2 days),  {[}0.82, 0.91{]} (3 days) & Wavelet,  ANFIS,  PSO                                                 &  Adding more historical data for enhance model.                                                  \\
+  \cite{menares2021forecasting}             & Santiago Chile (05 - 19) Hourly   Data provided by Ministry of the Environment                           & RMSE 3.88,  MAE 2.52,  $R^2$ 0.94                                                                            & LSTM Deep Feedforward Neural Network                               & Add more pollutants for enhance the model.               \\
+ \cite{zhu2023investigation}            & Shanghai china (2014-05-13 to 2020-12-31)   Hourly Data provided by Ministry of Environmental Protection & RMSE 3.88,  MAE 2.52,  $R^2$ 0.94                                                                            & Parallel multi-input 1D-CNN-biLSTM   model                          & add  factory data ,  creating a Smartphone Application for PM2.5 forecasting.                                                         \\
+
+
+
+ \cite{MANDAL2023137036} & Delhi India (1 Jan 2018- 30 Nov 2019) 15 min interval data collected from CPCB Inda. &$R^2=0.75$,  $RMSE=25.13$,  $MAE: 21.28$ & Cluster-based Graph Neural Network (SA-GNN) & Add activation function, add more historical data \\
+ \cite{MA2019117729} & Washington, US (1st January to 31st January 2017) hourly data collected from US (EPA) & $RMSE = 0.043$ & Geo-LSTM & Add more Data with more futures of Data.  \\
+ \cite{ZHANG2022134890}& Sichuan Basin (January 1,  2019,  to December 31,  2019) Hourly data collected from  China Environmental Monitoring Center  & $R^2= 0.917$, $RMSE=7.4$ & data-driven spatial autocorrelation terms (DDW-RF) & necessary to select more appropriate high-resolution variables. \\
+\cite{TIAN2022134048} & Beijing,  Tianjin,  Dalian,  and Yantai (1600 hour) China & $MAPE=6.0819$, $RMSE=11.8654$, $R^2=0.9754$ &  multi-objective optimisation algorithm & Add more pollutants, improving accuracy \\
+\cite{DAI2022131898} &shaanxi province ( January 1,  2016, to December 31,  2020 ) daily data & $RMSE=0.3997$, $MAPE=0.14599$, $MAE=0.2871$ &GBoost-MLP based on GARCH model & apply deep learning model \\ 
+\cite{AGGARWAL2021129660} & India (January 2016 to December 2018) 15-minute interval  & $RMSE=19.89, 25.88$ ,  $R^2=0.96, 0.9$ &lstm&apply more pollutants \\
+
+ \cite{kim2022short}         & Seoul South Korea ( July 2018 to   June 2021) Deliy Data                                                 & bias = -0.25\% to -0.10\%,  RMSE =   32.45\%-33.23\%,  $R^2$ = 0.83-0.86                                     & LGB algorithm                                                       & Add more data for enhance the model.                                                                            \\
+
+
+
+
+
+  \cite{lee2021potential}            & Seoul Korea (16 -19) Hourly Data collected from ground-based observation stations                      & $R^2$ values:  0.61 and 0.78                                                                                & GOCI-based model, MAIAC-based model                                & Add more pollutants and Data for enhance the model.                                                                   \\
+
+
+
+
+ \cite{samal2021multi}  & Talcher India (02/02/2018 to   04/07/2020) per 15 min Data collected from CPCB india.                    & RMSE values:  93\%  and 90\% better than GRU                                                              & MTCAN model                                                         & add meteorological factors and traffic data for the enhanced model.                                                               \\
+
+
+ \cite{kurnaz2022prediction}          & Sakarya Urbanization (   01.08.2018 and 31.07.2020) Daliy Data provided from e Ministry of Environment   & RMSE:  2.84–14.09                                                                                       & RNN                                                                 & Add more pollutants and Data for enhance model.    \\
+
+
+
+ \cite{das2022prediction}           & Istanbul Basaksehir (01.01.2021   and 09.02.2022) Hourly data taken from Ministry of Environment         & RMSE: 10.229478                                                                                          & LSTM16                                                              & add more pollutants and  meteorological Data for enhance model. data.                                          \\
+\cite{natsagdorj2023prediction}              & Ulaanbaatar Mongolia  (June 1,  2018, to  April 30,  2020) Hourly Data from U.S.   Embassy in Mongolia      & RMSE: 11.77                                                                                              & CNN-LSTM                                                            & Add more Data and atmospheric Data for enhance the model.  \\
+ \cite{eren2023predicting}         & Istanbul (15-19) Hourly Data collected from Kathane air quality monitoring station                     & $R^2$:  0.98                                                                                               & LSTM+LSTM                                                           & Add more pollutants and Data for enhance the model.           \\
+
+
+
+
+\cite{zhu2023deep}           & Italian city ( March 2004 to   February 2005 ) Hourly Data collected from Kaggle & 91\% Prediction accuracy & Conv.LSTM                                                           & Deploy deep leading models for classification.  \\
+ \cite{ma2019improving}               & Guangdong China (3 years) Hourly   Data collected from Guangdong province.                               & RMSE: 8.652,  MAE: 6.184,    MAPE: 27.909                                                                   & TL-BLSTM                                                            & utilising transfer learning techniques and adding more data to enhance the model.     \\
+\cite{qin2019novel}       & Shanghi (2015-2017) Daliy Data collected   manually  & RMSE:  14.3   & CNN+LSTM     &  Add more data for enhance model. \\
+ \cite{li2017long}          & Beijing China (Jan 2014 -may   2016) Hourly Data collected from Ministry of environmental protection.    & RMSE: 12.6,  MAE: 5.46,  MAPE:  11.93                                                                        & LSTM NN extended(LSTME)                                             & Adding more pollutants to enhance the model.                                           \\
+ \cite{du2019deep}         & Beijing China (   01/01/2010-01/31/2010) Hourly Data collected from0 uci.                                 & RMSE: 77.38,  MAE: 54.58                                                                                   & Deep Air Quality Forecasting   Using Hybrid Deep Learning Framework & Add more Data for model enhancing.\\
+\cite{nath2021long}       & Kolkata India (Jan 16 - Feb 20)  Daily Data collected from CPCB   India.                               & RMSE: 18.8,  MAE: 15.88                                                                                    & Autoencoder based LSTM                                             &  include exogenous variables for enhance the model. \\ \hline
+  \end{longtable}}
+  \end{landscape}
+

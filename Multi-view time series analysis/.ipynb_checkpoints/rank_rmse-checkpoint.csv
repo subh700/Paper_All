@@ -1,0 +1,11 @@
+,0
+LSTM_RMSE_mean,6.875
+LSTM_RMSE_best,2.25
+CNN_RMSE_mean,8.125
+CNN_RMSE_best,3.25
+BiLSTM_RMSE_mean,7.875
+BiLSTM_RMSE_best,2.125
+GRU_RMSE_mean,6.25
+GRU_RMSE_best,5.0
+RNN_RMSE_mean,8.25
+RNN_RMSE_best,5.0

@@ -1,0 +1,110 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: Pages/cover.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: Pages/title.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Pages/declaration.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Pages/certificate.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: Pages/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: Pages/acknowledgements.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Pages/publication.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: Pages/list_c_f_t.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: Pages/Abbreviations.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+A level-1 auxiliary file: Pages/symbols.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: Pages/DEDICATION.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: Pages/stetment.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: Chapters/c1.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: Chapters/c2.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: Chapters/c3.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: Chapters/c4.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: Chapters/c5.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: Chapters/c6.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: Pages/appendix.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: Pages/bib.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: main-blx.bib
+Database file #2: Bibliography.bib
+Warning--I didn't find a database entry for "von2021transparency"
+Biblatex version: 3.19
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 31 entries,
+            6399 wiz_defined-function locations,
+            1404 strings with 15992 characters,
+and the built_in function-call counts, 348694 in all, are:
+= -- 30534
+> -- 4346
+< -- 942
++ -- 11389
+- -- 1891
+* -- 25821
+:= -- 43261
+add.period$ -- 0
+call.type$ -- 31
+change.case$ -- 437
+chr.to.int$ -- 42
+cite$ -- 60
+duplicate$ -- 35823
+empty$ -- 28496
+format.name$ -- 2863
+if$ -- 68546
+int.to.chr$ -- 0
+int.to.str$ -- 88
+missing$ -- 0
+newline$ -- 1301
+num.names$ -- 1423
+pop$ -- 11926
+preamble$ -- 1
+purify$ -- 769
+quote$ -- 0
+skip$ -- 6067
+stack$ -- 0
+substring$ -- 59026
+swap$ -- 5242
+text.length$ -- 891
+text.prefix$ -- 1
+top$ -- 1
+type$ -- 1042
+warning$ -- 0
+while$ -- 5163
+width$ -- 0
+write$ -- 1271
+(There was 1 warning)

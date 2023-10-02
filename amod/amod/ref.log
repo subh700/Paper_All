@@ -1,0 +1,154 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdftex 2023.8.25)  4 SEP 2023 00:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**C:/Users/Amod/latex2023/amod/amod/ref.bib
+(C:/Users/Amod/latex2023/amod/amod/ref.bib
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Overfull \hbox (30.32953pt too wide) in paragraph at lines 1--162
+\tenrm Kartick C, jour-nal=Optik, vol-ume=252, pages=168515, year=2022, pub-lis
+her=Elsevier  2.@ar-ti-cle-brahma2020solar,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm K
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.\tenrm i
+.etc.
+
+
+Overfull \hbox (17.94067pt too wide) in paragraph at lines 1--162
+\tenrm Ku-mar, jour-nal=Optik, vol-ume=283, pages=170873, year=2023, pub-lisher
+=Elsevier  14.@ar-ti-clegupta2023multi,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm K
+.\tenrm u
+.\discretionary
+..\tenrm -
+.\tenrm m
+.\tenrm a
+.etc.
+
+
+Overfull \hbox (26.84341pt too wide) in paragraph at lines 1--162
+\tenrm ap-proaches, au-thor=Gupta, Pankaj and Tomar, Anu-radha and oth-ers, jou
+r-nal=Optik, vol-ume=286, pages=170957,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm a
+.\tenrm p
+.\discretionary
+..\tenrm -
+.\tenrm p
+.\tenrm r
+.etc.
+
+
+Overfull \hbox (13.4684pt too wide) in paragraph at lines 1--162
+\tenrm Shivam and Verma, Aryan and Tomar, Anu-radha and Rani, Poonam, jour-nal=
+Optik, pages=171095, year=2023,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm S
+.\tenrm h
+.\tenrm i
+.\tenrm v
+.\kern-0.55556
+.etc.
+
+
+Overfull \hbox (0.82942pt too wide) in paragraph at lines 1--162
+\tenrm jour-nal=Journal of Cleaner Pro-duc-tion, vol-ume=258, pages=120357, yea
+r=2020, pub-lisher=Elsevier  18.@ar-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm j
+.\tenrm o
+.\tenrm u
+.\tenrm r
+.\discretionary
+..\tenrm -
+.etc.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 9.20255
+.\glue(\topskip) 2.5
+.\hbox(7.5+2.5)x469.75499, glue set - 0.44978
+..\hbox(0.0+0.0)x20.0
+..\tenrm 1
+..\tenrm .
+..\tenrm @
+..\tenrm a
+..etc.
+.\penalty 250
+.\glue(\baselineskip) 2.55556
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.16966
+..\tenrm i
+..\tenrm n
+..\tenrm g
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\tenrm a
+..etc.
+.etc.
+
+ [1{C:/Users/Amod/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (35.84348pt too wide) in paragraph at lines 260--288
+\tenrm meta-heuris-tic al-go-rithm, au-thor=Abedinia, Oveis and Am-jady, Nima a
+nd Ghadimi, No-radin, jour-nal=Computational|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm m
+.\tenrm e
+.\tenrm t
+.\tenrm a
+.\discretionary
+..\tenrm -
+.etc.
+
+[2]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¦ in font cmr10!
+
+Overfull \hbox (3.1351pt too wide) in paragraph at lines 378--425
+\tenrm LSTM, au-thor=Qing, Xi-angyun and Niu, Yu-gang, jour-nal=Energy, vol-ume
+=148, pages=461--468, year=2018,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm L
+.\tenrm S
+.\tenrm T
+.\tenrm M
+.\tenrm ,
+.etc.
+
+
+Overfull \hbox (17.8016pt too wide) in paragraph at lines 426--434
+\tenrm thor=Sun, Shizhao and Chen, Wei and Wang, Li-wei and Liu, Xi-aoguang and
+ Liu, Tie-Yan, book-ti-tle=Proceedings|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm t
+.\tenrm h
+.\tenrm o
+.\tenrm r
+.\tenrm =
+.etc.
+
+)
+*
+! Emergency stop.
+<*> 
+    
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

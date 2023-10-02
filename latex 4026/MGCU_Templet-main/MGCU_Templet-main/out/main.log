@@ -1,0 +1,3196 @@
+This is LuaHBTeX, Version 1.16.0 (MiKTeX 23.1) (format=lualatex 2023.3.12)  12 MAR 2023 01:29
+ restricted system commands enabled.
+ file:line:error style messages enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2022-11-01> patch level 1
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/subham/.miktex/texmfs/data/lu
+atex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
+olved path "/home/subham/.miktex/texmfs/install/tex/luatex/luaotfload/fontloader
+-2022-10-03.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/subham/.miktex/texmfs/data/lu
+atex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programm
+ing layer <2023-02-07>
+Inserting `tracingstacklevels' in `input_level_string'. (./MastersDoctoralThesi
+s.cls
+Document Class: MastersDoctoralThesis 2017/08/27 v1.6 LaTeXTemplates.com
+(/home/subham/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count183
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.sty
+(/home/subham/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-07 L3 programming layer (loader) 
+
+(/home/subham/.miktex/texmfs/install/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2023-01-16 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count184
+\l__pdf_internal_box=\box51
+))
+Package: xparse 2023-01-16 L3 Experimental document command parser
+) (/home/subham/.miktex/texmfs/install/tex/latex/base/book.cls
+Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
+(/home/subham/.miktex/texmfs/install/tex/latex/base/bk12.clo
+File: bk12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/subham/.miktex/texmfs/da
+ta/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
+)
+(/home/subham/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2023/02/13 3.86 The Babel package
+
+(/home/subham/.miktex/texmfs/install/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\babelcatcodetablenum=\catcodetable12
+\bbl@pattcodes=\catcodetable13
+)
+\babel@savecnt=\count194
+\U@D=\dimen140
+\l@unhyphenated=\language1
+
+(/home/subham/.miktex/texmfs/install/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/subham/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: No hyphenation patterns were set for
+(babel)             language 'english'. Reported on input line 191.
+))
+(/home/subham/.miktex/texmfs/install/tex/generic/babel/locale/en/babel-english.
+tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (./scrbase.sty
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+ (./scrlfile.sty
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
+
+(/home/subham/.miktex/texmfs/install/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
+
+
+(/home/subham/.miktex/texmfs/install/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
+)))
+(/home/subham/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/koma-script/scrhack.sty
+Package: scrhack 2022/10/12 v3.38 KOMA-Script package (hacking other packages)
+
+(/home/subham/.miktex/texmfs/install/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+))
+(/home/subham/.miktex/texmfs/install/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+Package scrhack Info: loading setspace hack on input line 193.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/koma-script/setspace.hak
+File: setspace.hak 2022/10/12 v3.38 KOMA-Script scrhack part (hacking package s
+etspace)
+
+
+Package scrhack Warning: unknown \onehalfspacing definition found!
+(scrhack)                Maybe you are using a unsupported setpace version on i
+nput line 96.
+
+
+Package scrhack Warning: unknown \doublespacing definition found!
+(scrhack)                Maybe you are using a unsupported setpace version on i
+nput line 118.
+
+) (/home/subham/.miktex/texmfs/install/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip50
+\LTright=\skip51
+\LTpre=\skip52
+\LTpost=\skip53
+\LTchunksize=\count195
+\LTcapwidth=\dimen141
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@gbox=\box56
+\LT@cols=\count196
+\LT@rows=\count197
+\c@LT@tables=\count198
+\c@LT@chunks=\count199
+\LT@p@ftn=\toks17
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2023-02-21 v3.2.1 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen142
+\l__siunitx_angle_marker_box=\box57
+\l__siunitx_angle_unit_box=\box58
+\l__siunitx_compound_count_int=\count266
+
+(/home/subham/.miktex/texmfs/install/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(/home/subham/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/subham/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/home/subham/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/home/subham/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks18
+))
+\l__siunitx_number_exponent_fixed_int=\count267
+\l__siunitx_number_min_decimal_int=\count268
+\l__siunitx_number_min_integer_int=\count269
+\l__siunitx_number_round_precision_int=\count270
+\l__siunitx_number_lower_threshold_int=\count271
+\l__siunitx_number_upper_threshold_int=\count272
+\l__siunitx_number_group_first_int=\count273
+\l__siunitx_number_group_size_int=\count274
+\l__siunitx_number_group_minimum_int=\count275
+
+(/home/subham/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/home/subham/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen143
+))
+\l__siunitx_table_tmp_box=\box59
+\l__siunitx_table_tmp_dim=\dimen144
+\l__siunitx_table_column_width_dim=\dimen145
+\l__siunitx_table_integer_box=\box60
+\l__siunitx_table_decimal_box=\box61
+\l__siunitx_table_uncert_box=\box62
+\l__siunitx_table_before_box=\box63
+\l__siunitx_table_after_box=\box64
+\l__siunitx_table_before_dim=\dimen146
+\l__siunitx_table_carry_dim=\dimen147
+\l__siunitx_unit_tmp_int=\count276
+\l__siunitx_unit_position_int=\count277
+\l__siunitx_unit_total_int=\count278
+
+(/home/subham/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen148
+\ar@mcellbox=\box65
+\extrarowheight=\dimen149
+\NC@list=\toks20
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box66
+))
+(/home/subham/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/subham/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/subham/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/graphics-def/luatex.def
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count279
+\@cmidlb=\count280
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count281
+\@lastruleclass=\count282
+\@thisrulewidth=\dimen164
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/home/subham/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen165
+\captionmargin=\dimen166
+\caption@leftmargin=\dimen167
+\caption@rightmargin=\dimen168
+\caption@width=\dimen169
+\caption@indent=\dimen170
+\caption@parindent=\dimen171
+\caption@hangindent=\dimen172
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count283
+\c@continuedfloat=\count284
+Package caption Info: longtable package is loaded.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+(/home/subham/.miktex/texmfs/install/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen173
+\c@nlinenum=\count285
+\TeXr@lab=\toks21
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/home/subham/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 227.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/subham/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count286
+\Gm@cntv=\count287
+\c@Gm@tempcnt=\count288
+\Gm@bindingoffset=\dimen174
+\Gm@wd@mp=\dimen175
+\Gm@odd@mp=\dimen176
+\Gm@even@mp=\dimen177
+\Gm@layoutwidth=\dimen178
+\Gm@layoutheight=\dimen179
+\Gm@layouthoffset=\dimen180
+\Gm@layoutvoffset=\dimen181
+\Gm@dimlist=\toks22
+
+(/home/subham/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/subham/.miktex/texmfs/install/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2022/10/12 v3.38 KOMA-Script package (end user interf
+ace for scrlayer)
+(/home/subham/.miktex/texmfs/install/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2022/10/12 v3.38 KOMA-Script package (defining layers and pag
+e styles)
+\footheight=\skip56
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 217
+6.
+)
+Package scrbase Info: Unknown processing state.
+(scrbase)             Processing option `markcase=used'
+(scrbase)             of member `.scrlayer-scrpage.sty' of family
+(scrbase)             `KOMA' doesn't set
+(scrbase)             a valid state. This will be interpreted
+(scrbase)             as \FamilyKeyStateProcessed on input line 632.
+)
+1: chapter
+1: chapter
+1: section
+) (/home/subham/.miktex/texmfs/install/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2023/02/11 v1.60 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
+
+(/home/subham/.miktex/texmfs/install/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/home/subham/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
+(/home/subham/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count289
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/home/subham/.miktex/texmfs/install/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(/home/subham/.miktex/texmfs/install/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count290
+\l__fontspec_language_int=\count291
+\l__fontspec_strnum_int=\count292
+\l__fontspec_tmp_int=\count293
+\l__fontspec_tmpa_int=\count294
+\l__fontspec_tmpb_int=\count295
+\l__fontspec_tmpc_int=\count296
+\l__fontspec_em_int=\count297
+\l__fontspec_emdef_int=\count298
+\l__fontspec_strong_int=\count299
+\l__fontspec_strongdef_int=\count300
+\l__fontspec_tmpa_dim=\dimen182
+\l__fontspec_tmpb_dim=\dimen183
+\l__fontspec_tmpc_dim=\dimen184
+
+(/home/subham/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/fontspec/fontspec.cfg)))
+(/home/subham/.miktex/texmfs/install/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
+) (/home/subham/.miktex/texmfs/install/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/home/subham/.miktex/texmfs/install/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count301
+)
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+)
+Lua module: polyglossia 2013/05/11 1.3 Polyglossia
+(/home/subham/.miktex/texmfs/install/tex/latex/polyglossia/gloss-latex.lde
+Package: gloss-latex 2023/02/11 vv1.60 polyglossia: module for default language
+
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}.
+
+Module polyglossia Warning: Language english not found in language.dat.lua on in
+put line 12
+Module polyglossia Warning: Language latex not found in language.dat.lua on inpu
+t line 12
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `latex'
+(polyglossia)                I will use \language=\l@nohyphenation instead on i
+nput line 12.
+
+)
+Package polyglossia Info: Default language is latex.
+Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz.
+) (/home/subham/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(/home/subham/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen185
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count302
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count303
+\leftroot@=\count304
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count305
+\DOTSCASE@=\count306
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box67
+\strutbox@=\box68
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen186
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count307
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count308
+\dotsspace@=\muskip16
+\c@parentequation=\count309
+\dspbrk@lvl=\count310
+\tag@help=\toks25
+\row@=\count311
+\column@=\count312
+\maxfields@=\count313
+\andhelp@=\toks26
+\eqnshift@=\dimen187
+\alignsep@=\dimen188
+\tagshift@=\dimen189
+\tagwidth@=\dimen190
+\totwidth@=\dimen191
+\lineht@=\dimen192
+\@envbody=\toks27
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/home/subham/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/home/subham/.miktex/texmfs/install/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {english}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+
+Module polyglossia Warning: Language english not found in language.dat.lua on in
+put line 12
+Module polyglossia Warning: Language american not found in language.dat.lua on i
+nput line 12
+Module polyglossia Warning: Language usenglish not found in language.dat.lua on 
+input line 12
+Module polyglossia Warning: Language USenglish not found in language.dat.lua on 
+input line 12
+Module polyglossia Warning: Language english not found in language.dat.lua on in
+put line 12
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `english'
+(polyglossia)                I will use \language=\l@nohyphenation instead on i
+nput line 12.
+
+Package polyglossia Info: Option: English, variant=american.
+)
+Package polyglossia Info: Default language is english.
+ (/home/subham/.miktex/texmfs/install/tex/latex/polyglossia/gloss-hindi.ldf
+File: gloss-hindi.ldf polyglossia: module for Hindi
+
+(/home/subham/.miktex/texmfs/install/tex/latex/polyglossia/devanagaridigits.sty
+Package: devanagaridigits 2010/04/01 v0.1 Formatting of Devanagari digits
+)
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
+>  {hindi/script}  =>  {Devanagari}
+>  {hindi/lcscript}  =>  {devanagari}
+>  {hindi/scripttag}  =>  {deva}
+>  {hindi/language}  =>  {Hindi}
+>  {hindi/langtag}  =>  {HIN}
+>  {hindi/bcp47}  =>  {hi}
+>  {hindi/hyphennames}  =>  {}
+>  {hindi/direction}  =>  {LR}
+>  {hindi/hyphenmins}  =>  {2,3}
+>  {hindi/frenchspacing}  =>  {false}
+>  {hindi/indentfirst}  =>  {false}
+>  {hindi/fontsetup}  =>  {true}
+>  {hindi/envname}  =>  {hindi}
+>  {hindi/babelname}  =>  {hindi}
+>  {hindi/localnumeral}  =>  {hindinumerals}
+>  {hindi/Localnumeral}  =>  {hindinumerals}
+>  {hindi/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+
+Module polyglossia Warning: Language hindi not found in language.dat.lua on inpu
+t line 19
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `hindi'
+(polyglossia)                I will use \language=\l@nohyphenation instead on i
+nput line 19.
+
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+)
+luaotfload | cache : Lookup cache loaded from /home/subham/.miktex/texmfs/data/l
+uatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: Could not resolve font "NotoSerifDevanagari/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "NotoSerifDevanagari/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Font family 'NotoSerifDevanagari(0)' created for font
+(fontspec)             'Noto Serif Devanagari' with options
+(fontspec)             [Renderer=Harfbuzz,Script=Devanagari].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"NotoSerifDevanagari:mode=harf;script=dev2;language=d
+flt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"NotoSerifDevanagari/B:mode=harf;script=dev2;language
+=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+ (/home/subham/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks29
+\inpenc@posthook=\toks30
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/home/subham/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(/home/subham/.miktex/texmfs/install/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup6
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
+
+(/home/subham/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/home/subham/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/home/subham/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count314
+
+(/home/subham/.miktex/texmfs/install/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/home/subham/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count315
+\c@listtotal=\count316
+\c@listcount=\count317
+\c@liststart=\count318
+\c@liststop=\count319
+\c@citecount=\count320
+\c@citetotal=\count321
+\c@multicitecount=\count322
+\c@multicitetotal=\count323
+\c@instcount=\count324
+\c@maxnames=\count325
+\c@minnames=\count326
+\c@maxitems=\count327
+\c@minitems=\count328
+\c@citecounter=\count329
+\c@maxcitecounter=\count330
+\c@savedcitecounter=\count331
+\c@uniquelist=\count332
+\c@uniquename=\count333
+\c@refsection=\count334
+\c@refsegment=\count335
+\c@maxextratitle=\count336
+\c@maxextratitleyear=\count337
+\c@maxextraname=\count338
+\c@maxextradate=\count339
+\c@maxextraalpha=\count340
+\c@abbrvpenalty=\count341
+\c@highnamepenalty=\count342
+\c@lownamepenalty=\count343
+\c@maxparens=\count344
+\c@parenlevel=\count345
+\blx@tempcnta=\count346
+\blx@tempcntb=\count347
+\blx@tempcntc=\count348
+\c@blx@maxsection=\count349
+\blx@maxsegment@0=\count350
+\blx@notetype=\count351
+\blx@parenlevel@text=\count352
+\blx@parenlevel@foot=\count353
+\blx@sectionciteorder@0=\count354
+\blx@sectionciteorderinternal@0=\count355
+\blx@entrysetcounter=\count356
+\blx@biblioinstance=\count357
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language2
+\c@mincomprange=\count358
+\c@maxcomprange=\count359
+\c@mincompwidth=\count360
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count361
+\c@savedafterword=\count362
+\c@annotator=\count363
+\c@savedannotator=\count364
+\c@author=\count365
+\c@savedauthor=\count366
+\c@bookauthor=\count367
+\c@savedbookauthor=\count368
+\c@commentator=\count369
+\c@savedcommentator=\count370
+\c@editor=\count371
+\c@savededitor=\count372
+\c@editora=\count373
+\c@savededitora=\count374
+\c@editorb=\count375
+\c@savededitorb=\count376
+\c@editorc=\count377
+\c@savededitorc=\count378
+\c@foreword=\count379
+\c@savedforeword=\count380
+\c@holder=\count381
+\c@savedholder=\count382
+\c@introduction=\count383
+\c@savedintroduction=\count384
+\c@namea=\count385
+\c@savednamea=\count386
+\c@nameb=\count387
+\c@savednameb=\count388
+\c@namec=\count389
+\c@savednamec=\count390
+\c@translator=\count391
+\c@savedtranslator=\count392
+\c@shortauthor=\count393
+\c@savedshortauthor=\count394
+\c@shorteditor=\count395
+\c@savedshorteditor=\count396
+\c@labelname=\count397
+\c@savedlabelname=\count398
+\c@institution=\count399
+\c@savedinstitution=\count400
+\c@lista=\count401
+\c@savedlista=\count402
+\c@listb=\count403
+\c@savedlistb=\count404
+\c@listc=\count405
+\c@savedlistc=\count406
+\c@listd=\count407
+\c@savedlistd=\count408
+\c@liste=\count409
+\c@savedliste=\count410
+\c@listf=\count411
+\c@savedlistf=\count412
+\c@location=\count413
+\c@savedlocation=\count414
+\c@organization=\count415
+\c@savedorganization=\count416
+\c@origlocation=\count417
+\c@savedoriglocation=\count418
+\c@origpublisher=\count419
+\c@savedorigpublisher=\count420
+\c@publisher=\count421
+\c@savedpublisher=\count422
+\c@language=\count423
+\c@savedlanguage=\count424
+\c@origlanguage=\count425
+\c@savedoriglanguage=\count426
+\c@pageref=\count427
+\c@savedpageref=\count428
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/home/subham/.miktex/texmfs/install/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+\c@textcitecount=\count429
+\c@textcitetotal=\count430
+\c@textcitemaxnames=\count431
+\c@biburlbigbreakpenalty=\count432
+\c@biburlbreakpenalty=\count433
+\c@biburlnumpenalty=\count434
+\c@biburlucpenalty=\count435
+\c@biburllcpenalty=\count436
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count437
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count438
+\c@bbx:relatedtotal=\count439
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count440
+\c@cbx@tempcntb=\count441
+\c@cbx@tempcntc=\count442
+\c@cbx@tempcntd=\count443
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2023-02-07 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
+
+))
+(/home/subham/.miktex/texmfs/install/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count444
+\csq@gtype=\count445
+\csq@glevel=\count446
+\csq@qlevel=\count447
+\csq@maxlvl=\count448
+\csq@tshold=\count449
+\csq@ltx@everypar=\toks31
+
+(/home/subham/.miktex/texmfs/install/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+)
+(./Edit.sty)
+(/home/subham/.miktex/texmfs/install/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/02/22 v3.3 ragged2e Package
+\CenteringLeftskip=\skip82
+\RaggedLeftLeftskip=\skip83
+\RaggedRightLeftskip=\skip84
+\CenteringRightskip=\skip85
+\RaggedLeftRightskip=\skip86
+\RaggedRightRightskip=\skip87
+\CenteringParfillskip=\skip88
+\RaggedLeftParfillskip=\skip89
+\RaggedRightParfillskip=\skip90
+\JustifyingParfillskip=\skip91
+\CenteringParindent=\skip92
+\RaggedLeftParindent=\skip93
+\RaggedRightParindent=\skip94
+\JustifyingParindent=\skip95
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package scrhack Info: loading lscape hack on input line 101.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/koma-script/lscape.hak
+File: lscape.hak 2022/10/12 v3.38 KOMA-Script scrhack part (hacking package lsc
+ape)
+Package scrhack Info: \landscape patched to make \textheight change optional on
+ input line 90.
+\scrh@LT@textheight=\skip96
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count450
+\float@exts=\toks32
+\float@box=\box69
+\@float@everytoks=\toks33
+\@floatcapt=\box70
+)
+Package scrhack Info: loading float hack on input line 104.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/koma-script/float.hak
+File: float.hak 2022/10/12 v3.38 KOMA-Script scrhack part (hacking package floa
+t)
+
+(/home/subham/.miktex/texmfs/install/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip97
+\scr@dte@tocline@numbox=\box71
+)
+Package scrhack Info: redefining \newfloat on input line 163.
+Package scrhack Info: redefining \listof on input line 163.
+Package scrhack Info: undefining \float@addtolists on input line 163.
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+
+(/home/subham/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/subham/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(/home/subham/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/subham/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.
+sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count451
+)
+\@linkdim=\dimen193
+\Hy@linkcounter=\count452
+\Hy@pagecounter=\count453
+ (/home/subham/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+)
+(/home/subham/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/home/subham/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count454
+
+(/home/subham/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count455
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen194
+
+(/home/subham/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/subham/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count456
+\Field@Width=\dimen195
+\Fld@charsize=\dimen196
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count457
+\c@Item=\count458
+\c@Hfootnote=\count459
+)
+Package scrhack Info: hyperref hack deactivated because of
+(scrhack)             detection of hyperref version, that doesn't
+(scrhack)             need that hack, on input line 109.
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2023-02-07 v7.00v Hyperref driver for luaTeX
+
+(/home/subham/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+(/home/subham/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count460
+\c@bookmark@seq@number=\count461
+
+(/home/subham/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.st
+y
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/home/subham/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.st
+y
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip98
+)
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 109.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 109.
+Package hyperref Info: Option `colorlinks' set `true' on input line 109.
+Package hyperref Info: Option `unicode' set `true' on input line 109.
+Package hyperref Info: Option `breaklinks' set `true' on input line 109.
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'polyglossia' package.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 10
+9.
+ (/home/subham/.miktex/texmfs/install/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+("/home/subham/Videos/subham latex/SUbham/out/main.aux"
+("/home/subham/Videos/subham latex/SUbham/out/Pages/cover.aux")
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
+
+("/home/subham/Videos/subham latex/SUbham/out/Pages/title.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/declaration.aux"
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+)
+("/home/subham/Videos/subham latex/SUbham/out/Pages/quotion.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/certificate.aux"
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+)
+("/home/subham/Videos/subham latex/SUbham/out/Pages/abstract.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/acknowledgements.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/publication.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/list_c_f_t.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/Abbreviations.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/symbols.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/DEDICATION.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Chapters/Chapter1.aux"
+
+LaTeX Warning: Label `subsec:' multiply defined.
+
+
+LaTeX Warning: Label `subsec:' multiply defined.
+
+) ("/home/subham/Videos/subham latex/SUbham/out/Pages/appendix.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/bib.aux"))
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+09.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Info: Redefining \rmfamily on input line 109.
+LaTeX Info: Redefining \sffamily on input line 109.
+LaTeX Info: Redefining \ttfamily on input line 109.
+Package translations Info: no dictionary file `translations-basic-dictionary-hi
+ndustani.trsl' found. on input line 109.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/translations/dicts/translations-
+basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 109.
+
+(/home/subham/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count462
+\scratchdimen=\dimen197
+\scratchbox=\box72
+\nofMPsegments=\count463
+\nofMParguments=\count464
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count465
+\MPscratchDim=\dimen198
+\MPnumerator=\count466
+\makeMPintoPDFobject=\count467
+\everyMPtoPDFconversion=\toks35
+) (/home/subham/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+(/home/subham/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.22636pt
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(71.13188pt, 441.01775pt, 71.13188pt)
+* v-part:(T,H,B)=(42.67912pt, 739.77176pt, 62.59596pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=441.01775pt
+* \textheight=581.39786pt
+* \oddsidemargin=13.08826pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-29.59087pt
+* \headheight=108.5001pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=47.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package scrbase Info: activating english \abbrevname on input line 109.
+Package scrbase Info: activating english \certificatename on input line 109.
+Package scrbase Info: activating english \byname on input line 109.
+Package scrbase Info: activating english \acknowledgementname on input line 109
+.
+Package scrbase Info: activating english \listofpublication on input line 109.
+Package scrbase Info: activating english \authorshipname on input line 109.
+Package scrbase Info: activating english \constantsname on input line 109.
+Package scrbase Info: activating english \symbolsname on input line 109.
+The property list \__xpg_alias contains the pairs (without outer braces):
+>  {latex/target}  =>  {latex}
+>  {english/target}  =>  {english}
+>  {en/target}  =>  {english}
+>  {en-AU/target}  =>  {english}
+>  {en-AU/variant}  =>  {australian}
+>  {en-AU/options}  =>  {variant=australian}
+>  {en-CA/target}  =>  {english}
+>  {en-CA/variant}  =>  {canadian}
+>  {en-CA/options}  =>  {variant=canadian}
+>  {en-GB/target}  =>  {english}
+>  {en-GB/variant}  =>  {british}
+>  {en-GB/options}  =>  {variant=british}
+>  {en-NZ/target}  =>  {english}
+>  {en-NZ/variant}  =>  {newzealand}
+>  {en-NZ/options}  =>  {variant=newzealand}
+>  {en-US/target}  =>  {english}
+>  {en-US/variant}  =>  {us}
+>  {en-US/options}  =>  {variant=us}
+>  {american/target}  =>  {english}
+>  {american/variant}  =>  {us}
+>  {american/options}  =>  {variant=us}
+>  {australian/target}  =>  {english}
+>  {australian/variant}  =>  {australian}
+>  {australian/options}  =>  {variant=australian}
+>  {british/target}  =>  {english}
+>  {british/variant}  =>  {british}
+>  {british/options}  =>  {variant=british}
+>  {canadian/target}  =>  {english}
+>  {canadian/variant}  =>  {canadian}
+>  {canadian/options}  =>  {variant=canadian}
+>  {newzealand/target}  =>  {english}
+>  {newzealand/variant}  =>  {newzealand}
+>  {newzealand/options}  =>  {variant=newzealand}
+>  {hindi/target}  =>  {hindi}
+>  {hi/target}  =>  {hindi}.
+Package biblatex Info: Trying to load language 'hindi'...
+Package biblatex Info: ... file 'hindi.lbx' not found.
+
+Package biblatex Warning: Language 'hindi' not supported.
+(biblatex)                Using dummy definitions on input line 109.
+
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+))
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+
+\openout3 = main-blx.bib
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 109.
+Package biblatex Info: Reference segment=0 on input line 109.
+Package hyperref Info: Link coloring ON on input line 109.
+("/home/subham/Videos/subham latex/SUbham/out/main.out")
+("/home/subham/Videos/subham latex/SUbham/out/main.out")
+\@outlinefile=\write4
+
+\openout4 = main.out
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 109.
+
+LaTeX Info: Redefining \rmfamily on input line 109.
+LaTeX Info: Redefining \sffamily on input line 109.
+LaTeX Info: Redefining \ttfamily on input line 109.
+1: section
+
+\openout2 = Pages/cover.aux
+(./Pages/cover.tex
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
+3.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
+13.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
+13.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
+13.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 13.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 13.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 13.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
+13.
+
+(/home/subham/.miktex/texmfs/install/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+<Figures//mgcu.png, id=139, 296.10625pt x 339.2675pt>
+File: Figures//mgcu.png Graphic file (type png)
+<use Figures//mgcu.png>
+Package luatex.def Info: Figures//mgcu.png  used on input line 50.
+(luatex.def)             Requested size: 94.61134pt x 108.40215pt.
+ [1
+
+
+
+
+{/home/subham/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}<./Figures//mgcu.p
+ng>])
+\openout2 = Pages/title.aux
+
+(./Pages/title.tex
+File: Figures//mgcu.png Graphic file (type png)
+<use Figures//mgcu.png>
+Package luatex.def Info: Figures//mgcu.png  used on input line 49.
+(luatex.def)             Requested size: 94.61134pt x 108.40215pt.
+ [1
+
+
+
+
+])
+\openout2 = Pages/declaration.aux
+ (./Pages/declaration.tex
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 13.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 13.
+File: Figures//mgcu.png Graphic file (type png)
+<use Figures//mgcu.png>
+Package luatex.def Info: Figures//mgcu.png  used on input line 16.
+(luatex.def)             Requested size: 78.84279pt x 90.33513pt.
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
+
+Overfull \hbox (4.40778pt too wide) in paragraph at lines 13--37
+ [] 
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 48--54
+\T1/ppl/b/n/12 Indian Cites Using Deep Learning Techniques" \T1/ppl/m/n/12 is be
+ing submitted to the
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 48--54
+\T1/ppl/b/n/12 Department Of Computer Science And Information Technology, Mahatm
+a
+ []
+
+1: section
+[1
+
+
+
+
+])
+\openout2 = Pages/quotion.aux
+ (./Pages/quotion.tex) [2
+
+
+
+
+]
+\openout2 = Pages/certificate.aux
+ (./Pages/certificate.tex
+File: Figures//mgcu.png Graphic file (type png)
+<use Figures//mgcu.png>
+Package luatex.def Info: Figures//mgcu.png  used on input line 17.
+(luatex.def)             Requested size: 78.84279pt x 90.33513pt.
+LaTeX Info: Redefining \rmfamily on input line 25.
+LaTeX Info: Redefining \sffamily on input line 25.
+LaTeX Info: Redefining \ttfamily on input line 25.
+LaTeX Info: Redefining \rmfamily on input line 29.
+LaTeX Info: Redefining \sffamily on input line 29.
+LaTeX Info: Redefining \ttfamily on input line 29.
+
+Overfull \hbox (4.40778pt too wide) in paragraph at lines 14--38
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
+
+ []
+
+
+Overfull \hbox (22.05225pt too wide) in paragraph at lines 61--88
+ [] 
+ []
+
+)
+1: section
+[3
+
+
+
+
+]
+\openout2 = Pages/abstract.aux
+ (./Pages/abstract.tex
+--------------------
+ Abstract
+--------------------
+)
+1: section
+[4
+
+
+
+
+]
+\openout2 = Pages/acknowledgements.aux
+ (./Pages/acknowledgements.tex
+--------------------
+ Acknowledgements
+--------------------
+1: section
+[5
+
+
+
+
+
+Missing character: There is no ’ (U+2019) in font pplr8t!
+Missing character: There is no ’ (U+2019) in font pplr8t!
+]
+Underfull \hbox (badness 1286) in paragraph at lines 22--23
+\T1/ppl/m/n/12 where your persistent efforts and traditional values taught your children to
+ []
+
+) [6]
+\openout2 = Pages/publication.aux
+ (./Pages/publication.tex
+Overfull \hbox (14.2813pt too wide) in paragraph at lines 19--23
+\T1/ppl/m/n/12 International Conference on Networking, Communication and Computi
+ng Technology
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
+
+ []
+
+)
+1: section
+[7
+
+
+
+
+]
+\openout2 = Pages/list_c_f_t.aux
+ (./Pages/list_c_f_t.tex
+("/home/subham/Videos/subham latex/SUbham/out/main.toc"
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 5.
+LaTeX Info: Redefining \sffamily on input line 5.
+LaTeX Info: Redefining \ttfamily on input line 5.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 8.
+LaTeX Info: Redefining \sffamily on input line 8.
+LaTeX Info: Redefining \ttfamily on input line 8.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 15.
+LaTeX Info: Redefining \sffamily on input line 15.
+LaTeX Info: Redefining \ttfamily on input line 15.
+
+1: section
+[8
+
+
+
+
+])
+\tf@toc=\write5
+
+\openout5 = main.toc
+ [9] ("/home/subham/Videos/subham latex/SUbham/out/main.lof"
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+LaTeX Info: Redefining \rmfamily on input line 5.
+LaTeX Info: Redefining \sffamily on input line 5.
+LaTeX Info: Redefining \ttfamily on input line 5.
+LaTeX Info: Redefining \rmfamily on input line 7.
+LaTeX Info: Redefining \sffamily on input line 7.
+LaTeX Info: Redefining \ttfamily on input line 7.
+LaTeX Info: Redefining \rmfamily on input line 8.
+LaTeX Info: Redefining \sffamily on input line 8.
+LaTeX Info: Redefining \ttfamily on input line 8.
+LaTeX Info: Redefining \rmfamily on input line 10.
+LaTeX Info: Redefining \sffamily on input line 10.
+LaTeX Info: Redefining \ttfamily on input line 10.
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+LaTeX Info: Redefining \rmfamily on input line 13.
+LaTeX Info: Redefining \sffamily on input line 13.
+LaTeX Info: Redefining \ttfamily on input line 13.
+)
+\tf@lof=\write6
+
+\openout6 = main.lof
+
+1: section
+[10
+
+] ("/home/subham/Videos/subham latex/SUbham/out/main.lot"
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+LaTeX Info: Redefining \rmfamily on input line 4.
+LaTeX Info: Redefining \sffamily on input line 4.
+LaTeX Info: Redefining \ttfamily on input line 4.
+LaTeX Info: Redefining \rmfamily on input line 5.
+LaTeX Info: Redefining \sffamily on input line 5.
+LaTeX Info: Redefining \ttfamily on input line 5.
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+LaTeX Info: Redefining \rmfamily on input line 8.
+LaTeX Info: Redefining \sffamily on input line 8.
+LaTeX Info: Redefining \ttfamily on input line 8.
+LaTeX Info: Redefining \rmfamily on input line 9.
+LaTeX Info: Redefining \sffamily on input line 9.
+LaTeX Info: Redefining \ttfamily on input line 9.
+LaTeX Info: Redefining \rmfamily on input line 10.
+LaTeX Info: Redefining \sffamily on input line 10.
+LaTeX Info: Redefining \ttfamily on input line 10.
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+)
+\tf@lot=\write7
+
+\openout7 = main.lot
+)
+1: section
+[11
+
+
+Missing character: There is no ’ (U+2019) in font pplr8t!
+]
+\openout2 = Pages/Abbreviations.aux
+ (./Pages/Abbreviations.tex)
+1: section
+[12
+
+
+
+
+]
+\openout2 = Pages/symbols.aux
+ (./Pages/symbols.tex)
+1: section
+[13
+
+
+
+
+]
+\openout2 = Pages/DEDICATION.aux
+ (./Pages/DEDICATION.tex
+--------------------
+ Dedicatory
+--------------------
+)
+1: section
+[14
+
+
+
+
+]
+1: section
+
+\openout2 = Chapters/Chapter1.aux
+(./Chapters/Chapter1.tex
+Chapter 1.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 3.
+
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 25.92514pt on input line 3.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 25.92514pt on input line 3.
+
+Underfull \hbox (badness 1043) in paragraph at lines 21--22
+\T1/ppl/m/n/12 These air contaminants can originate from both human and natural sources.
+ []
+
+1: section
+[1
+
+
+
+
+
+]
+LaTeX Info: Redefining \rmfamily on input line 31.
+LaTeX Info: Redefining \sffamily on input line 31.
+LaTeX Info: Redefining \ttfamily on input line 31.
+ [2]
+
+LaTeX Warning: Citation 'drewil2022air' on page 3 undefined on input line 41.
+
+
+LaTeX Warning: Citation 'sarkar2022air' on page 3 undefined on input line 45.
+
+
+LaTeX Warning: Citation 'nath2021long' on page 3 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'ma2019improving' on page 3 undefined on input line 54.
+
+
+
+LaTeX Warning: Citation 'li2017long' on page 3 undefined on input line 59.
+
+
+LaTeX Warning: Citation 'qin2019novel' on page 3 undefined on input line 63.
+
+
+LaTeX Warning: Citation 'du2019deep' on page 3 undefined on input line 68.
+
+
+LaTeX Warning: Citation 'li2023nested' on page 3 undefined on input line 71.
+
+LaTeX Info: Redefining \rmfamily on input line 73.
+LaTeX Info: Redefining \sffamily on input line 73.
+LaTeX Info: Redefining \ttfamily on input line 73.
+[3]
+
+LaTeX Warning: Citation 'erden2023genetic' on page 4 undefined on input line 76
+.
+
+
+LaTeX Warning: Citation 'zhu2023investigation' on page 4 undefined on input lin
+e 81.
+
+
+LaTeX Warning: Citation 'park2023predicting' on page 4 undefined on input line 
+85.
+
+
+LaTeX Warning: Citation 'eren2023predicting' on page 4 undefined on input line 
+90.
+
+
+LaTeX Warning: Citation 'hu2023optimized' on page 4 undefined on input line 95.
+
+
+
+LaTeX Warning: Reference `table:Lr' on page 4 undefined on input line 97.
+
+LaTeX Info: Redefining \rmfamily on input line 100.
+LaTeX Info: Redefining \sffamily on input line 100.
+LaTeX Info: Redefining \ttfamily on input line 100.
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\T1/ppl/b/n/12 Proposed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\T1/ppl/b/n/12 Forecasting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\T1/ppl/b/n/12 Benchmark
+ []
+
+
+Overfull \hbox (9.72823pt too wide) in alignment at lines 105--109
+ [][][][][][] 
+ []
+
+
+LaTeX Warning: Citation 'drewil2022air' on page 5 undefined on input line 111.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+[]|\T1/ppl/m/n/12 G$\OT1/ppl/m/n/12 .$\T1/ppl/m/n/12 I$\OT1/ppl/m/n/12 .$\T1/pp
+l/m/n/12 Drewil
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 111--111
+\T1/ppl/m/n/12 et al (2022)
+ []
+
+
+Overfull \hbox (4.88667pt too wide) in paragraph at lines 111--111
+[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+[]|\T1/ppl/m/n/12 Kaggle (Hourly data)
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 112--112
+[]|$\OML/zplm/m/it/12 PM[]$\T1/ppl/m/n/12 , $\OML/zplm/m/it/12 PM[]$\T1/ppl/m/n
+/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+[]|\T1/ppl/m/n/12 Bi-LSTM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+\T1/ppl/m/n/12 CLSTM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]|\T1/ppl/m/n/12 RMSE=9.582,
+ []
+
+
+LaTeX Warning: Citation 'sarkar2022air' on page 5 undefined on input line 114.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\T1/ppl/m/n/12 N. Sarkar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/ppl/m/n/12 et al
+ []
+
+
+Overfull \hbox (34.88652pt too wide) in paragraph at lines 114--114
+\T1/ppl/m/n/12 (2022)[]| 
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 114--114
+[]|\T1/ppl/m/n/12 CPCB (Daily Data) (Delhi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\T1/ppl/m/n/12 NO, $\OML/zplm/m/it/12 NO[]$\T1/ppl/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\OML/zplm/m/it/12 NO[]$\T1/ppl/m/n/12 , $\OML/zplm/m/it/12 SO[]$\T1/ppl/m/n/12 
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|$\OML/zplm/m/it/12 R[]$\T1/ppl/m/n/12 =0.84,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/ppl/m/n/12 RMSE=52.03,
+ []
+
+
+LaTeX Warning: Citation 'nath2021long' on page 5 undefined on input line 115.
+
+
+Overfull \hbox (35.55873pt too wide) in paragraph at lines 115--115
+\T1/ppl/m/n/12 (2021)[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]|\T1/ppl/m/n/12 LSTM Auto-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ppl/m/n/12 Encoder
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 115--115
+[]|\T1/ppl/m/n/12 Stacked LSTM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ppl/m/n/12 Bi-LSTM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ppl/m/n/12 Convolutional
+ []
+
+
+Overfull \hbox (2.26584pt too wide) in paragraph at lines 115--115
+[]|\T1/ppl/m/n/12 RMSE=18.8\OMS/zplm/m/n/12 \T1/ppl/m/n/12 0.19,
+ []
+
+
+LaTeX Warning: Citation 'ma2019improving' on page 5 undefined on input line 116
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]|\T1/ppl/m/n/12 J. Ma et
+ []
+
+
+Overfull \hbox (70.39418pt too wide) in paragraph at lines 116--116
+\T1/ppl/m/n/12 al(2019)[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]|\T1/ppl/m/n/12 Guangdong province
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]|\T1/ppl/m/n/12 ARIMA, RNN,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\T1/ppl/m/n/12 LSTM, CNN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]|\T1/ppl/m/n/12 RMSE=8.6529,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\T1/ppl/m/n/12 MAE=6.184,
+ []
+
+
+LaTeX Warning: Citation 'li2017long' on page 5 undefined on input line 117.
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 117--117
+[]|\T1/ppl/m/n/12 X. Li et al
+ []
+
+
+Overfull \hbox (18.89072pt too wide) in paragraph at lines 117--117
+\T1/ppl/m/n/12 (2017)[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\T1/ppl/m/n/12 LSTME
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+\T1/ppl/m/n/12 (LSTM NN
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 117--117
+[]|\T1/ppl/m/n/12 Ministry of Environmental
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+\T1/ppl/m/n/12 protection (Hourly Data)
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 117--117
+\T1/ppl/m/n/12 (Beijing China) {Jan 2014-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\T1/ppl/m/n/12 LSTM-NN,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\T1/ppl/m/n/12 RMSE=12.6,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+\T1/ppl/m/n/12 MAE=5.46,
+ []
+
+
+LaTeX Warning: Citation 'qin2019novel' on page 5 undefined on input line 118.
+
+
+Overfull \hbox (35.55873pt too wide) in paragraph at lines 118--118
+\T1/ppl/m/n/12 (2019)[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]|\T1/ppl/m/n/12 (Daily Data) (Shanghi)
+ []
+
+
+LaTeX Warning: Citation 'du2019deep' on page 5 undefined on input line 119.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/ppl/m/n/12 Shengdong
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\T1/ppl/m/n/12 Du et al
+ []
+
+
+Overfull \hbox (27.55496pt too wide) in paragraph at lines 119--119
+\T1/ppl/m/n/12 (2019)[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/ppl/m/n/12 UCI repository (Hourly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/ppl/m/n/12 CNN, RNN,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/ppl/m/n/12 RMSE=77.38,
+ []
+
+
+LaTeX Warning: Citation 'li2023nested' on page 5 undefined on input line 120.
+
+
+Overfull \hbox (30.20679pt too wide) in paragraph at lines 120--120
+\T1/ppl/m/n/12 (2023)[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\T1/ppl/m/n/12 US EPA (Hourly Data)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\T1/ppl/m/n/12 MAE(Lc)=3,
+ []
+
+
+LaTeX Warning: Citation 'erden2023genetic' on page 5 undefined on input line 12
+1.
+
+
+Overfull \hbox (56.88261pt too wide) in paragraph at lines 121--121
+\T1/ppl/m/n/12 (2023)[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\T1/ppl/m/n/12 LSTM-GRU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/ppl/m/n/12 (Hourly Data) (Istanbul)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\T1/ppl/m/n/12 LSTM, CNN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\T1/ppl/m/n/12 RMSE=4.53,
+ []
+
+
+LaTeX Warning: Citation 'zhu2023investigation' on page 5 undefined on input lin
+e 122.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\T1/ppl/m/n/12 Mingying
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ppl/m/n/12 Zhu et al
+ []
+
+
+Overfull \hbox (78.87843pt too wide) in paragraph at lines 122--122
+\T1/ppl/m/n/12 (2022)[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\T1/ppl/m/n/12 1D-CNN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ppl/m/n/12 stations (Hourly Data)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ppl/m/n/12 (Shanghai China) {2014-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\T1/ppl/m/n/12 RMSE=4.2489,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ppl/m/n/12 MAE=2.7198,
+ []
+
+
+LaTeX Warning: Citation 'park2023predicting' on page 5 undefined on input line 
+123.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\T1/ppl/m/n/12 So-Young
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\T1/ppl/m/n/12 Park et al
+ []
+
+
+Overfull \hbox (68.21042pt too wide) in paragraph at lines 123--123
+\T1/ppl/m/n/12 (2023)[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|$\OML/zplm/m/it/12 PM[]$\T1/ppl/m/n/12 -$\OML/zplm/m/it/12 R[]$\T1/ppl/m/n/1
+2 =0.434,
+ []
+
+
+LaTeX Warning: Citation 'eren2023predicting' on page 5 undefined on input line 
+124.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\T1/ppl/m/n/12 Beytullah
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/ppl/m/n/12 Eren et al
+ []
+
+
+Overfull \hbox (66.87843pt too wide) in paragraph at lines 124--124
+\T1/ppl/m/n/12 (2023)[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\T1/ppl/m/n/12 Kağıthane Air Quality
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|$\OML/zplm/m/it/12 PM[]$\T1/ppl/m/n/12 , $\OML/zplm/m/it/12 SO[]$\T1/ppl/m/n
+/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/ppl/m/n/12 NO, $\OML/zplm/m/it/12 NO[]$\T1/ppl/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\T1/ppl/m/n/12 LSTM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/ppl/m/n/12 GRU, RNN,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\T1/ppl/m/n/12 MAE=3.086,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+\T1/ppl/m/n/12 RMSE=4.785,
+ []
+
+
+LaTeX Warning: Citation 'hu2023optimized' on page 5 undefined on input line 125
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\T1/ppl/m/n/12 Juntao
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/ppl/m/n/12 Hu et al
+ []
+
+
+Overfull \hbox (56.88263pt too wide) in paragraph at lines 125--125
+\T1/ppl/m/n/12 (2023)[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\T1/ppl/m/n/12 CNN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\T1/ppl/m/n/12 UCI repository (Hourly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\T1/ppl/m/n/12 BiLSTM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/ppl/m/n/12 BiLSTM-GRU,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\T1/ppl/m/n/12 MAE=9.8,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/ppl/m/n/12 RMSE=17.2,
+ []
+
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 126.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 126.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 126.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 126.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 126.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 126.
+
+Overfull \hbox (9.72823pt too wide) in alignment at lines 109--128
+ [][][][][][] 
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 128.
+LaTeX Info: Redefining \sffamily on input line 128.
+LaTeX Info: Redefining \ttfamily on input line 128.
+[5
+
+]
+LaTeX Info: Redefining \rmfamily on input line 129.
+LaTeX Info: Redefining \sffamily on input line 129.
+LaTeX Info: Redefining \ttfamily on input line 129.
+ [6
+Missing character: There is no ğ (U+011F) in font pplr8t!
+Missing character: There is no ı (U+0131) in font pplr8t!
+Missing character: There is no ğ (U+011F) in font pplr8t!
+Missing character: There is no ı (U+0131) in font pplr8t!
+]
+<Figures//ml.png, id=306, 605.3817pt x 419.6478pt>
+File: Figures//ml.png Graphic file (type png)
+<use Figures//ml.png>
+Package luatex.def Info: Figures//ml.png  used on input line 138.
+(luatex.def)             Requested size: 441.01775pt x 305.71281pt.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 1
+43.
+ (/home/subham/.miktex/texmfs/install/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+Underfull \hbox (badness 1924) in paragraph at lines 144--145
+[]\T1/ppl/b/n/12 Key Concepts: \T1/ppl/m/n/12 Their are three brances of ML: "Su
+pervised Learning,
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 146.
+LaTeX Info: Redefining \sffamily on input line 146.
+LaTeX Info: Redefining \ttfamily on input line 146.
+[7
+
+<./Figures//ml.png>]
+
+LaTeX Warning: Citation 'geron2022hands' on page 8 undefined on input line 146.
+
+
+
+Overfull \hbox (12.59088pt too wide) in paragraph at lines 146--147
+\T1/ppl/m/n/12 processing, fraud detection, and recommendation systems.[] 
+ []
+
+
+LaTeX Warning: Citation 'geron2022hands' on page 8 undefined on input line 147.
+
+
+
+Overfull \hbox (0.62668pt too wide) in paragraph at lines 147--148
+[]\T1/ppl/b/n/12 Unsupervised Learning: \T1/ppl/m/n/12 The purpose is to find pa
+tterns and organisation
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 147--148
+\T1/ppl/m/n/12 data dimensionality. Several domains use unsupervised learning,
+ []
+
+
+LaTeX Warning: Citation 'geron2022hands' on page 8 undefined on input line 148.
+
+
+
+Overfull \hbox (20.82167pt too wide) in paragraph at lines 148--149
+\T1/ppl/m/n/12 strategy that maximises a cumulative reward signal over time. Rei
+nforcement
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 163.
+LaTeX Info: Redefining \sffamily on input line 163.
+LaTeX Info: Redefining \ttfamily on input line 163.
+[8]
+
+LaTeX Warning: Reference `fig:CNN' on page 9 undefined on input line 182.
+
+
+LaTeX Warning: Citation 'rticle' on page 9 undefined on input line 182.
+
+<Figures//Simple-1D-convolutional-neural-network-CNN-architecture-with-two-conv
+olutional-layers.png, id=318, 853.1875pt x 737.75626pt>
+File: Figures//Simple-1D-convolutional-neural-network-CNN-architecture-with-two
+-convolutional-layers.png Graphic file (type png)
+<use Figures//Simple-1D-convolutional-neural-network-CNN-architecture-with-two-
+convolutional-layers.png>
+Package luatex.def Info: Figures//Simple-1D-convolutional-neural-network-CNN-ar
+chitecture-with-two-convolutional-layers.png  used on input line 185.
+(luatex.def)             Requested size: 441.01775pt x 381.3615pt.
+
+Overfull \hbox (11.88165pt too wide) in paragraph at lines 179--188
+[]\T1/ppl/m/n/12 A one-dimensional signal, such as audio or a time series of sen
+sor measurements,
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+[9]
+
+LaTeX Warning: Reference `fig:GRU' on page 10 undefined on input line 194.
+
+
+LaTeX Warning: Citation 'phdthesis' on page 10 undefined on input line 194.
+
+<Figures//Gated-Recurrent-Unit-GRU.png, id=324, 850.17625pt x 548.0475pt>
+File: Figures//Gated-Recurrent-Unit-GRU.png Graphic file (type png)
+<use Figures//Gated-Recurrent-Unit-GRU.png>
+Package luatex.def Info: Figures//Gated-Recurrent-Unit-GRU.png  used on input l
+ine 197.
+(luatex.def)             Requested size: 220.50887pt x 142.14612pt.
+LaTeX Info: Redefining \rmfamily on input line 200.
+LaTeX Info: Redefining \sffamily on input line 200.
+LaTeX Info: Redefining \ttfamily on input line 200.
+[10<./Figures//Simple-1D-convolutional-neural-network-CNN-architecture-with-two-
+convolutional-layers.png>]
+
+LaTeX Warning: Reference `fig:LSTM' on page 11 undefined on input line 205.
+
+
+LaTeX Warning: Citation 'drewil2022air' on page 11 undefined on input line 205.
+
+
+
+LaTeX Warning: Citation 'article' on page 11 undefined on input line 205.
+
+<Figures//The-structure-of-the-Long-Short-Term-Memory-LSTM-neural-network-Repro
+duced-from-Yan.png, id=331, 853.1875pt x 715.67375pt>
+File: Figures//The-structure-of-the-Long-Short-Term-Memory-LSTM-neural-network-
+Reproduced-from-Yan.png Graphic file (type png)
+<use Figures//The-structure-of-the-Long-Short-Term-Memory-LSTM-neural-network-R
+eproduced-from-Yan.png>
+Package luatex.def Info: Figures//The-structure-of-the-Long-Short-Term-Memory-L
+STM-neural-network-Reproduced-from-Yan.png  used on input line 208.
+(luatex.def)             Requested size: 441.01775pt x 369.9466pt.
+LaTeX Info: Redefining \rmfamily on input line 212.
+LaTeX Info: Redefining \sffamily on input line 212.
+LaTeX Info: Redefining \ttfamily on input line 212.
+[11<./Figures//Gated-Recurrent-Unit-GRU.png>]
+./Chapters/Chapter1.tex:216: Undefined control sequence.
+l.216 ...arge Accuracy Measures for Time-Series} \li
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Chapters/Chapter1.tex:222: Undefined control sequence.
+l.222         \lable
+                  {equ:RMSE}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Info: Redefining \rmfamily on input line 223.
+LaTeX Info: Redefining \sffamily on input line 223.
+LaTeX Info: Redefining \ttfamily on input line 223.
+[12<./Figures//The-structure-of-the-Long-Short-Term-Memory-LSTM-neural-network-R
+eproduced-from-Yan.png>]
+LaTeX Info: Redefining \rmfamily on input line 240.
+LaTeX Info: Redefining \sffamily on input line 240.
+LaTeX Info: Redefining \ttfamily on input line 240.
+ [13]
+
+LaTeX Warning: Reference `fig:birds' on page 14 undefined on input line 255.
+
+<Figures//process flow of developing on PM2.5 prediction model.png, id=352, 182
+6.825pt x 1264.725pt>
+File: Figures//process flow of developing on PM2.5 prediction model.png Graphic
+ file (type png)
+<use Figures//process flow of developing on PM2.5 prediction model.png>
+Package luatex.def Info: Figures//process flow of developing on PM2.5 predictio
+n model.png  used on input line 258.
+(luatex.def)             Requested size: 441.01775pt x 305.31563pt.
+LaTeX Info: Redefining \rmfamily on input line 262.
+LaTeX Info: Redefining \sffamily on input line 262.
+LaTeX Info: Redefining \ttfamily on input line 262.
+[14]
+
+LaTeX Warning: Reference `table:Data' on page 15 undefined on input line 267.
+
+LaTeX Info: Redefining \rmfamily on input line 300.
+LaTeX Info: Redefining \sffamily on input line 300.
+LaTeX Info: Redefining \ttfamily on input line 300.
+[15<./Figures//process flow of developing on PM2.5 prediction model.png>]
+LaTeX Info: Redefining \rmfamily on input line 323.
+LaTeX Info: Redefining \sffamily on input line 323.
+LaTeX Info: Redefining \ttfamily on input line 323.
+
+[16]
+LaTeX Info: Redefining \rmfamily on input line 323.
+LaTeX Info: Redefining \sffamily on input line 323.
+LaTeX Info: Redefining \ttfamily on input line 323.
+ [17]
+Overfull \hbox (11.49583pt too wide) in alignment at lines 340--361
+ [][][][][][][][][] 
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1.4 on input line 361.
+
+LaTeX Info: Redefining \rmfamily on input line 362.
+LaTeX Info: Redefining \sffamily on input line 362.
+LaTeX Info: Redefining \ttfamily on input line 362.
+[18
+
+]
+<Figures//Orignal.png, id=389, 1067.4279pt x 848.4498pt>
+File: Figures//Orignal.png Graphic file (type png)
+<use Figures//Orignal.png>
+Package luatex.def Info: Figures//Orignal.png  used on input line 367.
+(luatex.def)             Requested size: 441.01775pt x 350.54655pt.
+<Figures//Seasonal.png, id=390, 1069.596pt x 848.4498pt>
+File: Figures//Seasonal.png Graphic file (type png)
+<use Figures//Seasonal.png>
+Package luatex.def Info: Figures//Seasonal.png  used on input line 374.
+(luatex.def)             Requested size: 441.01775pt x 349.8345pt.
+LaTeX Info: Redefining \rmfamily on input line 377.
+LaTeX Info: Redefining \sffamily on input line 377.
+LaTeX Info: Redefining \ttfamily on input line 377.
+ [19
+
+<./Figures//Orignal.png>]
+<Figures//Trend (1).png, id=395, 1067.4279pt x 848.4498pt>
+File: Figures//Trend (1).png Graphic file (type png)
+<use Figures//Trend (1).png>
+Package luatex.def Info: Figures//Trend (1).png  used on input line 381.
+(luatex.def)             Requested size: 441.01775pt x 350.54655pt.
+LaTeX Info: Redefining \rmfamily on input line 384.
+LaTeX Info: Redefining \sffamily on input line 384.
+LaTeX Info: Redefining \ttfamily on input line 384.
+ [20<./Figures//Seasonal.png>]
+<Figures//Residuals.png, id=400, 1076.1003pt x 848.4498pt>
+File: Figures//Residuals.png Graphic file (type png)
+<use Figures//Residuals.png>
+Package luatex.def Info: Figures//Residuals.png  used on input line 388.
+(luatex.def)             Requested size: 441.01775pt x 347.7113pt.
+LaTeX Info: Redefining \rmfamily on input line 391.
+LaTeX Info: Redefining \sffamily on input line 391.
+LaTeX Info: Redefining \ttfamily on input line 391.
+ [21<./Figures//Trend (1).png>]
+LaTeX Info: Redefining \rmfamily on input line 405.
+LaTeX Info: Redefining \sffamily on input line 405.
+LaTeX Info: Redefining \ttfamily on input line 405.
+ [22<./Figures//Residuals.png>]
+
+LaTeX Warning: Citation 'jolliffe2002springer' on page 23 undefined on input li
+ne 421.
+
+
+LaTeX Warning: Citation 'omerintroduction' on page 23 undefined on input line 4
+29.
+
+LaTeX Info: Redefining \rmfamily on input line 430.
+LaTeX Info: Redefining \sffamily on input line 430.
+LaTeX Info: Redefining \ttfamily on input line 430.
+[23]
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 437.
+
+
+LaTeX Warning: Citation 'leroy2007' on page 24 undefined on input line 443.
+
+<Figures//AnanasComosus.jpg, id=423, 188.20313pt x 188.20313pt>
+File: Figures//AnanasComosus.jpg Graphic file (type jpg)
+<use Figures//AnanasComosus.jpg>
+Package luatex.def Info: Figures//AnanasComosus.jpg  used on input line 454.
+(luatex.def)             Requested size: 71.1331pt x 71.1331pt.
+<Figures//AnnonaReticulata.jpg, id=424, 250.9375pt x 250.9375pt>
+File: Figures//AnnonaReticulata.jpg Graphic file (type jpg)
+<use Figures//AnnonaReticulata.jpg>
+Package luatex.def Info: Figures//AnnonaReticulata.jpg  used on input line 455.
+
+(luatex.def)             Requested size: 71.1312pt x 71.1312pt.
+<Figures//AnnonaSquamosa.jpg, id=425, 250.9375pt x 250.9375pt>
+File: Figures//AnnonaSquamosa.jpg Graphic file (type jpg)
+<use Figures//AnnonaSquamosa.jpg>
+Package luatex.def Info: Figures//AnnonaSquamosa.jpg  used on input line 456.
+(luatex.def)             Requested size: 71.1312pt x 71.1312pt.
+<Figures//ArtocarpusHeterophyllus.jpg, id=426, 188.20313pt x 188.20313pt>
+File: Figures//ArtocarpusHeterophyllus.jpg Graphic file (type jpg)
+<use Figures//ArtocarpusHeterophyllus.jpg>
+Package luatex.def Info: Figures//ArtocarpusHeterophyllus.jpg  used on input li
+ne 457.
+(luatex.def)             Requested size: 71.1331pt x 71.1331pt.
+<Figures//ArtocarpusLacucha.jpg, id=427, 188.20313pt x 188.20313pt>
+File: Figures//ArtocarpusLacucha.jpg Graphic file (type jpg)
+<use Figures//ArtocarpusLacucha.jpg>
+Package luatex.def Info: Figures//ArtocarpusLacucha.jpg  used on input line 458
+.
+(luatex.def)             Requested size: 71.1331pt x 71.1331pt.
+<Figures//CitrusAurantiifolia.jpg, id=428, 188.20313pt x 188.20313pt>
+File: Figures//CitrusAurantiifolia.jpg Graphic file (type jpg)
+<use Figures//CitrusAurantiifolia.jpg>
+Package luatex.def Info: Figures//CitrusAurantiifolia.jpg  used on input line 4
+59.
+(luatex.def)             Requested size: 71.1331pt x 71.1331pt.
+<Figures//CitrusLimon.jpg, id=429, 250.9375pt x 250.9375pt>
+File: Figures//CitrusLimon.jpg Graphic file (type jpg)
+<use Figures//CitrusLimon.jpg>
+Package luatex.def Info: Figures//CitrusLimon.jpg  used on input line 468.
+(luatex.def)             Requested size: 71.13188pt x 71.1312pt.
+<Figures//CitrusMaxima.jpg, id=430, 188.20313pt x 188.20313pt>
+File: Figures//CitrusMaxima.jpg Graphic file (type jpg)
+<use Figures//CitrusMaxima.jpg>
+Package luatex.def Info: Figures//CitrusMaxima.jpg  used on input line 469.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//CitrusPyriformis.jpg, id=431, 188.20313pt x 188.20313pt>
+File: Figures//CitrusPyriformis.jpg Graphic file (type jpg)
+<use Figures//CitrusPyriformis.jpg>
+Package luatex.def Info: Figures//CitrusPyriformis.jpg  used on input line 470.
+
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//CordiaMyxa.jpg, id=432, 250.9375pt x 250.9375pt>
+File: Figures//CordiaMyxa.jpg Graphic file (type jpg)
+<use Figures//CordiaMyxa.jpg>
+Package luatex.def Info: Figures//CordiaMyxa.jpg  used on input line 471.
+(luatex.def)             Requested size: 71.13188pt x 71.1312pt.
+<Figures//FicusRacemosa33.jpg, id=433, 2336.73pt x 2336.73pt>
+File: Figures//FicusRacemosa33.jpg Graphic file (type jpg)
+<use Figures//FicusRacemosa33.jpg>
+Package luatex.def Info: Figures//FicusRacemosa33.jpg  used on input line 472.
+(luatex.def)             Requested size: 71.13188pt x 71.09723pt.
+<Figures//GrewiaAsiatica.jpg, id=434, 188.20313pt x 188.20313pt>
+File: Figures//GrewiaAsiatica.jpg Graphic file (type jpg)
+<use Figures//GrewiaAsiatica.jpg>
+Package luatex.def Info: Figures//GrewiaAsiatica.jpg  used on input line 473.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//LimoniaAcidissima.jpg, id=435, 188.20313pt x 188.20313pt>
+File: Figures//LimoniaAcidissima.jpg Graphic file (type jpg)
+<use Figures//LimoniaAcidissima.jpg>
+Package luatex.def Info: Figures//LimoniaAcidissima.jpg  used on input line 481
+.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//LitchiChinensis.jpg, id=436, 188.20313pt x 188.20313pt>
+File: Figures//LitchiChinensis.jpg Graphic file (type jpg)
+<use Figures//LitchiChinensis.jpg>
+Package luatex.def Info: Figures//LitchiChinensis.jpg  used on input line 482.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//MadhucaLongifolia.jpg, id=437, 188.20313pt x 188.20313pt>
+File: Figures//MadhucaLongifolia.jpg Graphic file (type jpg)
+<use Figures//MadhucaLongifolia.jpg>
+Package luatex.def Info: Figures//MadhucaLongifolia.jpg  used on input line 483
+.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//MangiferaIndica.jpg, id=438, 188.20313pt x 188.20313pt>
+File: Figures//MangiferaIndica.jpg Graphic file (type jpg)
+<use Figures//MangiferaIndica.jpg>
+Package luatex.def Info: Figures//MangiferaIndica.jpg  used on input line 484.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//ManilkaraHexandra.jpg, id=439, 188.20313pt x 188.20313pt>
+File: Figures//ManilkaraHexandra.jpg Graphic file (type jpg)
+<use Figures//ManilkaraHexandra.jpg>
+Package luatex.def Info: Figures//ManilkaraHexandra.jpg  used on input line 485
+.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//ManilkaraZapota.jpg, id=440, 188.20313pt x 188.20313pt>
+File: Figures//ManilkaraZapota.jpg Graphic file (type jpg)
+<use Figures//ManilkaraZapota.jpg>
+Package luatex.def Info: Figures//ManilkaraZapota.jpg  used on input line 486.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//MorusAlba.jpg, id=441, 188.20313pt x 188.20313pt>
+File: Figures//MorusAlba.jpg Graphic file (type jpg)
+<use Figures//MorusAlba.jpg>
+Package luatex.def Info: Figures//MorusAlba.jpg  used on input line 495.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//NeolamarckiaCadamba.jpg, id=442, 188.20313pt x 188.20313pt>
+File: Figures//NeolamarckiaCadamba.jpg Graphic file (type jpg)
+<use Figures//NeolamarckiaCadamba.jpg>
+Package luatex.def Info: Figures//NeolamarckiaCadamba.jpg  used on input line 4
+96.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//PhyllanthusEmblica.jpg, id=443, 188.20313pt x 188.20313pt>
+File: Figures//PhyllanthusEmblica.jpg Graphic file (type jpg)
+<use Figures//PhyllanthusEmblica.jpg>
+Package luatex.def Info: Figures//PhyllanthusEmblica.jpg  used on input line 49
+7.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//PithecellobiumDulce.jpg, id=444, 188.20313pt x 188.20313pt>
+File: Figures//PithecellobiumDulce.jpg Graphic file (type jpg)
+<use Figures//PithecellobiumDulce.jpg>
+Package luatex.def Info: Figures//PithecellobiumDulce.jpg  used on input line 4
+98.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//PsidiumGuajava.jpg, id=445, 188.20313pt x 188.20313pt>
+File: Figures//PsidiumGuajava.jpg Graphic file (type jpg)
+<use Figures//PsidiumGuajava.jpg>
+Package luatex.def Info: Figures//PsidiumGuajava.jpg  used on input line 499.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//PunicaGranatum.jpg, id=446, 188.20313pt x 188.20313pt>
+File: Figures//PunicaGranatum.jpg Graphic file (type jpg)
+<use Figures//PunicaGranatum.jpg>
+Package luatex.def Info: Figures//PunicaGranatum.jpg  used on input line 500.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//SolanumIycopersicum.jpg, id=447, 250.9375pt x 250.9375pt>
+File: Figures//SolanumIycopersicum.jpg Graphic file (type jpg)
+<use Figures//SolanumIycopersicum.jpg>
+Package luatex.def Info: Figures//SolanumIycopersicum.jpg  used on input line 5
+09.
+(luatex.def)             Requested size: 71.13188pt x 71.1312pt.
+<Figures//SyzygiumJambos.jpg, id=448, 188.20313pt x 188.20313pt>
+File: Figures//SyzygiumJambos.jpg Graphic file (type jpg)
+<use Figures//SyzygiumJambos.jpg>
+Package luatex.def Info: Figures//SyzygiumJambos.jpg  used on input line 510.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//TamarindusIndica.jpg, id=449, 188.20313pt x 188.20313pt>
+File: Figures//TamarindusIndica.jpg Graphic file (type jpg)
+<use Figures//TamarindusIndica.jpg>
+Package luatex.def Info: Figures//TamarindusIndica.jpg  used on input line 511.
+
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+<Figures//ZizphusMauritiana.jpg, id=450, 188.20313pt x 188.20313pt>
+File: Figures//ZizphusMauritiana.jpg Graphic file (type jpg)
+<use Figures//ZizphusMauritiana.jpg>
+Package luatex.def Info: Figures//ZizphusMauritiana.jpg  used on input line 512
+.
+(luatex.def)             Requested size: 71.13188pt x 71.1331pt.
+
+LaTeX Warning: Float too large for page by 27.04443pt on input line 524.
+
+LaTeX Info: Redefining \rmfamily on input line 528.
+LaTeX Info: Redefining \sffamily on input line 528.
+LaTeX Info: Redefining \ttfamily on input line 528.
+[24]
+LaTeX Info: Redefining \rmfamily on input line 528.
+LaTeX Info: Redefining \sffamily on input line 528.
+LaTeX Info: Redefining \ttfamily on input line 528.
+ [25
+Missing character: There is no ’ (U+2019) in font pplr8t!
+<./Figures//AnanasComosus.jpg><./Figures//AnnonaReticulata.jpg><./Figures//Annon
+aSquamosa.jpg><./Figures//ArtocarpusHeterophyllus.jpg><./Figures//ArtocarpusLacu
+cha.jpg><./Figures//CitrusAurantiifolia.jpg><./Figures//CitrusLimon.jpg><./Figur
+es//CitrusMaxima.jpg><./Figures//CitrusPyriformis.jpg><./Figures//CordiaMyxa.jpg
+><./Figures//FicusRacemosa33.jpg><./Figures//GrewiaAsiatica.jpg><./Figures//Limo
+niaAcidissima.jpg><./Figures//LitchiChinensis.jpg><./Figures//MadhucaLongifolia.
+jpg><./Figures//MangiferaIndica.jpg><./Figures//ManilkaraHexandra.jpg><./Figures
+//ManilkaraZapota.jpg><./Figures//MorusAlba.jpg><./Figures//NeolamarckiaCadamba.
+jpg><./Figures//PhyllanthusEmblica.jpg><./Figures//PithecellobiumDulce.jpg><./Fi
+gures//PsidiumGuajava.jpg><./Figures//PunicaGranatum.jpg><./Figures//SolanumIyco
+persicum.jpg><./Figures//SyzygiumJambos.jpg><./Figures//TamarindusIndica.jpg><./
+Figures//ZizphusMauritiana.jpg>]
+LaTeX Info: Redefining \rmfamily on input line 543.
+LaTeX Info: Redefining \sffamily on input line 543.
+LaTeX Info: Redefining \ttfamily on input line 543.
+ [26]
+warning  (file Figures//BarPlot111.pdf) (pdf inclusion): PDF inclusion: found PD
+F version '1.7', but at most version '1.5' allowed
+<Figures//BarPlot111.pdf, id=473, 515.22487pt x 214.8828pt>
+File: Figures//BarPlot111.pdf Graphic file (type pdf)
+<use Figures//BarPlot111.pdf>
+Package luatex.def Info: Figures//BarPlot111.pdf  used on input line 546.
+(luatex.def)             Requested size: 441.01775pt x 183.93326pt.
+
+warning  (file Figures//BoxPlot111.pdf) (pdf inclusion): PDF inclusion: found PD
+F version '1.7', but at most version '1.5' allowed
+<Figures//BoxPlot111.pdf, id=474, 679.67928pt x 385.7311pt>
+File: Figures//BoxPlot111.pdf Graphic file (type pdf)
+<use Figures//BoxPlot111.pdf>
+Package luatex.def Info: Figures//BoxPlot111.pdf  used on input line 553.
+(luatex.def)             Requested size: 441.01775pt x 250.29256pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \rmfamily on input line 643.
+LaTeX Info: Redefining \sffamily on input line 643.
+LaTeX Info: Redefining \ttfamily on input line 643.
+[27<./Figures//BarPlot111.pdf>]
+LaTeX Info: Redefining \rmfamily on input line 645.
+LaTeX Info: Redefining \sffamily on input line 645.
+LaTeX Info: Redefining \ttfamily on input line 645.
+ [28<./Figures//BoxPlot111.pdf>]
+LaTeX Info: Redefining \rmfamily on input line 650.
+LaTeX Info: Redefining \sffamily on input line 650.
+LaTeX Info: Redefining \ttfamily on input line 650.
+ [29]
+<Figures//MLHeatmap.png, id=523, 1217.54875pt x 1127.21124pt>
+File: Figures//MLHeatmap.png Graphic file (type png)
+<use Figures//MLHeatmap.png>
+Package luatex.def Info: Figures//MLHeatmap.png  used on input line 655.
+(luatex.def)             Requested size: 441.01108pt x 551.27196pt.
+
+
+LaTeX Warning: Citation 'grvDL2022' on page 30 undefined on input line 663.
+
+)
+LaTeX Info: Redefining \rmfamily on input line 150.
+LaTeX Info: Redefining \sffamily on input line 150.
+LaTeX Info: Redefining \ttfamily on input line 150.
+ [30]
+LaTeX Info: Redefining \rmfamily on input line 150.
+LaTeX Info: Redefining \sffamily on input line 150.
+LaTeX Info: Redefining \ttfamily on input line 150.
+ [31<./Figures//MLHeatmap.png>]
+\openout2 = Pages/appendix.aux
+ (./Pages/appendix.tex)
+\openout2 = Pages/bib.aux
+ (./Pages/bib.tex
+
+LaTeX Warning: Empty bibliography on input line 5.
+
+)
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
+>  {hindi/script}  =>  {Devanagari}
+>  {hindi/lcscript}  =>  {devanagari}
+>  {hindi/scripttag}  =>  {deva}
+>  {hindi/language}  =>  {Hindi}
+>  {hindi/langtag}  =>  {HIN}
+>  {hindi/bcp47}  =>  {hi}
+>  {hindi/hyphennames}  =>  {}
+>  {hindi/direction}  =>  {LR}
+>  {hindi/hyphenmins}  =>  {2,3}
+>  {hindi/frenchspacing}  =>  {false}
+>  {hindi/indentfirst}  =>  {false}
+>  {hindi/fontsetup}  =>  {true}
+>  {hindi/envname}  =>  {hindi}
+>  {hindi/babelname}  =>  {hindi}
+>  {hindi/localnumeral}  =>  {hindinumerals}
+>  {hindi/Localnumeral}  =>  {hindinumerals}
+>  {hindi/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+The property list \__xpg_alias contains the pairs (without outer braces):
+>  {latex/target}  =>  {latex}
+>  {english/target}  =>  {english}
+>  {en/target}  =>  {english}
+>  {en-AU/target}  =>  {english}
+>  {en-AU/variant}  =>  {australian}
+>  {en-AU/options}  =>  {variant=australian}
+>  {en-CA/target}  =>  {english}
+>  {en-CA/variant}  =>  {canadian}
+>  {en-CA/options}  =>  {variant=canadian}
+>  {en-GB/target}  =>  {english}
+>  {en-GB/variant}  =>  {british}
+>  {en-GB/options}  =>  {variant=british}
+>  {en-NZ/target}  =>  {english}
+>  {en-NZ/variant}  =>  {newzealand}
+>  {en-NZ/options}  =>  {variant=newzealand}
+>  {en-US/target}  =>  {english}
+>  {en-US/variant}  =>  {us}
+>  {en-US/options}  =>  {variant=us}
+>  {american/target}  =>  {english}
+>  {american/variant}  =>  {us}
+>  {american/options}  =>  {variant=us}
+>  {australian/target}  =>  {english}
+>  {australian/variant}  =>  {australian}
+>  {australian/options}  =>  {variant=australian}
+>  {british/target}  =>  {english}
+>  {british/variant}  =>  {british}
+>  {british/options}  =>  {variant=british}
+>  {canadian/target}  =>  {english}
+>  {canadian/variant}  =>  {canadian}
+>  {canadian/options}  =>  {variant=canadian}
+>  {newzealand/target}  =>  {english}
+>  {newzealand/variant}  =>  {newzealand}
+>  {newzealand/options}  =>  {variant=newzealand}
+>  {hindi/target}  =>  {hindi}
+>  {hi/target}  =>  {hindi}.
+
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+("/home/subham/Videos/subham latex/SUbham/out/main.aux"
+("/home/subham/Videos/subham latex/SUbham/out/Pages/cover.aux")
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
+
+("/home/subham/Videos/subham latex/SUbham/out/Pages/title.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/declaration.aux"
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+)
+("/home/subham/Videos/subham latex/SUbham/out/Pages/quotion.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/certificate.aux"
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+Package polyglossia Info: Option: Hindi, numerals=devanagari.
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+)
+("/home/subham/Videos/subham latex/SUbham/out/Pages/abstract.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/acknowledgements.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/publication.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/list_c_f_t.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/Abbreviations.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/symbols.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/DEDICATION.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Chapters/Chapter1.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/appendix.aux")
+("/home/subham/Videos/subham latex/SUbham/out/Pages/bib.aux"))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 4E8996CBD10FFEB0EA7FACCC66EA52AC;6027
+(rerunfilecheck)             After:  8713EABD48211C560F1114C92D6A484B;6799.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+
+\openout1 = main.run.xml
+)
+
+Here is how much of LuaTeX's memory you used:
+ 37745 strings out of 478305
+ 125061,1977958 words of node,token memory allocated
+ 796 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 33 attribute, 88 glue_spec
+, 33 attribute_list, 9 write nodes
+   avail lists: 1:1,2:1901,3:804,4:156,5:300,6:362,7:6471,8:60,9:3508,10:16,11:6
+2
+ 55129 multiletter control sequences out of 65536+600000
+ 226 fonts using 16587527 bytes
+ 96i,22n,125p,1993b,2796s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'table.caption.52'
+
+warning  (pdf backend): unreferenced destination with name 'table.caption.46'
+
+warning  (pdf backend): unreferenced destination with name 'table.caption.23'
+
+warning  (pdf backend): unreferenced destination with name 'figure.caption.57'
+
+warning  (pdf backend): unreferenced destination with name 'figure.caption.31'
+
+warning  (pdf backend): unreferenced destination with name 'figure.caption.27'
+
+warning  (pdf backend): unreferenced destination with name 'section*.55'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.53'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.49'
+
+warning  (pdf backend): unreferenced destination with name 'section.48'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.47'
+
+warning  (pdf backend): unreferenced destination with name 'section.44'
+
+warning  (pdf backend): unreferenced destination with name 'section*.39'
+
+warning  (pdf backend): unreferenced destination with name 'section*.36'
+
+warning  (pdf backend): unreferenced destination with name 'section*.34'
+
+warning  (pdf backend): unreferenced destination with name 'section*.32'
+
+warning  (pdf backend): unreferenced destination with name 'section.30'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.29'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.28'
+
+warning  (pdf backend): unreferenced destination with name 'section.25'
+
+warning  (pdf backend): unreferenced destination with name 'section.22'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.21'
+{/home/subham/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/subham/.
+local/share/fonts/Google Fonts/Noto Serif Devanagari/Noto_Serif_Devanagari_Bold.
+21.ttf></home/subham/.local/share/fonts/Google Fonts/Noto Serif Devanagari/Noto_
+Serif_Devanagari_Regular.21.ttf></home/subham/.miktex/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmex10.pfb></home/subham/.miktex/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></home/subham/.miktex/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></home/subham/.miktex/texmfs/install/fonts/type1/pub
+lic/mathpazo/fplmr.pfb></home/subham/.miktex/texmfs/install/fonts/type1/public/m
+athpazo/fplmri.pfb></home/subham/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/symbols/msbm10.pfb></home/subham/.miktex/texmfs/install/fonts/type1/urw/pala
+tino/uplb8a.pfb></home/subham/.miktex/texmfs/install/fonts/type1/urw/palatino/up
+lr8a.pfb></home/subham/.miktex/texmfs/install/fonts/type1/urw/palatino/uplri8a.p
+fb>
+Output written on main.pdf (47 pages, 4961309 bytes).
+
+PDF statistics: 587 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 131072)
+ 273 words of extra memory for PDF output out of 10000 (max. 100000000)
+

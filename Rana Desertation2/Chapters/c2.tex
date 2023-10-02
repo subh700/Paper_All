@@ -1,0 +1,57 @@
+% Chapter Template
+
+\chapter{Previous Work} % Main chapter title
+
+\label{c2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+% \section{Previous Work}
+Much research has been undertaken to predict temperature using past data as a critical temperature attribute. Researchers require compelling study and data to proceed with their investigation on a dataset of the temperature of the city \cite{cifuentes2020air}. The temperature is used to identify climate change, the greenhouse effect, crop yield, etc.
+\cite{2019AGUFMGC33A..05P}The author explored the application of DL models for extreme weather prediction, including temperature extremes. Extreme weather events, such as heatwaves and cold spells, significantly impact society and require accurate forecasting for adequate preparation and response. The authors experimented with LSTM networks and Convolutional Neural Networks (CNNs) to predict extreme weather events. LSTMs were employed to capture temporal dependencies, while CNNs extracted spatial patterns from meteorological data. The research demonstrated that DL models outperformed traditional methods in predicting temperature extremes, showcasing the potential of these models in enhancing weather forecasting systems to address severe weather events \cite{miao2020application} \cite{hou2022prediction}.
+
+In \cite{salinas2020deepar}, the author introduced DeepAR, a probabilistic forecasting model based on autoregressive recurrent networks. The model is capable of providing not only point predictions but also probability distributions for uncertainty estimation. Uncertainty estimation is crucial for temperature prediction, as it provides valuable information for decision-making in weather-sensitive applications. DeepAR offers a principled approach for capturing the uncertainty in predictions, making it suitable for applications where risk assessment is essential.
+
+In \cite{singh2011time}, the author addresses temperature prediction's temporal and time-series nature and its critical role in today's agricultural and industrial sectors. The paper introduces a significant approach to integrating backpropagation with genetic algorithms for training these networks to leverage neural networks due to the non-linearities in climatic physics. The central contribution is a time series-based temperature prediction model employing this integrated technique. The paper focuses on the interdependence of temperature and specific data sequences, emphasizing the implications of accurate forecasting for critical sectors. It further explores the suitability of neural networks in capturing intricate meteorological processes. The proposed technique sheds light on the effects of undertraining and overtraining, highlighting the model's sensitivity to proper training.
+
+In \cite{XIAO2019111358}, the author proposes a novel approach for predicting short and mid-term daily sea surface temperature anomalies (SSTA) using a combination of the LSTM deep recurrent neural network model and the AdaBoost ensemble learning model (LSTM-AdaBoost). The goal is to improve predictive accuracy by leveraging LSTM's ability to capture long-term dependencies and AdaBoost's robust prediction capability while mitigating overfitting. The method involves modelling SSTA seasonality, training LSTM and AdaBoost independently, and combining their predictions using an averaging strategy. The study demonstrates the effectiveness of the LSTM-AdaBoost model in outperforming individual LSTM, AdaBoost, and other optimized models, offering promising potential for enhancing short and mid-term daily SST predictions in scenarios like extreme weather events.
+
+In \cite{xu2019improving}, the author highlights the effectiveness of LSTM in capturing long-term dependencies, particularly in weather forecasting applications. Additionally, the study introduces Transductive LSTM (T-LSTM) as a novel approach that leverages local information in time-series prediction. T-LSTM operates in a transductive learning framework, attributing higher influence to nearby samples during model fitting. A quadratic cost function is used for regression, with the objective function localized by assigning larger weights to training samples near the test point. Based on cosine similarity, two weighting schemes are explored \cite{XIAO2019111358}.
+The research evaluates the proposed method's performance across varying weather conditions, conducting experiments over two different periods within a year. The findings demonstrate that T-LSTM exhibits superior predictive performance compared to traditional LSTM, establishing its effectiveness in enhancing prediction accuracy for weather forecasting tasks.
+
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+  \setlength{\tabcolsep}{3pt}
+
+  {\renewcommand{\arraystretch}{1}%
+\begin{longtable}[c]{ p{0.075\textwidth} p{0.11\textwidth} p{0.22\textwidth} p{0.1\textwidth} p{0.4\textwidth} }
+
+\caption{List of literature with models, data, measures and research gap parameter}
+\label{tab1}\\
+\hline  Paper & MODELS & Data Set Used & Measures & Research Gap   \\\hline
+\endfirsthead
+%
+\multicolumn{3}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\endhead
+%
+\cite{li2019deep}, 2019 & LSTM & China International Airport temperature data from 2009-2018 & RMAE: 1.2369, MSE: 1.5365 & This research could be the need for more accurate and stable temperature prediction models, specifically using stacked LSTM networks and their combination with other models. \\
+\cite{li2019deep}, 2019 & Random Forest & China international airport temperature data from 2009-2018 &RMSE: 1.3612, MSE: 1.8645 & This research could be the need for more accurate and stable temperature prediction models, specifically using stacked LSTM networks and their combination with other models. \\
+\cite{xiao2019spatiotemporal}, 2019 & LSTM & East China Sea surface temperature data from 1982-2018 &RMSE: 0.850 & This research used satellite temperature data for prediction, which is in graphical form so there is some complexity in graphical data over numeric data for DL models. \\
+\cite{thi2020deep}, 2020 & RNN & Winter data of South Korea from 1976-2015. &RMSE: 2.985, MSE: 2.5777 & Time series forecasting of meteorological variables, such as daily temperature, has gained attention in recent years due to the limitations of traditional forecasting models. So, there needs to be some transformation in data or traditional models. \\
+\cite{thi2020deep}, 2020 & LSTM & Winter data of South Korea from 1976-2015. &RMSE: 2.991, MSE: 2.5525 & In the past few years, people have become more interested in predicting things like daily temperature using historical data. Our old-fashioned methods of predicting these things sometimes work better. So, we must change how we use the data or develop new and better methods to make these predictions. \\
+\cite{hao2023temperature}, 2023 & Bi-Conv-LSTM & ERA5 project of ECMWF, from January 1, 2018, to December 31, 2018 (365d in total) &RMSE: 2.75, MSE: 7.56 & This research focuses on the development of a hybrid Conv-LSTM model for temperature correction in meteorological forecasts. This research could also ensemble with other models or adopt data transformation techniques.\\
+\cite{zwart2023evaluating}, 2023 & RG-CNN & Generated forecasts
+using the National Oceanic and Atmospheric Administration's
+Global Ensemble Forecast System model version 12.0 0.25 degree forecast archive \href{https://noaa-gefs-retrospective.
+s3.amazonaws.com/index.html}{GEFS} &RMSE: 1.52, MSE: 2.31 & The research gap in this research is the need for further development of methods to optimally ingest observations from other sites to improve DL model forecasts at unmonitored locations\\
+
+\cite{gong2022temperature}, 2022 & ConvLSTM & ERA5 &RMSE: 1.51, MSE: 2.3 & The paper focuses on using a stacked long short-term memory network (Stacked LSTM) for temperature prediction and compares it with DNN and random forest (RF) algorithms. Here could be the ensemble of DL models.\\
+\hline
+\end{longtable}}
+

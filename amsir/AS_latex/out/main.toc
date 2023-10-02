@@ -1,0 +1,57 @@
+\selectlanguage *{english}
+\selectlanguage *{english}
+\selectlanguage *{hindi}
+\selectlanguage *[numerals=devanagari]{hindi}
+\selectlanguage *{english}
+\selectlanguage *{hindi}
+\selectlanguage *[numerals=devanagari]{hindi}
+\selectlanguage *{english}
+\contentsline {chapter}{DECLARATION}{i}{table.caption.2}%
+\selectlanguage *{hindi}
+\selectlanguage *[numerals=devanagari]{hindi}
+\selectlanguage *{english}
+\selectlanguage *{hindi}
+\selectlanguage *[numerals=devanagari]{hindi}
+\selectlanguage *{english}
+\contentsline {chapter}{CERTIFICATE}{iii}{table.caption.5}%
+\contentsline {chapter}{Abstract}{iv}{section*.7}%
+\contentsline {chapter}{Acknowledgements}{v}{section*.8}%
+\contentsline {chapter}{List of Publications}{vii}{chapter*.10}%
+\contentsline {chapter}{List of Figures}{x}{chapter*.12}%
+\contentsline {chapter}{List of Tables}{xi}{chapter*.13}%
+\contentsline {chapter}{List of Abbreviations}{xii}{table.15}%
+\contentsline {chapter}{List of Symbols}{xiii}{table.17}%
+\contentsline {chapter}{\numberline {1}Forecasting \(PM_2._5\) of Some Indian Cites Using Deep Learning Techniques}{1}{chapter.19}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.20}%
+\contentsline {section}{\numberline {1.2}Literature Review}{3}{section.21}%
+\contentsline {section}{\numberline {1.3}Basics Related Roncepts}{7}{section.23}%
+\contentsline {subsection}{\numberline {1.3.1}Machine Learning}{7}{subsection.24}%
+\contentsline {subsection}{\numberline {1.3.2}Time Series}{8}{subsection.26}%
+\contentsline {subsection}{\numberline {1.3.3}Deep Learning for Time-Series}{9}{subsection.27}%
+\contentsline {section}{\numberline {1.4}Methodology}{14}{section.34}%
+\contentsline {subsection}{\numberline {1.4.1}DataSets}{15}{subsection.36}%
+\contentsline {subsection}{\numberline {1.4.2}Framework}{16}{subsection.39}%
+\contentsline {subsubsection}{Step 1 : }{16}{section*.40}%
+\contentsline {subsubsection}{Step 2 : }{17}{section*.41}%
+\contentsline {subsubsection}{Step 3 : }{17}{section*.42}%
+\contentsline {subsubsection}{Step 4 : }{17}{section*.43}%
+\contentsline {subsubsection}{Step 5 : }{17}{section*.44}%
+\contentsline {subsection}{\numberline {1.4.3}Exprement Design : }{17}{subsection.45}%
+\contentsline {subsection}{\numberline {1.4.4}Exprement Setup : }{17}{subsection.46}%
+\contentsline {subsubsection}{Hardware}{17}{section*.47}%
+\contentsline {subsubsection}{Software}{17}{section*.48}%
+\contentsline {subsubsection}{Step 1: The Dataset:}{22}{section*.54}%
+\contentsline {subsubsection}{Step 2: Resizing of the Dataset:}{23}{section*.56}%
+\contentsline {subsubsection}{Step 3: Splitting Dataset:}{23}{section*.58}%
+\contentsline {subsubsection}{Step 4: Feature Extraction using PCA:}{23}{section*.61}%
+\contentsline {subsubsection}{Step 5: Applying Machine Learning Classifiers:}{24}{section*.63}%
+\contentsline {subsubsection}{Step 6: Accuracy:}{24}{section*.64}%
+\contentsline {section}{\numberline {1.5}Experiments}{24}{section.66}%
+\contentsline {subsection}{\numberline {1.5.1}Dataset Description}{24}{subsection.67}%
+\contentsline {subsection}{\numberline {1.5.2}Experiment Design}{26}{subsection.69}%
+\contentsline {section}{\numberline {1.6}Results and Analysis}{26}{section.70}%
+\contentsline {subsection}{\numberline {1.6.1}Results}{26}{subsection.71}%
+\contentsline {subsection}{\numberline {1.6.2}Analysis of Results}{28}{subsection.75}%
+\contentsline {subsubsection}{Classification comparison using bar plot:}{28}{section*.76}%
+\contentsline {subsubsection}{Classification comparison using box plot:}{28}{section*.77}%
+\contentsline {subsubsection}{Classification comparison based on performance:}{30}{section*.78}%
